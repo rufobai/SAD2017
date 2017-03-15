@@ -45,6 +45,7 @@ public class Archivo {
 	public Instances generarInstancias() {
 		try {
 			instancias = new Instances(archivo);
+			fijarAtributoClase();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("No se han podido generar las instancias");
