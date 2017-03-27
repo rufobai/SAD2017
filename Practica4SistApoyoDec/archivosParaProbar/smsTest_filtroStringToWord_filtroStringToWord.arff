@@ -1,0 +1,2605 @@
+@relation 'SMS-weka.filters.unsupervised.attribute.StringToWordVector-R1-Psms_-W2000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.StringToWordVector-R-Psms_-W2000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 1500'
+
+@attribute sms_call numeric
+@attribute sms_txt numeric
+@attribute sms_free numeric
+@attribute sms_to numeric
+@attribute sms_mobile numeric
+@attribute sms_claim numeric
+@attribute sms_www numeric
+@attribute sms_prize numeric
+@attribute sms_won numeric
+@attribute sms_win numeric
+@attribute sms_& numeric
+@attribute sms_reply numeric
+@attribute sms_text numeric
+@attribute sms_your numeric
+@attribute sms_stop numeric
+@attribute sms_or numeric
+@attribute sms_i numeric
+@attribute sms_uk numeric
+@attribute sms_guaranteed numeric
+@attribute sms_now numeric
+@attribute sms_urgent numeric
+@attribute sms_service numeric
+@attribute sms_co numeric
+@attribute sms_awarded numeric
+@attribute sms_nokia numeric
+@attribute sms_from numeric
+@attribute sms_a numeric
+@attribute sms_cash numeric
+@attribute sms_com numeric
+@attribute sms_â£1 numeric
+@attribute sms_tone numeric
+@attribute sms_code numeric
+@attribute sms_150ppm numeric
+@attribute sms_new numeric
+@attribute sms_customer numeric
+@attribute sms_50 numeric
+@attribute sms_contact numeric
+@attribute sms_â£1000 numeric
+@attribute sms_receive numeric
+@attribute sms_draw numeric
+@attribute sms_16+ numeric
+@attribute sms_2 numeric
+@attribute sms_shows numeric
+@attribute sms_t&cs numeric
+@attribute sms_for numeric
+@attribute sms_ur numeric
+@attribute sms_po numeric
+@attribute sms_per numeric
+@attribute sms_ringtone numeric
+@attribute sms_000 numeric
+@attribute sms_mob numeric
+@attribute sms_weekly numeric
+@attribute sms_â£100 numeric
+@attribute sms_entry numeric
+@attribute sms_chat numeric
+@attribute sms_our numeric
+@attribute sms_video numeric
+@attribute sms_box numeric
+@attribute sms_valid numeric
+@attribute sms_500 numeric
+@attribute sms_my numeric
+@attribute sms_rate numeric
+@attribute sms_latest numeric
+@attribute sms_camera numeric
+@attribute sms_apply numeric
+@attribute sms_bonus numeric
+@attribute sms_expires numeric
+@attribute sms_â£500 numeric
+@attribute sms_line numeric
+@attribute sms_private numeric
+@attribute sms_network numeric
+@attribute sms_landline numeric
+@attribute sms_18 numeric
+@attribute sms_statement numeric
+@attribute sms_150p numeric
+@attribute sms_identifier numeric
+@attribute sms_only numeric
+@attribute sms_attempt numeric
+@attribute sms_vouchers numeric
+@attribute sms_12hrs numeric
+@attribute sms_08000930705 numeric
+@attribute sms_â£2000 numeric
+@attribute sms_86688 numeric
+@attribute sms_club numeric
+@attribute sms_4 numeric
+@attribute sms_mins numeric
+@attribute sms_selected numeric
+@attribute sms_collect numeric
+@attribute sms_send numeric
+@attribute sms_land numeric
+@attribute sms_18+ numeric
+@attribute sms_2003 numeric
+@attribute sms_collection numeric
+@attribute sms_ltd numeric
+@attribute sms_1 numeric
+@attribute sms_me numeric
+@attribute sms_word numeric
+@attribute sms_award numeric
+@attribute sms_please numeric
+@attribute sms_account numeric
+@attribute sms_&lt numeric
+@attribute sms_cost numeric
+@attribute sms_o numeric
+@attribute sms_pobox numeric
+@attribute sms_camcorder numeric
+@attribute sms_87066 numeric
+@attribute sms_16 numeric
+@attribute sms_congratulations numeric
+@attribute sms_un-redeemed numeric
+@attribute sms_4* numeric
+@attribute sms_unsubscribe numeric
+@attribute sms_800 numeric
+@attribute sms_live numeric
+@attribute sms_but numeric
+@attribute sms_music numeric
+@attribute sms_points numeric
+@attribute sms_delivery numeric
+@attribute sms_week numeric
+@attribute sms_#&gt numeric
+@attribute sms_have numeric
+@attribute sms_quiz numeric
+@attribute sms_sae numeric
+@attribute sms_operator numeric
+@attribute sms_8007 numeric
+@attribute sms_150p/msg numeric
+@attribute sms_national numeric
+@attribute sms_wkly numeric
+@attribute sms_100 numeric
+@attribute sms_â£2 numeric
+@attribute sms_services numeric
+@attribute sms_â£5000 numeric
+@attribute sms_colour numeric
+@attribute sms_holiday numeric
+@attribute sms_every numeric
+@attribute sms_todays numeric
+@attribute sms_ill numeric
+@attribute sms_pounds numeric
+@attribute sms_with numeric
+@attribute sms_opt numeric
+@attribute sms_winner numeric
+@attribute sms_mobiles numeric
+@attribute sms_await numeric
+@attribute sms_tones numeric
+@attribute sms_â£250 numeric
+@attribute sms_08000839402 numeric
+@attribute sms_0800 numeric
+@attribute sms_ipod numeric
+@attribute sms_10p numeric
+@attribute sms_ntt numeric
+@attribute sms_1st numeric
+@attribute sms_top numeric
+@attribute sms_offer numeric
+@attribute sms_hot numeric
+@attribute sms_he numeric
+@attribute sms_on numeric
+@attribute sms_is numeric
+@attribute sms_2nd numeric
+@attribute sms_sms numeric
+@attribute sms_gift numeric
+@attribute sms_tried numeric
+@attribute sms_caller numeric
+@attribute sms_ldn numeric
+@attribute sms_â£200 numeric
+@attribute sms_ldew numeric
+@attribute sms_dating numeric
+@attribute sms_ts&cs numeric
+@attribute sms_http numeric
+@attribute sms_t&c numeric
+@attribute sms_mates numeric
+@attribute sms_poly numeric
+@attribute sms_mobileupd8 numeric
+@attribute sms_this numeric
+@attribute sms_come numeric
+@attribute sms_xmas numeric
+@attribute sms_orange numeric
+@attribute sms_player numeric
+@attribute sms_txting numeric
+@attribute sms_games numeric
+@attribute sms_get numeric
+@attribute sms_lor numeric
+@attribute sms_chance numeric
+@attribute sms_join numeric
+@attribute sms_in numeric
+@attribute sms_its numeric
+@attribute sms_cr9 numeric
+@attribute sms_credits numeric
+@attribute sms_5wb numeric
+@attribute sms_hg/suite342/2lands numeric
+@attribute sms_getzed numeric
+@attribute sms_0870 numeric
+@attribute sms_digital numeric
+@attribute sms_10p/min numeric
+@attribute sms_croydon numeric
+@attribute sms_1327 numeric
+@attribute sms_20p numeric
+@attribute sms_freemsg numeric
+@attribute sms_charged numeric
+@attribute sms_cd numeric
+@attribute sms_age16 numeric
+@attribute sms_just numeric
+@attribute sms_later numeric
+@attribute sms_wk numeric
+@attribute sms_final numeric
+@attribute sms_voucher numeric
+@attribute sms_enter numeric
+@attribute sms_anytime numeric
+@attribute sms_da numeric
+@attribute sms_k numeric
+@attribute sms_order numeric
+@attribute sms_it numeric
+@attribute sms_play numeric
+@attribute sms_reward numeric
+@attribute sms_maximize numeric
+@attribute sms_no1 numeric
+@attribute sms_spree numeric
+@attribute sms_cash-balance numeric
+@attribute sms_sp numeric
+@attribute sms_â£800 numeric
+@attribute sms_complimentary numeric
+@attribute sms_rental numeric
+@attribute sms_user numeric
+@attribute sms_//www numeric
+@attribute sms_â£3 numeric
+@attribute sms_rates numeric
+@attribute sms_08707509020 numeric
+@attribute sms_â£10 numeric
+@attribute sms_cash-in numeric
+@attribute sms_82277 numeric
+@attribute sms_ringtones numeric
+@attribute sms_cs numeric
+@attribute sms_36504 numeric
+@attribute sms_admirer numeric
+@attribute sms_txts numeric
+@attribute sms_- numeric
+@attribute sms_net numeric
+@attribute sms_message numeric
+@attribute sms_price numeric
+@attribute sms_comp numeric
+@attribute sms_credit numeric
+@attribute sms_auction numeric
+@attribute sms_info numeric
+@attribute sms_home numeric
+@attribute sms_yours numeric
+@attribute sms_real numeric
+@attribute sms_+ numeric
+@attribute sms_been numeric
+@attribute sms_msg numeric
+@attribute sms_got numeric
+@attribute sms_welcome numeric
+@attribute sms_cc numeric
+@attribute sms_62468 numeric
+@attribute sms_86021 numeric
+@attribute sms_handset numeric
+@attribute sms_u-find numeric
+@attribute sms_fantasy numeric
+@attribute sms_eg numeric
+@attribute sms_w45wq numeric
+@attribute sms_08712460324 numeric
+@attribute sms_inviting numeric
+@attribute sms_rcvd numeric
+@attribute sms_custcare numeric
+@attribute sms_150pm numeric
+@attribute sms_specially numeric
+@attribute sms_announcement numeric
+@attribute sms_inc numeric
+@attribute sms_polys numeric
+@attribute sms_who numeric
+@attribute sms_standard numeric
+@attribute sms_hl numeric
+@attribute sms_r*reveal numeric
+@attribute sms_bt-national-rate numeric
+@attribute sms_08718720201 numeric
+@attribute sms_special-call numeric
+@attribute sms_08712300220 numeric
+@attribute sms_wap numeric
+@attribute sms_norm150p/tone numeric
+@attribute sms_onto numeric
+@attribute sms_sipix numeric
+@attribute sms_numbers numeric
+@attribute sms_currently numeric
+@attribute sms_worth numeric
+@attribute sms_that numeric
+@attribute sms_was numeric
+@attribute sms_love numeric
+@attribute sms_h numeric
+@attribute sms_either numeric
+@attribute sms_texts numeric
+@attribute sms_offers numeric
+@attribute sms_phones numeric
+@attribute sms_dvd numeric
+@attribute sms_ending numeric
+@attribute sms_sunshine numeric
+@attribute sms_double numeric
+@attribute sms_pics numeric
+@attribute sms_y numeric
+@attribute sms_work numeric
+@attribute sms_ã¼ numeric
+@attribute sms_say numeric
+@attribute sms_she numeric
+@attribute sms_then numeric
+@attribute sms_how numeric
+@attribute sms_morning numeric
+@attribute sms_not numeric
+@attribute sms_im numeric
+@attribute sms_fancy numeric
+@attribute sms_messages numeric
+@attribute sms_&amp numeric
+@attribute sms_about numeric
+@attribute sms_we numeric
+@attribute sms_ask numeric
+@attribute sms_wat numeric
+@attribute sms_more numeric
+@attribute sms_up numeric
+@attribute sms_let numeric
+@attribute sms_number numeric
+@attribute sms_so numeric
+@attribute sms_anything numeric
+@attribute sms_didnt numeric
+@attribute sms_thinks numeric
+@attribute sms_choose numeric
+@attribute sms_sony numeric
+@attribute sms_at numeric
+@attribute sms_flirt numeric
+@attribute sms_cos numeric
+@attribute sms_too numeric
+@attribute sms_calls numeric
+@attribute sms_news numeric
+@attribute sms_3510i numeric
+@attribute sms_freefone numeric
+@attribute sms_83355 numeric
+@attribute sms_singles numeric
+@attribute sms_access numeric
+@attribute sms_00 numeric
+@attribute sms_freephone numeric
+@attribute sms_ansr numeric
+@attribute sms_ntwk numeric
+@attribute sms_entitled numeric
+@attribute sms_sam numeric
+@attribute sms_optout numeric
+@attribute sms_euro2004 numeric
+@attribute sms_arrive numeric
+@attribute sms_08715705022 numeric
+@attribute sms_netcollex numeric
+@attribute sms_q numeric
+@attribute sms_voda numeric
+@attribute sms_tenants numeric
+@attribute sms_87575 numeric
+@attribute sms_fromm numeric
+@attribute sms_28 numeric
+@attribute sms_tariffs numeric
+@attribute sms_80488 numeric
+@attribute sms_tyrone numeric
+@attribute sms_â£4 numeric
+@attribute sms_zed numeric
+@attribute sms_bluetooth numeric
+@attribute sms_ordered numeric
+@attribute sms_summer numeric
+@attribute sms_â£150 numeric
+@attribute sms_7250i numeric
+@attribute sms_10am-7pm numeric
+@attribute sms_quoting numeric
+@attribute sms_del numeric
+@attribute sms_40gb numeric
+@attribute sms_refused numeric
+@attribute sms_50p numeric
+@attribute sms_09061221066 numeric
+@attribute sms_row/w1jhl numeric
+@attribute sms_urawinner numeric
+@attribute sms_150p/tone numeric
+@attribute sms_ref numeric
+@attribute sms_polyphonic numeric
+@attribute sms_purpose numeric
+@attribute sms_congrats numeric
+@attribute sms_thats numeric
+@attribute sms_something numeric
+@attribute sms_did numeric
+@attribute sms_said numeric
+@attribute sms_doing numeric
+@attribute sms_update numeric
+@attribute sms_fantastic numeric
+@attribute sms_gay numeric
+@attribute sms_him numeric
+@attribute sms_think numeric
+@attribute sms_always numeric
+@attribute sms_like numeric
+@attribute sms_phone numeric
+@attribute sms_asap numeric
+@attribute sms_secret numeric
+@attribute sms_yr numeric
+@attribute sms_feel numeric
+@attribute sms_much numeric
+@attribute sms_no numeric
+@attribute sms_dun numeric
+@attribute sms_part numeric
+@attribute sms_easy numeric
+@attribute sms_min numeric
+@attribute sms_ok numeric
+@attribute sms_details numeric
+@attribute sms_trying numeric
+@attribute sms_coming numeric
+@attribute sms_sure numeric
+@attribute sms_gonna numeric
+@attribute sms_waiting numeric
+@attribute sms_the numeric
+@attribute sms_already numeric
+@attribute sms_visit numeric
+@attribute sms_still numeric
+@attribute sms_good numeric
+@attribute sms_area numeric
+@attribute sms_cancel numeric
+@attribute sms_discount numeric
+@attribute sms_terms numeric
+@attribute sms_nice numeric
+@attribute sms_pic numeric
+@attribute sms_plus numeric
+@attribute sms_x numeric
+@attribute sms_way numeric
+@attribute sms_here numeric
+@attribute sms_went numeric
+@attribute sms_told numeric
+@attribute sms_going numeric
+@attribute sms_gud numeric
+@attribute sms_thought numeric
+@attribute sms_sexy numeric
+@attribute sms_10 numeric
+@attribute sms_sleep numeric
+@attribute sms_revealed numeric
+@attribute sms_11mths numeric
+@attribute sms_subscribed numeric
+@attribute sms_08712405020 numeric
+@attribute sms_noline numeric
+@attribute sms_instructions numeric
+@attribute sms_awaiting numeric
+@attribute sms_â£75 numeric
+@attribute sms_542 numeric
+@attribute sms_subpoly numeric
+@attribute sms_â£900 numeric
+@attribute sms_pobox84 numeric
+@attribute sms_personal numeric
+@attribute sms_1/2 numeric
+@attribute sms_randomly numeric
+@attribute sms_suprman numeric
+@attribute sms_bx420 numeric
+@attribute sms_starwars3 numeric
+@attribute sms_08001950382 numeric
+@attribute sms_liverpool numeric
+@attribute sms_flights numeric
+@attribute sms_09061209465 numeric
+@attribute sms_inclusive numeric
+@attribute sms_bx420-ip4-5we numeric
+@attribute sms_0845 numeric
+@attribute sms_local numeric
+@attribute sms_norm numeric
+@attribute sms_rentl numeric
+@attribute sms_tells numeric
+@attribute sms_chosen numeric
+@attribute sms_comuk numeric
+@attribute sms_m26 numeric
+@attribute sms_delivered numeric
+@attribute sms_linerental numeric
+@attribute sms_homeowners numeric
+@attribute sms_08702840625 numeric
+@attribute sms_holder numeric
+@attribute sms_help numeric
+@attribute sms_videophones numeric
+@attribute sms_unique numeric
+@attribute sms_simply numeric
+@attribute sms_3g numeric
+@attribute sms_ac numeric
+@attribute sms_4info numeric
+@attribute sms_vip numeric
+@attribute sms_1956669 numeric
+@attribute sms_dload numeric
+@attribute sms_matrix3 numeric
+@attribute sms_1winaweek numeric
+@attribute sms_1x150p/wk numeric
+@attribute sms_skillgame numeric
+@attribute sms_84128 numeric
+@attribute sms_85023 numeric
+@attribute sms_3uz numeric
+@attribute sms_87077 numeric
+@attribute sms_87121 numeric
+@attribute sms_sk38xh numeric
+@attribute sms_charges numeric
+@attribute sms_80082 numeric
+@attribute sms_jamster numeric
+@attribute sms_cust numeric
+@attribute sms_9ae numeric
+@attribute sms_3qxj9 numeric
+@attribute sms_previously numeric
+@attribute sms_tscs numeric
+@attribute sms_81303 numeric
+@attribute sms_ip4 numeric
+@attribute sms_80878 numeric
+@attribute sms_matches numeric
+@attribute sms_5we numeric
+@attribute sms_150ppermesssubscription numeric
+@attribute sms_java numeric
+@attribute sms_videochat numeric
+@attribute sms_txtin numeric
+@attribute sms_tkts numeric
+@attribute sms_contacted numeric
+@attribute sms_thk numeric
+@attribute sms_pix numeric
+@attribute sms_team numeric
+@attribute sms_goto numeric
+@attribute sms_member numeric
+@attribute sms_etc numeric
+@attribute sms_end numeric
+@attribute sms_very numeric
+@attribute sms_having numeric
+@attribute sms_same numeric
+@attribute sms_fine numeric
+@attribute sms_dinner numeric
+@attribute sms_ah numeric
+@attribute sms_cant numeric
+@attribute sms_e numeric
+@attribute sms_weekends numeric
+@attribute sms_weeks numeric
+@attribute sms_information numeric
+@attribute sms_2day numeric
+@attribute sms_questions numeric
+@attribute sms_few numeric
+@attribute sms_liao numeric
+@attribute sms_meeting numeric
+@attribute sms_pick numeric
+@attribute sms_happy numeric
+@attribute sms_really numeric
+@attribute sms_when numeric
+@attribute sms_lot numeric
+@attribute sms_car numeric
+@attribute sms_mind numeric
+@attribute sms_hope numeric
+@attribute sms_them numeric
+@attribute sms_msgs numeric
+@attribute sms_things numeric
+@attribute sms_job numeric
+@attribute sms_eat numeric
+@attribute sms_sweet numeric
+@attribute sms_problem numeric
+@attribute sms_bit numeric
+@attribute sms_his numeric
+@attribute sms_off numeric
+@attribute sms_havent numeric
+@attribute sms_long numeric
+@attribute sms_hows numeric
+@attribute sms_late numeric
+@attribute sms_big numeric
+@attribute sms_plan numeric
+@attribute sms_princess numeric
+@attribute sms_shit numeric
+@attribute sms_better numeric
+@attribute sms_stuff numeric
+@attribute sms_forgot numeric
+@attribute sms_lunch numeric
+@attribute sms_lar numeric
+@attribute sms_abt numeric
+@attribute sms_dat numeric
+@attribute sms_yeah numeric
+@attribute sms_early numeric
+@attribute sms_because numeric
+@attribute sms_room numeric
+@attribute sms_leh numeric
+@attribute sms_remember numeric
+@attribute sms_ear numeric
+@attribute sms_anyway numeric
+@attribute sms_probably numeric
+@attribute sms_ive numeric
+@attribute sms_thing numeric
+@attribute sms_wont numeric
+@attribute sms_hour numeric
+@attribute sms_whats numeric
+@attribute sms_check numeric
+@attribute sms_shall numeric
+@attribute sms_times numeric
+@attribute sms_making numeric
+@attribute sms_pain numeric
+@attribute sms_bus numeric
+@attribute sms_quite numeric
+@attribute sms_else numeric
+@attribute sms_everything numeric
+@attribute sms_afternoon numeric
+@attribute sms_able numeric
+@attribute sms_sir numeric
+@attribute sms_wake numeric
+@attribute sms_might numeric
+@attribute sms_dad numeric
+@attribute sms_once numeric
+@attribute sms_wif numeric
+@attribute sms_rite numeric
+@attribute sms_f= numeric
+@attribute sms_removed numeric
+@attribute sms_eastenders numeric
+@attribute sms_sms-08718727870 numeric
+@attribute sms_rstm numeric
+@attribute sms_selection numeric
+@attribute sms_sol numeric
+@attribute sms_call2optout/lf56 numeric
+@attribute sms_members numeric
+@attribute sms_call2optout/n9dx numeric
+@attribute sms_ls1 numeric
+@attribute sms_eye numeric
+@attribute sms_charity numeric
+@attribute sms_natalja numeric
+@attribute sms_eurodisinc numeric
+@attribute sms_bulbs numeric
+@attribute sms_max10mins numeric
+@attribute sms_chatting numeric
+@attribute sms_box177 numeric
+@attribute sms_no-440 numeric
+@attribute sms_cashto numeric
+@attribute sms_filthy numeric
+@attribute sms_call09050000327 numeric
+@attribute sms_ringtone-get numeric
+@attribute sms_shracomorsglsuplt numeric
+@attribute sms_e= numeric
+@attribute sms_rgds numeric
+@attribute sms_santa numeric
+@attribute sms_shot numeric
+@attribute sms_nasty numeric
+@attribute sms_moons numeric
+@attribute sms_stockport numeric
+@attribute sms_claims numeric
+@attribute sms_flight numeric
+@attribute sms_settings numeric
+@attribute sms_b4190604 numeric
+@attribute sms_repeat numeric
+@attribute sms_mths numeric
+@attribute sms_m221bp numeric
+@attribute sms_sk3 numeric
+@attribute sms_m8s numeric
+@attribute sms_nokias numeric
+@attribute sms_scotsman numeric
+@attribute sms_nat numeric
+@attribute sms_sonyericsson numeric
+@attribute sms_morefrmmob numeric
+@attribute sms_followed numeric
+@attribute sms_action numeric
+@attribute sms_seeds numeric
+@attribute sms_11mths+ numeric
+@attribute sms_pobox334 numeric
+@attribute sms_1000 numeric
+@attribute sms_costâ£1 numeric
+@attribute sms_costa numeric
+@attribute sms_herself numeric
+@attribute sms_trav numeric
+@attribute sms_99 numeric
+@attribute sms_8wp numeric
+@attribute sms_87131 numeric
+@attribute sms_tulip numeric
+@attribute sms_88222 numeric
+@attribute sms_88888 numeric
+@attribute sms_114/14 numeric
+@attribute sms_hg/suite342/2lands/row/w1j6hl numeric
+@attribute sms_09063458130 numeric
+@attribute sms_ac/u/nat27081980 numeric
+@attribute sms_wkent/150p16+ numeric
+@attribute sms_09058094599 numeric
+@attribute sms_09050090044 numeric
+@attribute sms_09058099801 numeric
+@attribute sms_partner numeric
+@attribute sms_pâ£3 numeric
+@attribute sms_go2 numeric
+@attribute sms_pt2 numeric
+@attribute sms_acl03530150pm numeric
+@attribute sms_toclaim numeric
+@attribute sms_tnc numeric
+@attribute sms_09061221061 numeric
+@attribute sms_aco&entry41 numeric
+@attribute sms_84025 numeric
+@attribute sms_83600 numeric
+@attribute sms_getstop numeric
+@attribute sms_txt-2-shop numeric
+@attribute sms_220-cm2 numeric
+@attribute sms_3ss numeric
+@attribute sms_434 numeric
+@attribute sms_2005 numeric
+@attribute sms_200 numeric
+@attribute sms_3aj numeric
+@attribute sms_warranty numeric
+@attribute sms_3680 numeric
+@attribute sms_2yr numeric
+@attribute sms_wallpaper numeric
+@attribute sms_250 numeric
+@attribute sms_violet numeric
+@attribute sms_25/f numeric
+@attribute sms_premium numeric
+@attribute sms_d= numeric
+@attribute sms_polyph numeric
+@attribute sms_80062 numeric
+@attribute sms_12mths numeric
+@attribute sms_8077 numeric
+@attribute sms_7876150ppm numeric
+@attribute sms_81618- numeric
+@attribute sms_privacy numeric
+@attribute sms_69669 numeric
+@attribute sms_week-stop numeric
+@attribute sms_18+6*â£1 numeric
+@attribute sms_50/pm numeric
+@attribute sms_helen numeric
+@attribute sms_sufficient numeric
+@attribute sms_update_now numeric
+@attribute sms_08718730666 numeric
+@attribute sms_28days numeric
+@attribute sms_dot numeric
+@attribute sms_08006344447 numeric
+@attribute sms_021 numeric
+@attribute sms_textcomp numeric
+@attribute sms_yes-440 numeric
+@attribute sms_loans numeric
+@attribute sms_colours numeric
+@attribute sms_idew numeric
+@attribute sms_textpod numeric
+@attribute sms_08002986906 numeric
+@attribute sms_garden numeric
+@attribute sms_lily numeric
+@attribute sms_08000407165 numeric
+@attribute sms_randy numeric
+@attribute sms_08002986030 numeric
+@attribute sms_lines numeric
+@attribute sms_tcs numeric
+@attribute sms_tcr/w1 numeric
+@attribute sms_among numeric
+@attribute sms_downloads numeric
+@attribute sms_december numeric
+@attribute sms_login= numeric
+@attribute sms_08700621170150p numeric
+@attribute sms_themob numeric
+@attribute sms_08717898035 numeric
+@attribute sms_t-mobile numeric
+@attribute sms_notxt numeric
+@attribute sms_php numeric
+@attribute sms_â£1450 numeric
+@attribute sms_â£33 numeric
+@attribute sms_hockey numeric
+@attribute sms_0871277810810 numeric
+@attribute sms_ibiza numeric
+@attribute sms_alfie numeric
+@attribute sms_wrote numeric
+@attribute sms_08701417012 numeric
+@attribute sms_free-send numeric
+@attribute sms_t&cs/stop numeric
+@attribute sms_-sub numeric
+@attribute sms_compare numeric
+@attribute sms_sw7 numeric
+@attribute sms_haha numeric
+@attribute sms_run numeric
+@attribute sms_watching numeric
+@attribute sms_leaving numeric
+@attribute sms_working numeric
+@attribute sms_doesnt numeric
+@attribute sms_goin numeric
+@attribute sms_together numeric
+@attribute sms_elaine numeric
+@attribute sms_delete numeric
+@attribute sms_efreefone numeric
+@attribute sms_designation numeric
+@attribute sms_di numeric
+@attribute sms_elliot numeric
+@attribute sms_empty numeric
+@attribute sms_deserve numeric
+@attribute sms_dictionary numeric
+@attribute sms_dentists numeric
+@attribute sms_delay numeric
+@attribute sms_dick numeric
+@attribute sms_defer numeric
+@attribute sms_definitely numeric
+@attribute sms_email numeric
+@attribute sms_edukkukayee numeric
+@attribute sms_embarassed numeric
+@attribute sms_desk numeric
+@attribute sms_degree numeric
+@attribute sms_effect numeric
+@attribute sms_deliver numeric
+@attribute sms_derek numeric
+@attribute sms_eightish numeric
+@attribute sms_elaborate numeric
+@attribute sms_dental numeric
+@attribute sms_dena numeric
+@attribute sms_dey numeric
+@attribute sms_developed numeric
+@attribute sms_emergency numeric
+@attribute sms_developer numeric
+@attribute sms_desires- numeric
+@attribute sms_dentist numeric
+@attribute sms_emily numeric
+@attribute sms_den numeric
+@attribute sms_detail numeric
+@attribute sms_eh numeric
+@attribute sms_embarrassed numeric
+@attribute sms_ela numeric
+@attribute sms_eggs-pert numeric
+@attribute sms_egg numeric
+@attribute sms_desparately numeric
+@attribute sms_despite numeric
+@attribute sms_ego numeric
+@attribute sms_depends numeric
+@attribute sms_employers numeric
+@attribute sms_elections numeric
+@attribute sms_drop numeric
+@attribute sms_didnâ€˜t numeric
+@attribute sms_due numeric
+@attribute sms_don numeric
+@attribute sms_done numeric
+@attribute sms_dude numeric
+@attribute sms_dt numeric
+@attribute sms_dumb numeric
+@attribute sms_dry numeric
+@attribute sms_dont4get2text numeric
+@attribute sms_dont numeric
+@attribute sms_domain numeric
+@attribute sms_dom numeric
+@attribute sms_donâ€˜t numeric
+@attribute sms_dog numeric
+@attribute sms_e-tlp numeric
+@attribute sms_doin numeric
+@attribute sms_doggy numeric
+@attribute sms_during numeric
+@attribute sms_dollars numeric
+@attribute sms_dungerees numeric
+@attribute sms_dunno numeric
+@attribute sms_duo numeric
+@attribute sms_drvgsto numeric
+@attribute sms_down numeric
+@attribute sms_does numeric
+@attribute sms_drinking numeric
+@attribute sms_drink numeric
+@attribute sms_drivin numeric
+@attribute sms_drive numeric
+@attribute sms_driving numeric
+@attribute sms_drug numeric
+@attribute sms_dropped numeric
+@attribute sms_drizzling numeric
+@attribute sms_drove numeric
+@attribute sms_dress numeric
+@attribute sms_dreamz numeric
+@attribute sms_download numeric
+@attribute sms_drunken numeric
+@attribute sms_dr numeric
+@attribute sms_dreading numeric
+@attribute sms_drama numeric
+@attribute sms_drunk numeric
+@attribute sms_dreams numeric
+@attribute sms_drugs numeric
+@attribute sms_dream numeric
+@attribute sms_drum numeric
+@attribute sms_doesn numeric
+@attribute sms_e14 numeric
+@attribute sms_educational numeric
+@attribute sms_dippeditinadew numeric
+@attribute sms_ding numeric
+@attribute sms_directly numeric
+@attribute sms_eating numeric
+@attribute sms_eatin numeric
+@attribute sms_edhae numeric
+@attribute sms_disc numeric
+@attribute sms_dis numeric
+@attribute sms_dirty numeric
+@attribute sms_dine numeric
+@attribute sms_din numeric
+@attribute sms_east numeric
+@attribute sms_die numeric
+@attribute sms_didt numeric
+@attribute sms_differ numeric
+@attribute sms_diff numeric
+@attribute sms_different numeric
+@attribute sms_edrunk numeric
+@attribute sms_digi numeric
+@attribute sms_dificult numeric
+@attribute sms_difficult numeric
+@attribute sms_disconnect numeric
+@attribute sms_easiest numeric
+@attribute sms_dodgey numeric
+@attribute sms_dnt numeric
+@attribute sms_dlf numeric
+@attribute sms_dobby numeric
+@attribute sms_do numeric
+@attribute sms_dobbys numeric
+@attribute sms_disturbing numeric
+@attribute sms_doctor numeric
+@attribute sms_dock numeric
+@attribute sms_each numeric
+@attribute sms_division numeric
+@attribute sms_earlier numeric
+@attribute sms_easier numeric
+@attribute sms_discreet numeric
+@attribute sms_earth numeric
+@attribute sms_earn numeric
+@attribute sms_diseases numeric
+@attribute sms_dislikes numeric
+@attribute sms_disturbance numeric
+@attribute sms_disturb numeric
+@attribute sms_distance numeric
+@attribute sms_display numeric
+@attribute sms_easter numeric
+@attribute sms_ãœll numeric
+@attribute sms_ends numeric
+@attribute sms_grace numeric
+@attribute sms_gr8 numeric
+@attribute sms_gre numeric
+@attribute sms_grahmbell numeric
+@attribute sms_great numeric
+@attribute sms_goigng numeric
+@attribute sms_green numeric
+@attribute sms_greatly numeric
+@attribute sms_greatest numeric
+@attribute sms_govt numeric
+@attribute sms_gotany numeric
+@attribute sms_gossip numeric
+@attribute sms_goodfriend numeric
+@attribute sms_gone numeric
+@attribute sms_goss numeric
+@attribute sms_goodnight numeric
+@attribute sms_goodnoon numeric
+@attribute sms_goodtime numeric
+@attribute sms_gorgeous numeric
+@attribute sms_gosh numeric
+@attribute sms_greetings numeric
+@attribute sms_grinder numeric
+@attribute sms_grooved numeric
+@attribute sms_gv numeric
+@attribute sms_guys numeric
+@attribute sms_gumbys numeric
+@attribute sms_gving numeric
+@attribute sms_had numeric
+@attribute sms_haf numeric
+@attribute sms_hahaha numeric
+@attribute sms_hai numeric
+@attribute sms_guy numeric
+@attribute sms_guides numeric
+@attribute sms_group numeric
+@attribute sms_gucci numeric
+@attribute sms_grownup numeric
+@attribute sms_guide numeric
+@attribute sms_guess numeric
+@attribute sms_guessed numeric
+@attribute sms_guesses numeric
+@attribute sms_guessin numeric
+@attribute sms_guessing numeric
+@attribute sms_goin2bed numeric
+@attribute sms_goes numeric
+@attribute sms_gal numeric
+@attribute sms_gee numeric
+@attribute sms_ge numeric
+@attribute sms_genius numeric
+@attribute sms_geeee numeric
+@attribute sms_gently numeric
+@attribute sms_gods numeric
+@attribute sms_get4an18th numeric
+@attribute sms_ger numeric
+@attribute sms_gep numeric
+@attribute sms_gd numeric
+@attribute sms_gayle numeric
+@attribute sms_gave numeric
+@attribute sms_gamb numeric
+@attribute sms_gals numeric
+@attribute sms_gauge numeric
+@attribute sms_game numeric
+@attribute sms_gap numeric
+@attribute sms_garage numeric
+@attribute sms_gardener numeric
+@attribute sms_gas numeric
+@attribute sms_gets numeric
+@attribute sms_gettin numeric
+@attribute sms_getting numeric
+@attribute sms_gloucesterroad numeric
+@attribute sms_glad numeric
+@attribute sms_give numeric
+@attribute sms_gmw numeric
+@attribute sms_gn numeric
+@attribute sms_go numeric
+@attribute sms_goals numeric
+@attribute sms_god numeric
+@attribute sms_gives numeric
+@attribute sms_giv numeric
+@attribute sms_gf numeric
+@attribute sms_giggle numeric
+@attribute sms_gifted numeric
+@attribute sms_gist numeric
+@attribute sms_gimme numeric
+@attribute sms_gimmi numeric
+@attribute sms_girl numeric
+@attribute sms_girlfrnd numeric
+@attribute sms_girls numeric
+@attribute sms_hair numeric
+@attribute sms_haiz numeric
+@attribute sms_half numeric
+@attribute sms_honey numeric
+@attribute sms_holla numeric
+@attribute sms_hoody numeric
+@attribute sms_honeymoon numeric
+@attribute sms_hook numeric
+@attribute sms_half-8th numeric
+@attribute sms_hopes numeric
+@attribute sms_hopefully numeric
+@attribute sms_hop numeric
+@attribute sms_hold numeric
+@attribute sms_ho numeric
+@attribute sms_hmmm numeric
+@attribute sms_hide numeric
+@attribute sms_hi numeric
+@attribute sms_hmm numeric
+@attribute sms_high numeric
+@attribute sms_hill numeric
+@attribute sms_hip numeric
+@attribute sms_hit numeric
+@attribute sms_hiya numeric
+@attribute sms_hopeso numeric
+@attribute sms_hopeu numeric
+@attribute sms_hoping numeric
+@attribute sms_hr numeric
+@attribute sms_hppnss numeric
+@attribute sms_however numeric
+@attribute sms_hrishi numeric
+@attribute sms_hsbc numeric
+@attribute sms_http//tms numeric
+@attribute sms_hugging numeric
+@attribute sms_hugs numeric
+@attribute sms_howz numeric
+@attribute sms_howard numeric
+@attribute sms_horo numeric
+@attribute sms_hostel numeric
+@attribute sms_hospital numeric
+@attribute sms_house-maid numeric
+@attribute sms_hotel numeric
+@attribute sms_hotmix numeric
+@attribute sms_hourish numeric
+@attribute sms_hours numeric
+@attribute sms_house numeric
+@attribute sms_hey numeric
+@attribute sms_hex numeric
+@attribute sms_hes numeric
+@attribute sms_has numeric
+@attribute sms_hardly numeric
+@attribute sms_happiness numeric
+@attribute sms_hate numeric
+@attribute sms_hav numeric
+@attribute sms_hava numeric
+@attribute sms_havin numeric
+@attribute sms_hdd numeric
+@attribute sms_hard numeric
+@attribute sms_happily numeric
+@attribute sms_headache numeric
+@attribute sms_hand numeric
+@attribute sms_halla numeric
+@attribute sms_happens numeric
+@attribute sms_handed numeric
+@attribute sms_hang numeric
+@attribute sms_hanging numeric
+@attribute sms_happen numeric
+@attribute sms_happened numeric
+@attribute sms_head numeric
+@attribute sms_headin numeric
+@attribute sms_here>> numeric
+@attribute sms_hello numeric
+@attribute sms_hell numeric
+@attribute sms_hehe numeric
+@attribute sms_hello-/@drivby- numeric
+@attribute sms_hellogorgeous numeric
+@attribute sms_help08714742804 numeric
+@attribute sms_helpful numeric
+@attribute sms_her numeric
+@attribute sms_height numeric
+@attribute sms_hee numeric
+@attribute sms_headset numeric
+@attribute sms_hear numeric
+@attribute sms_headâ€¦ numeric
+@attribute sms_hectic numeric
+@attribute sms_heard numeric
+@attribute sms_heart numeric
+@attribute sms_heart- numeric
+@attribute sms_hearts numeric
+@attribute sms_heat numeric
+@attribute sms_galileo numeric
+@attribute sms_gain numeric
+@attribute sms_enemy numeric
+@attribute sms_failed numeric
+@attribute sms_fact numeric
+@attribute sms_fair numeric
+@attribute sms_fails numeric
+@attribute sms_faith numeric
+@attribute sms_experiment numeric
+@attribute sms_family numeric
+@attribute sms_fall numeric
+@attribute sms_falconerf numeric
+@attribute sms_facebook numeric
+@attribute sms_face numeric
+@attribute sms_fab numeric
+@attribute sms_express numeric
+@attribute sms_explain numeric
+@attribute sms_f>>> numeric
+@attribute sms_expression numeric
+@attribute sms_extra numeric
+@attribute sms_eyed-dont numeric
+@attribute sms_eyes numeric
+@attribute sms_f numeric
+@attribute sms_far numeric
+@attribute sms_farm numeric
+@attribute sms_fassyole numeric
+@attribute sms_feeling numeric
+@attribute sms_feelin numeric
+@attribute sms_february numeric
+@attribute sms_feels numeric
+@attribute sms_fees numeric
+@attribute sms_fell numeric
+@attribute sms_fellow numeric
+@attribute sms_felt numeric
+@attribute sms_fedex numeric
+@attribute sms_feb numeric
+@attribute sms_fast numeric
+@attribute sms_father numeric
+@attribute sms_fat numeric
+@attribute sms_feathery numeric
+@attribute sms_fault numeric
+@attribute sms_fave numeric
+@attribute sms_favour numeric
+@attribute sms_fb numeric
+@attribute sms_fear numeric
+@attribute sms_expiry numeric
+@attribute sms_experience numeric
+@attribute sms_g numeric
+@attribute sms_ese numeric
+@attribute sms_escape numeric
+@attribute sms_especially numeric
+@attribute sms_eshxxxxxxxxxxx numeric
+@attribute sms_essential numeric
+@attribute sms_expensive numeric
+@attribute sms_eve numeric
+@attribute sms_evaporated numeric
+@attribute sms_europe numeric
+@attribute sms_esaplanade numeric
+@attribute sms_er numeric
+@attribute sms_environment numeric
+@attribute sms_engalnd numeric
+@attribute sms_energy numeric
+@attribute sms_enuff numeric
+@attribute sms_enjoy numeric
+@attribute sms_enjoyin numeric
+@attribute sms_enough numeric
+@attribute sms_entered numeric
+@attribute sms_enters numeric
+@attribute sms_even numeric
+@attribute sms_evening numeric
+@attribute sms_evening* numeric
+@attribute sms_excuse numeric
+@attribute sms_exciting numeric
+@attribute sms_excellent numeric
+@attribute sms_exhaust numeric
+@attribute sms_exmpel numeric
+@attribute sms_exorcism numeric
+@attribute sms_expect numeric
+@attribute sms_expecting numeric
+@attribute sms_except numeric
+@attribute sms_exam numeric
+@attribute sms_ever numeric
+@attribute sms_everyone numeric
+@attribute sms_every1 numeric
+@attribute sms_exactly numeric
+@attribute sms_everythin numeric
+@attribute sms_everytime numeric
+@attribute sms_evrey numeric
+@attribute sms_evry1 numeric
+@attribute sms_evrydy numeric
+@attribute sms_female numeric
+@attribute sms_fetching numeric
+@attribute sms_fgkslpo numeric
+@attribute sms_foward numeric
+@attribute sms_found numeric
+@attribute sms_freinds numeric
+@attribute sms_freak numeric
+@attribute sms_fren numeric
+@attribute sms_fgkslpopw numeric
+@attribute sms_fri numeric
+@attribute sms_fret numeric
+@attribute sms_frens numeric
+@attribute sms_forâ£38 numeric
+@attribute sms_forward numeric
+@attribute sms_fortune numeric
+@attribute sms_forever numeric
+@attribute sms_foot numeric
+@attribute sms_forms numeric
+@attribute sms_forevr numeric
+@attribute sms_def numeric
+@attribute sms_forgets numeric
+@attribute sms_forgotten numeric
+@attribute sms_format numeric
+@attribute sms_friday numeric
+@attribute sms_friend numeric
+@attribute sms_friends numeric
+@attribute sms_fun numeric
+@attribute sms_fumbling numeric
+@attribute sms_full numeric
+@attribute sms_function numeric
+@attribute sms_funny numeric
+@attribute sms_furniture numeric
+@attribute sms_future numeric
+@attribute sms_fuuuuck numeric
+@attribute sms_fullonsms numeric
+@attribute sms_ful numeric
+@attribute sms_friendsare numeric
+@attribute sms_fring numeric
+@attribute sms_friendship numeric
+@attribute sms_fucking numeric
+@attribute sms_frm numeric
+@attribute sms_frnd numeric
+@attribute sms_frnds numeric
+@attribute sms_frog-axel numeric
+@attribute sms_fuck numeric
+@attribute sms_food numeric
+@attribute sms_fone numeric
+@attribute sms_follows numeric
+@attribute sms_finance numeric
+@attribute sms_finally numeric
+@attribute sms_films numeric
+@attribute sms_find numeric
+@attribute sms_finish numeric
+@attribute sms_finished numeric
+@attribute sms_finishes numeric
+@attribute sms_finishing numeric
+@attribute sms_filth numeric
+@attribute sms_film numeric
+@attribute sms_fired numeric
+@attribute sms_fighting numeric
+@attribute sms_fifteen numeric
+@attribute sms_filling numeric
+@attribute sms_fightng numeric
+@attribute sms_fights numeric
+@attribute sms_figure numeric
+@attribute sms_file numeric
+@attribute sms_files numeric
+@attribute sms_fire numeric
+@attribute sms_firefox numeric
+@attribute sms_folks numeric
+@attribute sms_flower numeric
+@attribute sms_flow numeric
+@attribute sms_floor numeric
+@attribute sms_flute numeric
+@attribute sms_fly numeric
+@attribute sms_flyng numeric
+@attribute sms_fm numeric
+@attribute sms_fold numeric
+@attribute sms_florida numeric
+@attribute sms_flirting numeric
+@attribute sms_first numeric
+@attribute sms_fix numeric
+@attribute sms_five numeric
+@attribute sms_flip numeric
+@attribute sms_fixed numeric
+@attribute sms_flaked numeric
+@attribute sms_flash numeric
+@attribute sms_flat numeric
+@attribute sms_flies numeric
+@attribute sms_defeat numeric
+@attribute sms_childish numeric
+@attribute sms_deer numeric
+@attribute sms_along numeric
+@attribute sms_alone numeric
+@attribute sms_alrite numeric
+@attribute sms_alright numeric
+@attribute sms_also numeric
+@attribute sms_allows numeric
+@attribute sms_amma numeric
+@attribute sms_amanda numeric
+@attribute sms_am numeric
+@attribute sms_almost numeric
+@attribute sms_allo numeric
+@attribute sms_anymore numeric
+@attribute sms_al numeric
+@attribute sms_akon-lonely>>> numeric
+@attribute sms_alertfrom numeric
+@attribute sms_alcohol numeric
+@attribute sms_alex numeric
+@attribute sms_allah numeric
+@attribute sms_all numeric
+@attribute sms_alive numeric
+@attribute sms_ali numeric
+@attribute sms_amnow numeric
+@attribute sms_amongst numeric
+@attribute sms_amount numeric
+@attribute sms_ans numeric
+@attribute sms_another numeric
+@attribute sms_answering numeric
+@attribute sms_answer numeric
+@attribute sms_answers numeric
+@attribute sms_amused numeric
+@attribute sms_anybody numeric
+@attribute sms_any numeric
+@attribute sms_anthony numeric
+@attribute sms_anot numeric
+@attribute sms_annoncement numeric
+@attribute sms_anjie numeric
+@attribute sms_ana numeric
+@attribute sms_an numeric
+@attribute sms_animation numeric
+@attribute sms_and numeric
+@attribute sms_andre numeric
+@attribute sms_andros numeric
+@attribute sms_angels numeric
+@attribute sms_angry numeric
+@attribute sms_aiyar numeric
+@attribute sms_aiyah numeric
+@attribute sms_aiya numeric
+@attribute sms_added numeric
+@attribute sms_ad numeric
+@attribute sms_addie numeric
+@attribute sms_addicted numeric
+@attribute sms_address numeric
+@attribute sms_adsense numeric
+@attribute sms_adore numeric
+@attribute sms_admission numeric
+@attribute sms_adjustable numeric
+@attribute sms_actually numeric
+@attribute sms_actor numeric
+@attribute sms_activities numeric
+@attribute sms_accordingly numeric
+@attribute sms_accept numeric
+@attribute sms_acted numeric
+@attribute sms_accounts numeric
+@attribute sms_accumulation numeric
+@attribute sms_achan numeric
+@attribute sms_ache numeric
+@attribute sms_across numeric
+@attribute sms_adp numeric
+@attribute sms_adult numeric
+@attribute sms_airport numeric
+@attribute sms_ago numeric
+@attribute sms_agents numeric
+@attribute sms_ahhh numeric
+@attribute sms_agree numeric
+@attribute sms_ahmad numeric
+@attribute sms_advance numeric
+@attribute sms_air numeric
+@attribute sms_aint numeric
+@attribute sms_aight numeric
+@attribute sms_age numeric
+@attribute sms_against numeric
+@attribute sms_again numeric
+@attribute sms_aeroplane numeric
+@attribute sms_aeronautics numeric
+@attribute sms_aftr numeric
+@attribute sms_affection numeric
+@attribute sms_affidavit numeric
+@attribute sms_aft numeric
+@attribute sms_after numeric
+@attribute sms_afternon numeric
+@attribute sms_anybodys numeric
+@attribute sms_anyone numeric
+@attribute sms_deep numeric
+@attribute sms_b numeric
+@attribute sms_ayo numeric
+@attribute sms_b4 numeric
+@attribute sms_b* numeric
+@attribute sms_b4280703 numeric
+@attribute sms_ay numeric
+@attribute sms_babe numeric
+@attribute sms_baaaaabe numeric
+@attribute sms_ba128nnfwfly150ppm numeric
+@attribute sms_ayn numeric
+@attribute sms_axis numeric
+@attribute sms_anythin numeric
+@attribute sms_aunts numeric
+@attribute sms_aunt numeric
+@attribute sms_ava numeric
+@attribute sms_auto numeric
+@attribute sms_available numeric
+@attribute sms_awesome numeric
+@attribute sms_away numeric
+@attribute sms_awake numeric
+@attribute sms_ave numeric
+@attribute sms_babes numeric
+@attribute sms_baby numeric
+@attribute sms_babysit numeric
+@attribute sms_barcelona numeric
+@attribute sms_banned numeric
+@attribute sms_basic numeric
+@attribute sms_barred numeric
+@attribute sms_basically numeric
+@attribute sms_back numeric
+@attribute sms_bath numeric
+@attribute sms_bat numeric
+@attribute sms_basq numeric
+@attribute sms_banks numeric
+@attribute sms_bank numeric
+@attribute sms_bandages numeric
+@attribute sms_badass numeric
+@attribute sms_bad numeric
+@attribute sms_balloon numeric
+@attribute sms_bag numeric
+@attribute sms_bags numeric
+@attribute sms_bailiff numeric
+@attribute sms_bak numeric
+@attribute sms_balance numeric
+@attribute sms_attractive numeric
+@attribute sms_attitude numeric
+@attribute sms_attach numeric
+@attribute sms_aproach numeric
+@attribute sms_april numeric
+@attribute sms_arab numeric
+@attribute sms_ar numeric
+@attribute sms_ard numeric
+@attribute sms_aries numeric
+@attribute sms_argh numeric
+@attribute sms_arent numeric
+@attribute sms_are numeric
+@attribute sms_appt numeric
+@attribute sms_approved numeric
+@attribute sms_approve numeric
+@attribute sms_apart numeric
+@attribute sms_anyways numeric
+@attribute sms_approaches numeric
+@attribute sms_apartment numeric
+@attribute sms_app numeric
+@attribute sms_applyed numeric
+@attribute sms_appointment numeric
+@attribute sms_appreciated numeric
+@attribute sms_argument numeric
+@attribute sms_arm numeric
+@attribute sms_atm numeric
+@attribute sms_ass numeric
+@attribute sms_asleep numeric
+@attribute sms_assume numeric
+@attribute sms_associate numeric
+@attribute sms_astne numeric
+@attribute sms_arms numeric
+@attribute sms_atlanta numeric
+@attribute sms_ate numeric
+@attribute sms_asus numeric
+@attribute sms_asks numeric
+@attribute sms_asking numeric
+@attribute sms_asked numeric
+@attribute sms_arrange numeric
+@attribute sms_around numeric
+@attribute sms_askd numeric
+@attribute sms_arrested numeric
+@attribute sms_art numeric
+@attribute sms_arty numeric
+@attribute sms_as numeric
+@attribute sms_ashwini numeric
+@attribute sms_accent numeric
+@attribute sms_acc numeric
+@attribute sms_ac/w/icmb3cktz8r7 numeric
+@attribute sms_09058091870 numeric
+@attribute sms_09050005321 numeric
+@attribute sms_09058094583 numeric
+@attribute sms_09058094565 numeric
+@attribute sms_09061701939 numeric
+@attribute sms_09050000928 numeric
+@attribute sms_09065069154 numeric
+@attribute sms_09064019788 numeric
+@attribute sms_09061702893 numeric
+@attribute sms_09050002311 numeric
+@attribute sms_09050000878 numeric
+@attribute sms_absolutly numeric
+@attribute sms_08714712388 numeric
+@attribute sms_0871277810710p/min numeric
+@attribute sms_087187272008 numeric
+@attribute sms_08714714011 numeric
+@attribute sms_08718727868 numeric
+@attribute sms_09050000555 numeric
+@attribute sms_09050000301 numeric
+@attribute sms_09041940223 numeric
+@attribute sms_08719899229 numeric
+@attribute sms_09065171142-stopsms-08 numeric
+@attribute sms_09065989180 numeric
+@attribute sms_09066649731from numeric
+@attribute sms_130 numeric
+@attribute sms_128 numeric
+@attribute sms_150p/mt numeric
+@attribute sms_15 numeric
+@attribute sms_150p/sms numeric
+@attribute sms_09099726481 numeric
+@attribute sms_1hr numeric
+@attribute sms_1cup numeric
+@attribute sms_1apple/day=no numeric
+@attribute sms_123 numeric
+@attribute sms_12 numeric
+@attribute sms_1131 numeric
+@attribute sms_0quit numeric
+@attribute sms_09111032124 numeric
+@attribute sms_11 numeric
+@attribute sms_1/2price numeric
+@attribute sms_1000s numeric
+@attribute sms_100s numeric
+@attribute sms_1030 numeric
+@attribute sms_10th numeric
+@attribute sms_08712466669 numeric
+@attribute sms_08712405022 numeric
+@attribute sms_08712404000 numeric
+@attribute sms_*smiles* numeric
+@attribute sms_*loving numeric
+@attribute sms_+123 numeric
+@attribute sms_*teasing numeric
+@attribute sms_-* numeric
+@attribute sms_-tho numeric
+@attribute sms_-d numeric
+@attribute sms_-call numeric
+@attribute sms_-4 numeric
+@attribute sms_*kisses* numeric
+@attribute sms_*have numeric
+@attribute sms_*grins* numeric
+@attribute clase {ham,spam,'?'}
+
+@data
+{16 1,41 1,396 1,516 1,1259 1,1500 '?'}
+{3 1,407 1,420 1,425 1,1263 1,1500 '?'}
+{417 1,528 1,1500 '?'}
+{3 6,16 7,26 2,42 1,95 1,113 4,119 4,137 1,150 1,154 3,155 1,182 1,209 8,281 2,282 2,302 1,303 1,307 1,312 1,317 1,319 1,321 2,373 1,374 1,382 1,384 1,403 10,407 1,417 1,420 1,425 1,515 1,522 1,527 1,528 3,531 1,535 1,539 1,560 1,568 1,575 1,579 1,754 1,769 2,809 3,876 2,970 1,1028 1,1077 1,1096 1,1106 1,1141 2,1154 1,1187 1,1235 1,1273 1,1294 4,1385 1,1436 2,1500 '?'}
+{3 1,13 1,303 1,385 1,398 1,843 1,967 1,1202 1,1282 1,1500 '?'}
+{60 2,84 1,179 1,514 1,751 1,786 1,827 1,970 1,1172 1,1343 1,1500 '?'}
+{0 1,3 1,767 2,822 1,1269 1,1474 1,1500 '?'}
+{26 1,41 1,60 1,84 1,95 1,302 1,303 1,315 1,321 1,513 1,747 1,856 1,1342 1,1500 '?'}
+{28 1,95 1,403 1,1197 1,1279 1,1500 '?'}
+{13 1,99 1,155 1,314 1,1500 '?'}
+{199 1,295 1,383 1,1500 '?'}
+{16 1,84 1,113 1,247 1,384 1,925 1,1135 1,1500 '?'}
+{0 1,135 1,200 1,1500 '?'}
+{183 1,302 1,303 1,400 1,406 1,1364 1,1500 '?'}
+{3 1,4 1,45 1,60 1,157 1,314 1,1261 1,1319 1,1500 '?'}
+{207 1,421 3,425 1,1500 '?'}
+{3 1,16 1,27 1,113 1,178 1,308 1,382 1,403 1,406 1,1182 1,1500 '?'}
+{16 1,94 1,530 1,585 1,934 1,1436 1,1500 '?'}
+{55 1,84 1,308 1,516 1,970 1,1343 1,1500 '?'}
+{1500 '?'}
+{3 1,16 1,119 1,154 1,155 1,182 1,209 2,313 1,403 1,514 1,528 1,575 1,886 1,1032 1,1216 1,1500 '?'}
+{1403 1,1500 '?'}
+{0 1,16 1,182 1,206 1,524 1,1500 '?'}
+{16 1,44 1,115 1,278 1,299 1,384 1,403 3,882 1,1294 1,1500 '?'}
+{3 1,16 1,45 1,154 1,241 1,403 1,416 1,1263 1,1500 '?'}
+{16 1,26 1,406 1,992 1,1431 1,1500 '?'}
+{13 1,16 1,137 1,155 1,199 1,209 1,242 1,302 1,303 3,403 3,528 1,532 1,563 1,580 1,803 1,973 1,1194 1,1273 2,1294 1,1431 1,1500 '?'}
+{0 1,1 1,3 2,5 1,6 1,10 1,13 2,14 1,19 1,25 1,106 1,211 1,264 1,385 1,391 1,954 1,1027 1,1500 '?'}
+{3 1,16 1,119 1,308 2,528 1,709 1,1215 1,1500 '?'}
+{302 1,406 1,417 1,420 1,552 1,566 1,1500 '?'}
+{16 1,26 1,183 1,924 1,1027 1,1282 1,1432 1,1500 '?'}
+{3 2,16 1,26 1,178 1,529 1,745 1,829 1,1500 '?'}
+{16 1,19 1,76 1,179 1,340 1,543 1,1500 '?'}
+{25 1,26 1,44 1,113 1,153 3,281 1,300 1,376 1,382 1,390 1,403 1,528 1,924 1,976 1,1243 1,1336 1,1500 '?'}
+{3 3,25 1,60 1,95 2,153 2,281 1,377 1,381 1,399 1,541 1,545 1,750 1,793 1,824 1,876 1,998 1,1320 1,1500 '?'}
+{16 1,301 1,312 1,317 1,407 1,532 1,584 1,1500 '?'}
+{0 1,95 1,206 1,1049 1,1500 '?'}
+{3 1,16 1,41 1,44 1,60 1,94 1,209 1,308 1,312 1,321 1,384 1,533 1,584 1,1027 1,1082 1,1263 1,1294 1,1500 '?'}
+{3 1,41 1,45 1,84 1,94 1,100 1,118 1,137 1,154 1,183 1,246 1,403 1,761 1,946 1,970 1,1043 2,1500 '?'}
+{0 1,3 2,16 2,95 2,172 2,302 1,315 1,420 1,528 1,1263 1,1294 1,1500 '?'}
+{321 1,1029 1,1500 '?'}
+{16 1,281 1,308 1,311 1,315 1,381 1,891 1,901 1,1500 '?'}
+{283 1,1500 '?'}
+{113 1,403 2,791 1,1066 1,1294 1,1403 1,1500 '?'}
+{3 1,100 1,118 1,182 1,207 1,323 1,403 1,571 1,988 1,1103 1,1191 1,1241 1,1311 1,1377 1,1500 '?'}
+{3 1,26 1,94 1,119 1,199 1,533 1,570 1,1042 1,1294 1,1500 '?'}
+{182 1,403 1,1258 1,1377 1,1500 '?'}
+{155 1,171 1,403 1,997 1,1243 1,1500 '?'}
+{2 1,3 1,9 1,11 1,13 1,26 1,44 1,137 1,180 1,299 1,354 1,466 1,1064 1,1322 1,1377 1,1500 '?'}
+{13 1,44 1,321 1,514 1,528 1,533 1,829 1,953 1,1029 1,1500 '?'}
+{0 2,13 1,16 1,303 1,1000 1,1377 1,1500 '?'}
+{13 1,1273 1,1500 '?'}
+{3 1,26 1,398 1,417 1,1208 1,1214 1,1431 1,1500 '?'}
+{16 1,119 1,233 1,1072 1,1191 1,1412 1,1500 '?'}
+{2 1,16 1,119 1,305 1,391 1,876 1,1000 3,1286 1,1500 '?'}
+{16 2,199 1,809 1,826 1,1500 '?'}
+{1 1,3 2,10 2,15 1,19 1,45 1,72 1,123 1,178 1,181 1,255 1,607 1,981 2,1242 1,1294 1,1334 1,1481 1,1500 '?'}
+{10 1,16 2,95 1,119 1,135 1,182 1,551 1,1007 1,1029 1,1099 1,1100 1,1276 1,1286 1,1500 '?'}
+{41 1,300 1,391 2,415 1,845 1,866 1,1057 1,1189 1,1380 1,1477 1,1500 '?'}
+{16 1,26 1,60 1,113 1,154 1,400 1,527 1,749 1,809 1,1500 '?'}
+{3 1,16 1,76 1,182 1,200 1,247 1,295 1,404 2,516 1,543 1,572 1,581 1,1215 1,1500 '?'}
+{16 1,117 1,281 2,1500 '?'}
+{44 1,281 1,321 1,558 1,1500 '?'}
+{3 1,13 1,26 1,199 1,311 1,391 1,398 1,1500 '?'}
+{3 3,11 1,12 1,14 1,25 1,47 1,60 1,93 1,112 1,195 1,246 1,303 1,342 1,423 1,451 1,508 1,543 1,717 1,726 1,1065 1,1163 1,1294 1,1500 '?'}
+{178 1,317 1,1000 5,1259 1,1500 '?'}
+{132 1,375 1,407 1,415 1,545 1,911 1,980 1,987 1,1029 1,1368 1,1500 '?'}
+{0 1,2 1,3 1,5 1,8 1,15 1,18 1,26 2,27 1,37 1,45 1,90 1,97 2,119 1,145 1,154 1,183 1,310 1,314 1,382 1,755 1,876 1,1141 1,1500 '?'}
+{3 1,311 1,312 1,525 1,566 1,1500 '?'}
+{25 1,26 1,41 1,149 1,516 1,766 1,856 1,1500 '?'}
+{3 1,16 1,41 1,60 1,95 2,137 1,153 1,155 1,182 1,247 1,307 1,321 1,381 1,419 1,541 1,811 1,1294 1,1500 '?'}
+{16 1,60 1,312 1,404 2,554 1,584 1,1216 1,1500 '?'}
+{16 1,373 1,407 1,560 1,843 1,1500 '?'}
+{15 1,16 3,19 1,26 1,199 1,241 1,242 1,282 2,389 1,412 1,418 1,512 1,515 1,559 1,563 1,1263 1,1294 2,1500 '?'}
+{16 1,95 1,137 1,299 1,309 1,316 1,569 1,1201 1,1500 '?'}
+{41 1,113 1,153 1,823 1,924 1,1500 '?'}
+{41 1,44 1,303 1,402 1,518 1,528 1,1303 1,1311 1,1500 '?'}
+{3 2,14 2,88 1,157 1,250 1,297 1,468 1,1000 2,1054 1,1500 '?'}
+{3 1,26 1,113 1,137 1,183 1,209 1,403 1,580 1,876 1,1032 1,1092 1,1500 '?'}
+{299 1,1063 1,1500 '?'}
+{3 1,13 1,16 4,44 1,119 1,182 1,283 1,419 1,423 1,532 1,563 1,1029 1,1308 1,1354 1,1499 1,1500 '?'}
+{3 1,970 1,1294 1,1296 1,1500 '?'}
+{3 2,16 6,26 4,44 1,60 12,84 1,95 3,117 1,154 1,182 1,233 1,282 2,295 1,298 4,302 1,308 1,315 1,317 1,375 2,376 2,396 1,402 1,403 2,418 2,423 1,526 1,531 1,553 1,554 2,876 1,970 1,1061 1,1106 1,1139 1,1141 1,1188 1,1273 1,1294 1,1343 1,1410 1,1432 1,1436 1,1500 '?'}
+{391 1,396 1,1500 '?'}
+{300 1,301 1,407 1,1099 1,1500 '?'}
+{44 1,300 1,377 1,403 2,420 1,545 1,1403 2,1500 '?'}
+{11 1,16 4,26 2,41 4,84 1,94 1,100 2,118 1,137 1,154 1,209 1,210 1,282 4,308 2,403 1,418 3,528 1,541 1,581 1,583 1,960 1,1023 1,1155 1,1167 1,1433 1,1500 '?'}
+{283 2,529 1,1500 '?'}
+{0 1,16 3,41 1,60 1,84 1,153 1,179 2,241 1,376 1,399 1,528 1,554 1,586 1,820 1,970 1,1500 '?'}
+{16 1,179 2,235 1,296 1,299 1,396 1,1399 1,1500 '?'}
+{95 1,154 2,207 1,209 1,321 1,403 2,416 1,921 1,1019 1,1311 1,1500 '?'}
+{16 1,154 1,171 1,463 1,515 1,1500 '?'}
+{26 1,155 1,171 1,199 1,300 1,377 1,403 1,545 1,901 1,1403 1,1500 '?'}
+{60 1,303 1,393 1,396 1,876 1,1500 '?'}
+{44 1,135 1,308 1,396 1,422 1,513 1,970 1,1500 '?'}
+{60 1,155 1,1500 '?'}
+{312 1,991 1,1500 '?'}
+{14 1,16 2,45 1,60 1,84 1,95 1,172 1,178 1,296 3,299 3,321 1,392 1,525 1,530 1,555 1,577 1,970 1,1342 1,1377 1,1500 '?'}
+{247 1,310 1,406 1,523 1,1500 '?'}
+{403 1,528 1,876 1,1500 '?'}
+{3 1,76 1,154 1,181 1,281 1,302 1,420 1,802 1,1049 1,1343 1,1500 '?'}
+{16 1,26 1,172 1,281 1,299 1,551 1,576 1,916 1,1500 '?'}
+{0 1,1 1,10 2,15 1,44 1,62 2,85 1,140 1,144 1,154 1,170 1,174 1,236 1,287 1,292 2,354 1,403 1,439 1,459 1,509 1,597 1,1500 '?'}
+{3 1,95 2,300 1,383 1,809 1,891 1,913 1,1109 1,1403 1,1500 '?'}
+{16 1,60 1,172 1,207 1,299 1,559 1,585 1,1500 '?'}
+{207 1,233 1,425 1,970 1,1294 1,1500 '?'}
+{3 1,12 1,26 1,100 1,118 1,135 1,178 1,182 1,384 1,397 1,417 1,540 1,548 1,1286 1,1343 1,1365 1,1500 '?'}
+{16 1,26 1,119 1,283 1,311 1,1500 '?'}
+{60 1,155 1,295 1,315 1,541 1,876 1,1074 1,1500 '?'}
+{0 2,14 1,19 1,41 1,61 1,191 1,257 1,286 1,321 1,403 1,517 1,633 1,809 1,1189 1,1294 1,1403 1,1485 1,1500 '?'}
+{95 1,809 1,1500 '?'}
+{45 1,431 1,516 2,626 1,1028 1,1336 1,1500 '?'}
+{13 1,157 1,319 1,572 1,1165 1,1171 1,1354 1,1500 '?'}
+{45 1,119 1,155 1,206 1,209 1,412 1,416 1,873 1,1253 1,1298 2,1340 1,1347 1,1500 '?'}
+{45 1,134 1,299 1,396 3,548 1,571 1,1500 '?'}
+{3 1,16 2,26 1,60 1,155 1,182 1,209 1,281 3,294 1,308 1,396 1,543 1,546 1,576 1,581 1,803 1,1273 1,1280 1,1286 1,1294 3,1500 '?'}
+{26 1,96 1,243 1,281 1,323 1,373 1,385 1,1500 '?'}
+{3 2,16 1,44 2,95 2,119 1,135 1,172 1,178 1,199 1,209 1,279 1,281 2,298 1,301 1,303 1,310 1,315 2,373 1,403 3,528 1,582 1,773 1,876 1,933 1,967 1,1045 1,1061 2,1186 1,1294 3,1374 1,1500 '?'}
+{113 1,396 1,1336 1,1387 1,1500 '?'}
+{26 1,113 1,155 2,209 1,302 1,308 2,403 1,412 1,528 2,535 2,547 1,1143 1,1311 1,1498 1,1500 '?'}
+{26 1,403 1,440 1,809 1,876 1,994 1,1426 1,1500 '?'}
+{16 1,26 1,135 1,172 1,182 1,400 1,540 1,1500 '?'}
+{100 1,118 1,132 1,154 1,155 1,282 1,403 2,906 1,1023 1,1273 1,1403 1,1436 1,1500 '?'}
+{26 1,119 1,876 1,898 1,917 1,1034 1,1142 1,1294 1,1500 '?'}
+{19 1,26 1,119 1,824 1,1500 '?'}
+{13 1,15 1,20 1,27 1,32 1,43 1,46 1,49 1,57 1,71 1,90 1,92 1,109 1,121 1,132 1,141 1,218 1,225 1,629 1,647 1,675 1,736 1,1464 1,1495 1,1500 '?'}
+{3 1,16 1,88 1,100 1,118 1,155 1,207 1,281 1,302 1,374 1,394 1,1109 1,1500 '?'}
+{3 1,16 2,26 1,119 1,309 1,312 1,314 1,406 1,416 1,422 1,543 1,809 1,1271 1,1345 1,1500 '?'}
+{3 1,135 1,182 1,233 1,403 1,420 1,1263 1,1378 1,1500 '?'}
+{3 1,4 1,16 3,26 1,60 1,88 1,100 1,118 1,155 1,200 1,246 2,295 1,377 1,533 1,1089 1,1191 1,1294 1,1311 1,1500 '?'}
+{403 1,526 1,1500 '?'}
+{16 1,76 1,236 1,247 1,310 2,406 1,515 1,523 1,537 2,554 1,786 1,827 1,985 1,1215 1,1500 '?'}
+{45 1,391 1,396 1,1500 '?'}
+{155 1,171 1,209 1,299 1,301 1,308 1,312 1,559 1,1273 1,1294 1,1402 1,1479 1,1500 '?'}
+{155 1,1273 1,1465 1,1466 1,1500 '?'}
+{3 1,16 1,133 1,243 1,373 1,398 1,809 1,865 1,970 1,1154 1,1214 1,1500 '?'}
+{3 1,154 1,1500 '?'}
+{1 1,2 1,3 1,4 1,6 1,17 1,22 1,24 2,30 1,40 1,44 1,45 2,84 1,103 1,117 2,133 1,149 1,168 1,176 1,178 1,188 1,199 1,213 1,230 1,256 1,275 1,691 1,1294 1,1500 '?'}
+{1500 '?'}
+{0 1,3 1,5 1,7 1,8 1,32 1,39 1,72 1,76 1,107 1,119 1,157 1,171 1,182 1,199 1,233 1,403 1,518 1,732 1,741 1,1352 1,1450 1,1457 1,1490 1,1500 '?'}
+{134 1,154 1,155 1,406 1,524 1,753 1,1029 1,1500 '?'}
+{26 1,154 1,155 1,303 1,384 1,403 1,406 2,417 1,548 1,1294 1,1500 '?'}
+{3 1,16 1,243 1,403 1,515 1,568 1,1370 1,1500 '?'}
+{16 2,84 1,95 1,113 1,153 1,310 1,376 1,502 1,544 1,562 1,578 1,588 1,984 1,1031 1,1500 '?'}
+{16 1,26 1,183 1,809 1,1500 '?'}
+{3 1,298 1,403 1,537 1,582 1,830 1,1343 1,1500 '?'}
+{0 1,5 1,7 1,8 1,36 1,41 2,47 1,76 1,119 2,147 1,155 2,156 1,159 1,171 1,270 1,308 1,394 1,403 2,1455 1,1500 '?'}
+{3 1,16 1,26 1,178 1,321 1,401 1,417 1,559 1,582 1,585 1,876 1,1273 1,1500 '?'}
+{3 1,19 1,47 1,93 1,154 1,178 1,293 1,385 1,388 2,409 1,611 1,695 1,847 1,1213 1,1219 1,1482 1,1500 '?'}
+{3 1,45 1,392 1,525 1,975 1,1500 '?'}
+{60 1,183 1,206 1,1500 '?'}
+{0 1,2 2,3 2,4 3,13 1,22 1,44 1,62 1,63 1,76 1,131 1,154 1,336 1,378 2,403 2,639 1,713 1,724 1,924 1,1403 1,1500 '?'}
+{1 1,3 1,13 1,15 1,28 1,166 1,182 1,235 1,238 1,274 1,403 2,1053 1,1500 '?'}
+{3 1,13 1,16 1,25 1,44 1,60 1,95 1,113 1,137 1,183 1,283 1,303 1,315 1,390 1,403 1,407 1,510 1,1065 1,1500 '?'}
+{0 1,23 1,26 1,63 2,71 1,116 1,190 1,233 1,277 1,347 1,348 1,365 1,1403 1,1500 '?'}
+{179 1,299 1,828 1,1500 '?'}
+{179 1,206 1,308 1,310 1,323 1,578 1,745 1,943 1,1109 1,1311 1,1500 '?'}
+{3 1,119 1,554 1,1212 1,1500 '?'}
+{60 1,303 1,401 1,1500 '?'}
+{3 2,6 1,11 1,14 2,15 1,88 1,155 1,157 1,250 1,258 1,603 1,609 1,655 1,685 1,708 1,1061 2,1187 1,1204 1,1500 '?'}
+{16 1,281 1,390 1,857 1,1105 1,1263 1,1500 '?'}
+{119 1,137 1,155 1,311 1,509 1,542 1,1294 1,1500 '?'}
+{209 1,299 1,528 1,1500 '?'}
+{0 1,3 1,16 2,95 1,312 1,420 1,425 1,1013 1,1021 1,1500 '?'}
+{0 1,3 1,5 1,7 1,8 1,18 1,20 1,26 1,31 1,36 1,39 1,42 1,58 1,76 1,79 1,119 1,281 1,308 1,398 1,436 1,517 1,1403 1,1445 1,1500 '?'}
+{3 1,15 1,16 1,19 1,54 1,72 1,76 1,82 1,88 1,95 1,124 1,161 1,259 1,653 1,809 2,881 1,1214 1,1294 2,1500 '?'}
+{396 1,1500 '?'}
+{60 3,113 1,172 2,323 1,406 1,561 1,745 1,1028 2,1500 '?'}
+{13 1,33 1,182 1,415 1,526 1,1082 1,1294 2,1330 1,1500 '?'}
+{76 1,113 1,155 2,178 1,182 1,243 1,374 1,421 1,580 2,1500 '?'}
+{0 1,19 1,95 1,1500 '?'}
+{3 2,25 1,60 1,119 1,135 1,199 1,281 2,308 2,312 1,315 1,321 1,382 1,403 1,420 1,525 1,567 1,809 1,970 1,1142 1,1167 1,1273 1,1324 1,1500 '?'}
+{25 1,95 1,154 1,850 1,1098 1,1500 '?'}
+{15 1,16 1,137 1,178 1,183 1,281 2,315 1,910 1,921 1,1336 1,1403 1,1428 1,1500 '?'}
+{113 1,119 1,209 1,311 1,1348 1,1406 1,1500 '?'}
+{3 2,93 1,155 2,171 1,235 1,302 1,403 1,968 1,1294 1,1500 '?'}
+{45 1,95 1,767 1,1500 '?'}
+{12 1,396 1,809 1,828 1,1294 1,1500 '?'}
+{3 2,19 1,27 1,45 2,46 1,57 1,59 1,76 1,82 1,88 1,124 1,136 1,155 1,212 1,215 1,226 1,233 1,249 1,271 1,279 1,652 1,721 1,1500 '?'}
+{3 1,16 1,26 1,98 1,281 1,403 2,454 1,538 1,809 2,1187 1,1500 '?'}
+{16 1,26 1,60 1,119 1,154 1,1500 '?'}
+{3 2,16 1,119 1,132 1,182 1,281 1,283 1,403 1,570 1,762 1,970 1,1099 1,1141 1,1292 1,1500 '?'}
+{767 1,1054 1,1306 1,1500 '?'}
+{16 1,26 1,153 1,178 1,199 1,315 1,323 1,373 1,381 1,390 1,403 1,422 1,568 1,948 1,1294 1,1500 '?'}
+{154 2,296 1,1353 1,1500 '?'}
+{876 1,1500 '?'}
+{45 1,283 1,300 1,307 1,396 1,520 1,532 1,779 1,1500 '?'}
+{95 1,117 1,403 1,967 1,978 1,1191 1,1500 '?'}
+{2 1,3 1,16 2,25 1,76 1,113 1,295 1,515 1,523 1,562 1,1500 '?'}
+{154 1,568 1,576 1,579 1,1286 2,1500 '?'}
+{3 1,13 1,33 1,41 1,51 1,94 1,142 2,171 1,182 1,240 1,518 1,836 1,1090 1,1093 1,1206 1,1268 1,1403 1,1500 '?'}
+{3 1,16 3,26 1,88 1,119 1,207 1,283 1,324 1,543 1,585 1,1184 1,1500 '?'}
+{3 1,16 1,44 1,60 1,95 1,183 1,199 1,209 1,281 1,283 1,317 1,399 1,532 1,970 1,1000 1,1141 1,1294 1,1354 1,1500 '?'}
+{100 1,118 1,135 1,172 1,373 1,384 1,1500 '?'}
+{16 1,206 1,952 1,1500 '?'}
+{84 1,95 1,113 1,154 1,209 1,302 1,303 2,415 1,532 1,914 1,1000 1,1089 1,1156 1,1158 1,1348 1,1362 1,1500 '?'}
+{2 1,3 2,11 1,13 1,14 1,19 1,29 1,30 1,35 1,41 1,45 1,47 1,48 1,88 1,106 1,117 1,133 1,137 1,138 1,142 1,149 1,150 1,171 1,178 1,199 1,201 1,246 1,385 1,898 1,1500 '?'}
+{171 1,390 1,1403 1,1500 '?'}
+{3 1,16 1,119 1,154 1,182 2,199 2,209 1,302 1,311 1,390 1,548 1,585 1,774 1,809 1,1294 2,1500 '?'}
+{559 1,1286 1,1500 '?'}
+{3 1,4 1,5 1,8 1,15 1,55 1,68 1,130 1,152 1,154 1,314 1,325 1,403 1,622 1,1032 1,1377 1,1442 1,1500 '?'}
+{15 1,41 1,876 1,1500 '?'}
+{1500 '?'}
+{3 1,117 1,171 1,420 1,1153 1,1403 1,1500 '?'}
+{3 1,11 1,38 1,41 1,45 2,60 1,84 1,88 1,94 1,95 1,100 2,118 2,155 1,171 1,300 1,307 1,374 1,1091 1,1188 1,1193 1,1198 1,1253 1,1294 1,1392 1,1393 1,1500 '?'}
+{15 1,60 1,403 1,1028 1,1500 '?'}
+{0 1,20 1,25 1,44 1,155 1,235 1,402 1,1292 1,1436 1,1487 1,1500 '?'}
+{16 1,26 2,102 2,155 3,183 1,243 1,246 1,266 2,284 1,297 1,298 1,302 1,541 1,557 1,876 1,900 1,981 2,982 2,1054 3,1095 1,1120 2,1294 1,1500 '?'}
+{95 1,179 1,200 1,299 1,310 1,396 1,399 1,1500 '?'}
+{3 1,12 1,16 1,26 1,182 1,183 1,199 1,209 1,281 1,303 1,315 1,403 1,1500 '?'}
+{95 1,200 1,555 1,1279 1,1500 '?'}
+{33 1,526 1,1500 '?'}
+{3 1,16 2,60 1,119 1,861 1,1273 1,1500 '?'}
+{3 1,44 1,99 1,100 5,118 3,137 1,154 1,245 1,314 1,321 1,403 1,1032 1,1500 '?'}
+{302 1,303 1,399 1,876 1,1500 '?'}
+{3 1,16 1,873 1,1500 '?'}
+{0 1,13 1,16 2,44 1,95 3,119 1,137 1,205 1,313 1,389 1,809 1,1142 1,1294 1,1336 1,1420 1,1500 '?'}
+{308 1,970 1,995 1,1004 1,1029 1,1294 1,1500 '?'}
+{3 1,16 3,26 2,113 1,117 1,183 1,199 1,298 2,303 1,307 1,317 1,318 1,401 1,419 2,572 1,838 1,861 1,924 1,1061 2,1404 1,1500 '?'}
+{16 1,209 1,281 1,295 1,384 1,389 1,563 1,824 1,1327 1,1500 '?'}
+{16 1,100 1,118 1,403 2,876 1,1120 1,1294 1,1500 '?'}
+{283 2,529 1,1500 '?'}
+{16 1,45 1,60 1,84 1,155 1,183 1,403 1,1273 1,1294 1,1370 1,1500 '?'}
+{3 1,17 1,60 1,152 1,182 1,293 1,315 1,384 1,403 1,1373 1,1403 1,1500 '?'}
+{3 2,16 1,26 1,95 1,172 1,281 2,298 1,307 1,315 1,317 1,321 1,381 1,390 1,401 1,531 1,876 1,1031 1,1273 1,1336 1,1403 1,1500 '?'}
+{2 1,16 1,26 1,85 1,102 1,143 1,182 2,189 1,217 1,247 1,486 1,550 1,801 1,809 1,974 1,1389 1,1429 1,1500 '?'}
+{308 1,549 1,1500 '?'}
+{0 1,3 1,4 1,7 1,13 1,20 1,23 1,25 1,32 1,36 1,55 1,65 1,71 1,81 1,154 1,155 1,160 1,171 1,202 1,282 1,391 1,1448 1,1500 '?'}
+{26 1,45 1,182 2,301 1,407 2,947 1,967 2,1034 1,1119 1,1125 1,1273 1,1385 1,1403 2,1500 '?'}
+{16 1,26 1,44 1,137 1,300 1,307 1,391 1,834 1,1208 1,1263 1,1500 '?'}
+{113 1,302 1,384 1,390 1,509 1,1069 2,1155 1,1159 1,1183 1,1500 '?'}
+{25 1,154 1,308 1,403 1,542 1,831 1,1500 '?'}
+{3 1,199 1,245 1,403 1,425 2,538 1,567 1,785 1,1017 1,1149 1,1294 2,1336 1,1500 '?'}
+{3 1,14 1,178 1,1226 1,1292 1,1294 2,1297 1,1500 '?'}
+{3 1,12 1,14 1,113 1,119 1,182 1,241 1,299 1,308 1,321 1,323 1,577 1,809 1,950 1,970 1,1216 1,1294 2,1500 '?'}
+{26 1,1294 1,1500 '?'}
+{0 1,3 1,13 1,21 1,25 1,26 1,55 1,71 1,155 1,164 1,209 1,266 1,304 1,385 1,501 1,560 1,1032 1,1139 1,1214 1,1294 1,1478 1,1500 '?'}
+{16 1,44 2,60 2,95 1,113 1,233 2,283 2,321 1,421 1,508 1,509 1,580 2,719 1,1154 1,1500 '?'}
+{16 3,19 1,41 1,153 3,179 2,266 1,282 2,299 1,309 1,310 1,323 1,381 1,588 2,935 1,938 1,1212 1,1500 '?'}
+{16 1,26 1,68 1,94 1,95 1,311 1,376 1,407 1,412 1,574 1,587 1,809 1,1070 1,1336 1,1500 '?'}
+{3 2,403 1,957 1,970 1,1264 1,1500 '?'}
+{178 1,182 1,1063 1,1077 1,1500 '?'}
+{1 1,41 1,60 2,84 1,95 1,135 1,154 1,155 1,533 1,964 2,970 1,1390 1,1500 '?'}
+{16 1,99 1,391 1,583 1,1294 1,1306 1,1358 1,1382 2,1500 '?'}
+{16 1,26 1,95 1,233 2,403 2,422 1,969 1,1035 2,1146 1,1204 1,1292 1,1500 '?'}
+{13 1,16 2,26 1,295 1,300 1,321 1,377 1,396 1,415 1,425 1,532 1,550 1,839 1,924 1,1104 1,1294 1,1369 1,1403 2,1419 1,1500 '?'}
+{13 1,16 1,26 1,95 1,98 1,182 1,889 1,1263 1,1294 1,1500 '?'}
+{60 1,178 1,206 1,296 1,299 1,515 1,588 1,1500 '?'}
+{3 2,209 2,301 1,355 1,393 2,959 1,1147 1,1247 1,1500 '?'}
+{26 1,60 1,200 1,321 1,1500 '?'}
+{15 1,200 1,297 1,299 1,375 1,1294 1,1500 '?'}
+{0 1,3 2,5 1,7 1,13 1,19 1,20 1,25 1,36 1,55 1,77 1,92 1,155 2,156 1,171 1,406 1,432 1,436 1,1449 1,1500 '?'}
+{100 1,113 1,118 1,155 1,303 1,324 1,391 1,527 2,1141 1,1278 1,1500 '?'}
+{76 1,199 1,417 1,1500 '?'}
+{60 1,182 1,206 1,233 1,247 1,1500 '?'}
+{16 1,95 1,119 1,862 1,1086 1,1500 '?'}
+{3 1,16 1,60 1,283 1,858 1,1294 1,1500 '?'}
+{3 1,14 1,16 1,1196 1,1500 '?'}
+{1 1,3 1,7 1,15 1,18 1,24 1,26 2,67 1,87 1,96 1,146 1,175 1,329 1,362 1,385 1,391 1,403 1,1403 1,1467 1,1500 '?'}
+{41 1,60 1,76 1,94 1,153 1,155 1,171 1,182 1,209 1,306 1,317 1,376 1,403 2,419 1,557 1,569 1,779 1,1062 1,1141 1,1273 2,1292 1,1337 1,1338 1,1339 1,1432 1,1500 '?'}
+{13 1,33 1,1403 1,1500 '?'}
+{3 2,16 3,44 1,60 1,76 1,119 1,155 1,183 1,209 1,300 1,317 1,376 1,403 1,405 1,416 1,506 1,533 1,780 1,1234 1,1361 1,1500 '?'}
+{135 1,182 1,281 1,531 1,1500 '?'}
+{100 1,118 1,1500 '?'}
+{16 1,60 1,155 1,168 1,171 1,209 1,281 1,283 1,307 1,317 1,385 1,1294 1,1500 '?'}
+{401 1,417 1,937 1,1332 1,1500 '?'}
+{15 1,16 1,119 1,199 1,209 1,281 1,315 1,390 1,403 1,416 1,809 1,1107 1,1500 '?'}
+{1 1,3 1,6 1,9 1,19 1,28 1,39 1,52 1,78 1,96 1,105 1,114 1,117 1,133 1,158 1,198 1,403 1,474 1,476 1,490 1,496 1,711 1,1500 '?'}
+{0 2,13 1,16 1,98 1,1377 1,1500 '?'}
+{1029 1,1500 '?'}
+{1294 1,1500 '?'}
+{19 1,241 1,296 2,528 1,557 1,586 1,1164 1,1500 '?'}
+{86 1,183 1,247 1,394 1,407 1,514 1,1500 '?'}
+{803 1,1500 '?'}
+{16 2,41 1,45 1,60 1,70 1,84 1,95 1,302 1,315 1,385 1,391 1,392 1,402 1,502 1,516 1,523 1,555 1,561 1,820 1,891 1,951 1,1215 1,1500 '?'}
+{95 1,182 1,303 1,406 1,528 1,802 1,1180 1,1224 1,1500 '?'}
+{26 1,60 1,182 1,901 1,921 1,1424 1,1500 '?'}
+{0 1,2 2,3 1,10 1,13 1,19 1,62 1,63 1,68 1,84 1,154 1,174 1,219 1,236 1,288 1,378 1,385 1,427 1,924 1,986 1,1500 '?'}
+{16 1,38 1,396 1,1500 '?'}
+{1 1,2 1,3 1,11 1,14 1,15 1,19 1,26 1,41 1,54 1,137 1,178 1,181 1,182 1,199 1,304 1,312 1,322 1,330 1,338 1,356 1,388 1,408 1,417 1,423 1,1059 1,1212 1,1500 '?'}
+{313 1,809 1,1500 '?'}
+{26 1,44 1,137 1,209 1,243 1,403 1,568 1,745 1,809 1,1298 1,1436 1,1500 '?'}
+{16 2,315 1,396 1,404 1,789 1,1215 1,1500 '?'}
+{13 1,314 1,396 1,1280 1,1500 '?'}
+{26 1,113 1,182 2,243 1,378 1,396 1,403 1,407 1,535 1,573 2,768 1,1403 1,1500 '?'}
+{16 1,44 1,100 1,118 1,119 1,182 1,245 1,312 1,384 1,1027 1,1263 1,1294 1,1500 '?'}
+{16 1,241 1,321 1,384 1,516 1,547 1,562 1,578 1,746 1,832 1,1300 1,1500 '?'}
+{12 1,95 1,528 1,1365 1,1500 '?'}
+{0 1,135 1,200 1,1500 '?'}
+{60 1,135 1,558 1,1172 1,1500 '?'}
+{281 1,809 1,979 1,1500 '?'}
+{310 1,377 1,1500 '?'}
+{19 1,44 1,303 1,420 1,554 1,1500 '?'}
+{0 1,19 1,510 1,573 1,1208 1,1500 '?'}
+{16 2,26 1,113 1,384 1,794 1,981 1,1500 '?'}
+{60 1,199 1,247 1,530 1,1377 1,1431 1,1500 '?'}
+{3 1,87 1,403 2,1500 '?'}
+{26 4,44 1,45 3,60 4,155 3,384 1,393 1,540 1,799 1,909 1,1011 1,1069 2,1181 1,1436 1,1500 '?'}
+{300 1,538 1,1069 1,1403 1,1500 '?'}
+{0 1,3 2,4 1,15 1,22 1,24 1,25 1,26 1,77 1,100 2,118 2,209 1,245 1,302 1,306 1,315 1,391 1,403 2,870 1,876 2,1032 1,1292 1,1346 1,1427 1,1500 '?'}
+{16 1,26 1,119 1,155 1,281 2,307 1,374 1,571 1,809 1,921 1,1112 1,1500 '?'}
+{0 1,3 1,5 1,7 1,8 1,19 1,26 1,41 1,47 1,49 1,76 1,107 1,119 1,128 1,147 1,155 1,173 1,199 1,233 1,270 1,394 1,403 1,407 1,1187 1,1500 '?'}
+{3 1,178 1,209 2,300 1,544 1,824 1,1500 '?'}
+{3 2,25 1,155 1,182 1,199 1,209 1,281 1,300 2,302 1,384 1,403 3,416 2,871 1,876 1,1028 1,1294 2,1372 1,1500 '?'}
+{3 1,13 1,60 1,302 1,303 1,324 1,558 1,919 1,1001 1,1176 1,1294 1,1500 '?'}
+{0 2,16 1,19 1,376 1,381 2,396 1,1500 '?'}
+{25 1,155 1,183 1,209 1,307 1,391 1,403 1,1273 1,1294 1,1500 '?'}
+{13 1,16 1,113 1,127 1,155 1,302 1,382 1,400 1,1500 '?'}
+{16 1,298 1,313 1,317 1,391 1,1294 1,1500 '?'}
+{16 1,19 1,26 1,88 1,235 1,385 1,403 1,515 1,525 1,1500 '?'}
+{3 1,209 2,247 1,537 1,544 1,1273 1,1500 '?'}
+{0 1,2 1,3 2,12 1,13 1,19 1,64 1,76 1,106 1,167 1,178 1,463 1,485 1,651 1,682 1,1069 1,1500 '?'}
+{182 1,972 1,1403 1,1500 '?'}
+{12 1,95 1,528 1,1051 1,1500 '?'}
+{26 2,119 1,183 1,876 1,901 1,1500 '?'}
+{26 1,88 1,95 1,266 1,300 1,303 1,307 1,390 1,528 1,1294 1,1500 '?'}
+{3 1,296 1,310 1,420 1,1021 1,1500 '?'}
+{2 1,3 2,8 1,9 1,19 1,24 2,26 1,40 1,55 1,88 1,119 1,155 1,171 1,178 1,187 1,239 1,251 1,358 1,366 1,393 1,528 1,1500 '?'}
+{15 1,182 1,403 2,981 1,1403 1,1500 '?'}
+{3 2,5 1,22 1,64 1,98 1,151 1,165 1,166 1,171 1,203 1,221 1,321 1,462 1,518 1,814 1,970 1,1500 '?'}
+{303 2,1069 1,1203 1,1500 '?'}
+{113 1,179 1,299 1,310 2,527 1,578 1,746 1,892 1,925 1,1193 1,1500 '?'}
+{13 1,26 1,44 2,60 2,154 1,529 1,575 1,1500 '?'}
+{16 2,206 2,389 1,509 2,526 1,1259 1,1500 '?'}
+{3 1,13 2,16 1,60 3,141 1,154 1,178 1,209 1,282 1,283 1,407 2,509 1,581 1,826 1,1294 2,1488 1,1500 '?'}
+{60 1,76 1,154 1,178 1,179 1,233 1,385 1,555 1,796 1,1110 1,1500 '?'}
+{171 1,315 1,403 1,548 1,571 1,1029 1,1500 '?'}
+{1 1,2 1,3 3,4 1,10 1,26 1,33 1,45 2,83 1,137 1,255 1,326 1,480 3,542 1,971 1,1500 '?'}
+{25 1,95 2,132 1,155 1,281 1,313 1,314 1,323 1,399 1,401 1,808 1,1390 1,1500 '?'}
+{172 1,407 1,551 1,1227 1,1273 1,1274 1,1286 1,1500 '?'}
+{155 1,321 2,524 1,757 1,1000 1,1130 1,1500 '?'}
+{44 1,375 1,403 1,1029 1,1154 1,1500 '?'}
+{13 1,16 1,44 1,98 1,155 1,182 1,568 1,587 1,1078 1,1500 '?'}
+{117 1,183 1,281 1,403 1,1336 1,1500 '?'}
+{95 1,266 1,538 1,835 1,1500 '?'}
+{13 1,16 1,283 1,816 1,876 1,1136 1,1418 1,1500 '?'}
+{3 1,26 2,45 1,153 1,172 1,247 2,297 1,302 1,391 1,788 1,1336 1,1500 '?'}
+{3 1,60 1,155 1,530 1,1191 1,1500 '?'}
+{155 1,182 1,243 1,541 1,1396 1,1500 '?'}
+{0 1,20 1,44 1,98 1,155 1,235 1,402 1,1292 1,1436 1,1500 '?'}
+{16 2,54 1,95 1,137 1,182 1,383 1,1077 1,1500 '?'}
+{12 1,95 1,154 1,207 1,403 1,416 1,528 1,1500 '?'}
+{13 4,16 1,19 1,26 1,44 1,95 1,137 2,154 2,199 1,281 4,282 2,300 1,311 1,315 1,317 1,390 1,403 2,418 1,422 1,425 1,550 1,970 1,1294 2,1354 1,1499 1,1500 '?'}
+{16 1,19 1,41 1,60 3,84 1,119 1,179 2,241 1,299 1,301 1,321 1,554 1,561 2,578 1,1063 1,1215 1,1500 '?'}
+{26 1,36 1,41 1,45 1,119 1,137 1,154 1,155 1,231 1,253 1,266 3,269 1,272 1,315 1,318 1,387 1,657 1,1500 '?'}
+{16 1,41 1,113 1,155 1,296 1,302 1,555 1,1500 '?'}
+{155 1,182 1,295 1,383 1,417 1,1364 1,1500 '?'}
+{396 1,1500 '?'}
+{16 1,19 1,33 1,247 1,536 1,747 1,1500 '?'}
+{13 1,60 1,241 1,283 1,303 1,406 1,1367 1,1489 1,1500 '?'}
+{307 1,315 1,563 1,876 1,1500 '?'}
+{95 1,113 1,247 1,391 1,419 1,420 1,841 1,1500 '?'}
+{19 1,390 1,551 1,1500 '?'}
+{76 1,182 1,207 1,402 1,403 1,514 1,981 1,1403 1,1500 '?'}
+{38 1,44 1,99 1,391 1,403 2,583 1,763 1,1280 1,1471 1,1500 '?'}
+{3 1,13 1,16 1,1370 1,1500 '?'}
+{3 1,13 1,88 2,95 1,135 1,178 1,384 1,403 1,533 2,569 1,809 1,1173 1,1258 1,1294 1,1306 1,1500 '?'}
+{16 1,60 1,182 1,792 1,1500 '?'}
+{296 1,299 1,396 1,1500 '?'}
+{16 1,26 1,113 1,182 1,302 1,309 1,312 1,411 1,417 1,529 1,1431 1,1500 '?'}
+{383 1,535 1,1403 1,1500 '?'}
+{6 1,12 1,13 1,14 1,44 1,110 1,129 1,137 1,157 1,185 1,234 1,391 1,448 1,456 2,461 1,463 1,487 1,488 1,505 1,673 1,725 1,1092 1,1500 '?'}
+{33 1,44 1,119 1,1500 '?'}
+{19 1,308 1,398 1,404 1,537 1,543 1,1500 '?'}
+{16 1,19 1,26 1,182 1,281 1,558 1,745 1,1500 '?'}
+{3 2,16 1,26 1,113 1,117 1,171 1,178 1,199 1,303 1,308 1,317 1,376 1,398 1,528 1,752 1,865 1,1227 1,1500 '?'}
+{1 1,2 1,3 1,6 1,9 1,15 1,26 1,27 1,41 2,53 1,84 1,117 1,133 1,143 1,146 1,149 1,165 1,180 1,201 1,234 1,260 1,362 1,429 1,491 1,712 2,1500 '?'}
+{0 1,2 1,10 2,15 1,24 1,62 1,85 1,144 1,154 2,170 1,174 1,232 1,233 1,292 1,349 1,354 1,634 1,641 1,1294 1,1500 '?'}
+{0 1,95 1,241 1,1500 '?'}
+{26 1,182 1,522 1,1051 1,1333 1,1500 '?'}
+{16 1,44 1,60 1,154 1,178 1,183 1,396 1,416 1,528 1,1111 1,1208 1,1500 '?'}
+{3 1,117 1,171 1,206 1,303 1,420 1,802 1,1500 '?'}
+{16 1,44 1,60 1,95 1,154 1,155 1,309 1,391 1,1029 1,1186 1,1294 1,1500 '?'}
+{16 3,19 1,113 1,137 1,153 1,172 1,209 1,281 1,282 1,302 1,323 1,375 1,403 1,404 1,422 1,514 1,535 1,568 1,750 1,1188 1,1493 1,1500 '?'}
+{16 1,321 1,384 1,1500 '?'}
+{3 1,155 1,391 1,1403 1,1500 '?'}
+{1 1,3 1,9 1,26 1,29 1,35 1,117 1,120 1,126 1,150 1,175 1,182 1,216 1,227 1,289 1,291 1,320 1,334 1,343 1,351 1,445 1,1500 '?'}
+{1 1,3 1,4 1,5 1,14 1,15 1,19 1,41 1,45 1,106 1,180 1,222 1,229 1,280 1,287 1,332 1,357 1,410 1,415 1,478 1,728 1,1500 '?'}
+{6 1,12 1,13 1,14 1,44 1,110 1,129 1,137 1,157 1,185 1,234 1,391 1,448 1,456 2,461 1,463 1,487 1,488 1,505 1,673 1,725 1,1092 1,1500 '?'}
+{233 1,404 1,928 1,1500 '?'}
+{1 1,15 1,26 1,84 1,95 3,154 1,182 1,247 1,283 1,302 1,304 1,308 1,312 1,321 3,415 3,578 1,876 1,1029 1,1036 1,1294 1,1500 '?'}
+{3 1,135 1,303 1,313 1,528 1,766 1,1500 '?'}
+{26 1,33 1,44 1,182 1,199 1,300 1,377 1,403 1,532 1,898 1,1403 1,1500 '?'}
+{1 1,3 1,13 1,44 1,137 1,138 1,182 2,199 1,300 1,307 1,402 1,403 1,964 1,1136 1,1232 1,1294 1,1334 1,1377 1,1469 1,1500 '?'}
+{396 1,538 1,842 1,1500 '?'}
+{19 1,206 1,1500 '?'}
+{3 1,26 2,44 1,113 1,154 1,283 1,302 1,394 1,809 1,1154 1,1294 1,1500 '?'}
+{3 1,16 1,19 1,119 1,315 1,746 1,901 1,1500 '?'}
+{13 1,44 1,402 1,583 1,1500 '?'}
+{179 1,300 1,324 1,557 1,1500 '?'}
+{26 1,113 1,155 2,209 1,302 1,308 2,403 1,412 1,528 2,535 2,547 1,1143 1,1311 1,1498 1,1500 '?'}
+{16 2,171 1,182 1,313 1,403 1,876 1,1028 1,1500 '?'}
+{3 2,11 1,13 1,16 1,44 1,45 1,60 2,155 1,182 1,200 1,300 1,302 1,307 1,315 1,382 1,394 1,399 1,403 1,406 1,527 1,528 1,535 1,541 1,931 1,1032 1,1259 1,1294 2,1336 1,1388 1,1403 1,1500 '?'}
+{16 2,44 1,95 1,119 1,199 2,235 1,391 1,396 1,539 1,1189 2,1273 1,1500 '?'}
+{26 1,117 1,182 1,199 1,407 1,510 1,532 1,1403 1,1500 '?'}
+{3 1,44 1,299 1,308 1,321 1,403 1,406 1,508 1,970 2,1029 1,1036 1,1294 1,1378 1,1500 '?'}
+{3 2,16 1,26 1,95 1,102 1,178 1,199 1,209 1,233 1,391 1,398 1,403 1,876 1,1042 1,1227 1,1500 '?'}
+{16 1,44 1,60 1,119 1,243 1,298 1,419 1,586 1,1500 '?'}
+{153 1,155 1,233 1,547 1,1500 '?'}
+{16 1,100 1,118 1,135 1,155 1,403 1,1431 1,1500 '?'}
+{16 1,390 1,509 1,512 1,1500 '?'}
+{16 1,26 1,182 1,1192 1,1263 1,1500 '?'}
+{3 3,13 1,15 1,16 1,44 1,60 1,76 1,113 2,119 1,154 1,155 1,178 2,182 3,281 2,302 1,311 1,391 2,425 1,533 1,1082 1,1294 1,1500 '?'}
+{0 2,3 1,13 1,19 1,26 2,46 1,47 1,57 1,61 1,93 1,125 1,148 1,154 1,155 1,180 1,184 1,186 1,189 1,192 1,193 1,194 1,199 1,224 1,254 1,395 1,1500 '?'}
+{3 1,119 1,281 1,311 1,401 1,416 1,1500 '?'}
+{3 1,15 1,16 1,26 2,135 1,199 1,406 1,573 1,1001 1,1284 1,1500 '?'}
+{390 1,403 1,558 1,1500 '?'}
+{26 1,95 1,171 1,307 1,321 1,404 1,522 1,749 1,1188 1,1273 1,1403 1,1428 1,1500 '?'}
+{3 1,12 2,15 1,21 1,33 1,164 1,182 2,199 1,266 1,283 1,403 1,423 1,470 1,885 1,1083 1,1188 1,1294 1,1500 '?'}
+{44 1,1500 '?'}
+{13 3,99 2,100 3,118 1,155 2,245 1,1032 1,1391 1,1500 '?'}
+{13 1,20 1,26 1,28 1,41 1,44 1,155 2,166 1,220 1,221 1,276 1,367 1,379 1,432 1,519 1,1214 1,1500 '?'}
+{16 1,546 1,555 1,565 1,578 1,827 1,1348 1,1399 1,1475 1,1500 '?'}
+{528 1,748 1,921 1,1403 1,1500 '?'}
+{0 1,19 1,21 1,34 1,119 1,145 1,263 1,333 1,434 1,1292 1,1500 '?'}
+{303 1,406 1,1385 1,1500 '?'}
+{16 2,302 1,986 1,1263 2,1500 '?'}
+{95 1,171 1,233 1,1500 '?'}
+{3 1,13 1,19 1,245 1,302 1,308 1,519 1,533 1,766 1,1175 1,1500 '?'}
+{3 1,113 1,182 2,199 1,308 1,373 1,393 1,403 1,1031 1,1500 '?'}
+{3 1,44 1,95 1,153 1,302 1,315 1,1000 3,1286 1,1500 '?'}
+{95 1,183 1,1141 1,1500 '?'}
+{16 1,26 1,178 1,297 1,841 1,1436 1,1500 '?'}
+{0 1,95 1,100 1,178 1,180 1,403 1,528 1,1500 '?'}
+{3 1,16 1,133 1,1500 '?'}
+{26 1,1116 1,1500 '?'}
+{3 1,60 1,96 1,183 1,381 1,396 1,809 1,1154 1,1500 '?'}
+{171 1,385 1,403 1,1032 1,1363 1,1500 '?'}
+{390 1,1136 1,1500 '?'}
+{13 1,41 1,84 1,155 1,183 1,245 1,376 1,823 1,1027 1,1264 1,1294 1,1354 1,1500 '?'}
+{26 1,95 1,183 1,386 1,967 1,1000 1,1500 '?'}
+{3 1,13 1,19 1,25 1,155 1,171 1,183 1,312 1,385 1,406 1,1294 1,1403 1,1500 '?'}
+{0 1,16 1,583 1,1014 1,1500 '?'}
+{16 2,317 1,396 1,1263 1,1370 1,1500 '?'}
+{26 1,44 1,60 1,84 1,155 1,901 1,1101 1,1153 1,1500 '?'}
+{3 3,26 2,45 2,113 1,183 3,266 2,283 4,403 1,421 1,515 1,1152 1,1177 1,1346 1,1500 '?'}
+{3 7,15 1,16 2,25 1,26 2,44 2,60 1,88 1,95 3,113 1,172 1,209 1,281 2,282 1,300 1,312 1,403 2,416 1,463 1,528 2,533 1,538 1,547 1,552 1,560 2,563 1,569 1,585 1,836 3,851 1,855 1,876 2,901 1,924 1,970 2,1029 1,1185 1,1228 1,1229 1,1286 1,1294 1,1491 1,1500 '?'}
+{523 1,1215 1,1500 '?'}
+{299 1,300 1,1500 '?'}
+{26 1,60 2,95 1,303 1,406 1,510 1,588 1,833 1,967 1,1170 1,1174 1,1500 '?'}
+{200 1,1403 1,1500 '?'}
+{16 1,60 1,113 1,558 1,766 1,921 1,1431 1,1500 '?'}
+{179 1,384 1,557 1,1399 1,1500 '?'}
+{0 1,3 1,19 1,21 1,26 1,33 1,34 1,44 1,98 1,116 2,119 1,402 1,1289 1,1430 1,1500 '?'}
+{182 1,247 1,536 1,1500 '?'}
+{2 2,3 2,4 1,12 1,13 1,26 1,44 2,62 1,137 1,138 1,174 1,288 1,325 1,378 1,424 1,627 1,924 1,1500 '?'}
+{25 1,207 2,514 1,1500 '?'}
+{15 1,16 2,45 1,137 1,155 1,183 1,199 1,282 1,303 1,407 1,1113 1,1154 2,1298 1,1376 1,1500 '?'}
+{16 3,26 1,95 1,113 1,153 1,324 1,381 1,523 1,859 1,930 1,1167 1,1500 '?'}
+{26 1,41 1,182 1,873 1,1259 1,1500 '?'}
+{95 1,283 1,302 1,324 1,390 1,415 1,510 1,532 1,1189 1,1500 '?'}
+{247 1,1500 '?'}
+{26 1,119 1,155 2,209 1,246 2,303 1,306 1,412 1,425 1,538 1,842 1,876 1,912 1,923 1,1121 1,1148 1,1160 1,1201 1,1292 1,1357 1,1500 '?'}
+{182 1,463 1,824 1,1500 '?'}
+{16 1,119 1,154 1,321 1,400 1,547 1,568 1,570 1,734 1,798 1,970 1,1292 1,1500 '?'}
+{132 1,155 1,295 1,315 1,391 1,1500 '?'}
+{3 1,172 1,321 1,406 1,895 1,985 1,1178 1,1377 1,1500 '?'}
+{1 1,3 1,41 2,88 1,222 1,228 1,319 1,384 1,388 1,391 1,484 1,583 1,836 1,1141 1,1436 2,1481 1,1500 '?'}
+{26 1,153 1,1277 1,1500 '?'}
+{155 1,182 1,403 1,1207 1,1401 1,1500 '?'}
+{13 1,25 1,44 1,155 2,178 1,295 1,326 1,399 1,876 1,1186 1,1286 1,1500 '?'}
+{3 2,16 1,119 2,207 1,209 1,400 1,809 1,876 1,1180 1,1294 1,1500 '?'}
+{14 1,26 1,209 12,313 1,324 1,377 1,381 2,876 9,1212 1,1294 1,1335 1,1500 '?'}
+{25 1,200 1,308 1,312 1,315 1,381 1,525 1,558 1,1500 '?'}
+{15 1,16 1,155 2,172 1,183 1,209 1,528 1,876 1,1436 2,1500 '?'}
+{3 1,13 1,154 1,178 1,1086 1,1146 1,1500 '?'}
+{3 1,209 1,302 1,303 1,312 1,406 1,527 1,1354 1,1500 '?'}
+{12 1,100 3,118 2,135 1,292 1,403 1,516 1,572 1,882 1,1120 1,1263 1,1294 1,1336 1,1341 1,1500 '?'}
+{0 1,2 3,3 1,4 1,11 1,12 1,15 1,24 1,26 1,33 1,104 1,127 1,131 1,137 1,244 2,327 1,385 1,458 1,677 1,876 1,1286 1,1500 '?'}
+{154 1,412 1,509 1,1500 '?'}
+{312 1,315 1,559 1,1403 1,1500 '?'}
+{3 1,135 1,178 1,207 1,312 1,400 1,571 1,1294 1,1500 '?'}
+{16 1,26 1,44 2,100 1,118 1,154 1,183 1,209 1,297 1,325 1,400 1,749 1,1167 1,1292 1,1303 1,1346 1,1500 '?'}
+{3 1,16 1,154 1,403 1,416 1,1263 1,1500 '?'}
+{3 1,183 1,281 1,296 2,314 1,315 1,384 1,403 1,553 1,1500 '?'}
+{3 1,44 1,395 1,554 1,970 1,1500 '?'}
+{10 1,154 1,155 1,281 1,321 1,396 1,542 1,961 1,1500 '?'}
+{16 1,41 1,60 1,94 1,182 1,281 1,303 1,417 1,560 1,568 1,748 1,848 1,876 1,1500 '?'}
+{15 1,182 1,241 1,1000 1,1500 '?'}
+{3 2,44 1,199 1,403 2,899 1,970 1,1259 1,1294 2,1417 1,1500 '?'}
+{0 1,2 3,3 1,4 1,11 1,12 1,15 1,24 1,26 1,33 1,80 1,104 1,127 1,131 1,137 1,244 2,327 1,385 1,458 1,677 1,876 1,1286 1,1500 '?'}
+{26 3,137 2,154 1,155 1,182 1,266 1,312 1,403 3,880 1,1028 1,1236 1,1500 '?'}
+{3 1,26 1,44 1,60 1,182 1,300 1,828 2,1249 1,1500 '?'}
+{3 2,16 3,25 1,44 1,95 2,98 1,137 1,154 1,155 2,182 1,209 1,241 1,247 1,281 1,302 1,308 1,376 1,403 2,420 1,422 1,519 1,528 2,722 1,809 1,924 1,1273 1,1294 1,1343 1,1500 '?'}
+{16 1,26 2,199 1,412 1,1500 '?'}
+{26 1,182 1,522 1,1027 1,1500 '?'}
+{98 1,100 2,118 2,281 1,308 1,315 1,321 2,1500 '?'}
+{155 1,1500 '?'}
+{3 1,403 1,1212 1,1244 1,1500 '?'}
+{119 1,1292 1,1413 1,1500 '?'}
+{3 1,5 1,15 1,26 3,27 1,37 1,38 1,41 2,72 1,86 1,109 1,112 1,122 1,132 1,139 1,245 1,262 1,264 1,446 1,1368 1,1454 1,1500 '?'}
+{9 1,16 1,26 1,55 1,100 2,118 2,178 2,308 1,752 1,1294 1,1500 '?'}
+{33 1,119 1,154 1,172 1,300 1,403 1,809 1,1028 1,1085 1,1286 1,1370 1,1500 '?'}
+{95 1,403 1,1403 1,1500 '?'}
+{19 1,41 1,60 1,113 1,131 1,155 2,179 2,247 2,303 1,516 1,578 1,710 1,803 1,984 1,1311 1,1500 '?'}
+{3 1,60 1,135 1,172 1,199 1,247 1,303 1,312 1,315 1,403 1,528 1,558 2,567 1,803 1,876 1,984 1,1054 1,1294 1,1378 1,1500 '?'}
+{15 1,41 1,133 1,178 1,182 3,247 1,536 1,568 1,1500 '?'}
+{44 1,60 1,113 1,155 1,182 1,209 1,247 1,308 1,311 1,321 2,391 1,416 1,558 1,561 1,904 1,1286 1,1294 1,1414 1,1500 '?'}
+{310 1,1500 '?'}
+{0 1,3 1,16 1,19 1,26 1,113 1,154 1,182 1,308 1,391 1,416 1,864 1,1097 1,1167 1,1377 1,1500 '?'}
+{45 1,95 1,155 1,182 1,312 1,528 1,530 1,1500 '?'}
+{3 1,16 1,60 1,199 1,282 1,312 1,560 1,1429 1,1500 '?'}
+{60 1,137 1,155 1,182 1,199 1,209 2,220 1,278 1,281 1,314 3,403 3,414 1,525 1,528 1,587 1,893 1,1231 1,1294 1,1500 '?'}
+{155 2,281 1,302 1,1500 '?'}
+{16 1,60 1,171 1,281 1,776 1,1292 1,1500 '?'}
+{113 1,155 5,233 1,324 1,421 1,509 2,869 1,1259 1,1500 '?'}
+{3 1,13 1,16 1,60 1,281 1,1188 2,1436 1,1500 '?'}
+{76 1,113 1,151 1,247 1,414 1,1500 '?'}
+{3 1,16 1,19 1,113 1,179 1,295 1,303 1,412 1,509 1,516 1,523 1,751 1,853 1,1254 1,1350 1,1377 1,1500 '?'}
+{13 1,15 1,16 1,100 2,118 2,119 2,155 2,171 1,183 1,199 1,281 1,321 1,377 1,391 1,403 3,511 1,527 1,560 1,777 1,876 1,1126 1,1153 1,1294 1,1403 1,1438 1,1500 '?'}
+{100 1,118 1,373 2,394 1,934 1,1138 1,1273 1,1500 '?'}
+{13 1,209 1,312 1,317 1,400 1,525 1,1500 '?'}
+{16 1,1500 '?'}
+{0 1,2 2,3 2,4 2,13 1,15 1,22 1,44 1,62 1,63 1,131 1,137 1,140 1,154 1,311 1,336 1,378 2,403 2,718 1,924 1,1479 1,1500 '?'}
+{25 1,44 1,298 1,403 1,809 1,852 1,1061 1,1359 1,1500 '?'}
+{3 1,119 1,154 1,200 1,201 1,244 1,281 1,302 1,377 1,396 1,531 1,809 1,826 1,1431 1,1436 1,1500 '?'}
+{15 1,26 1,41 1,45 1,95 1,206 1,301 1,384 1,403 2,425 1,465 1,760 1,1000 1,1069 1,1500 '?'}
+{15 1,182 1,183 1,1500 '?'}
+{0 1,3 2,5 1,7 1,13 1,19 1,20 1,25 1,36 1,55 1,77 1,92 1,155 2,156 1,171 1,406 1,432 1,436 1,664 1,1449 1,1500 '?'}
+{16 3,19 1,60 1,73 1,182 1,209 2,281 1,307 1,312 1,376 1,438 1,924 1,1123 1,1273 1,1500 '?'}
+{396 1,1218 1,1500 '?'}
+{16 1,281 1,1500 '?'}
+{0 1,135 1,200 1,1500 '?'}
+{377 1,416 1,1286 1,1294 1,1403 1,1500 '?'}
+{76 1,135 1,242 1,299 1,587 1,1273 1,1343 1,1500 '?'}
+{11 1,178 1,199 1,300 1,544 1,765 1,1309 1,1500 '?'}
+{16 1,100 1,118 1,119 1,172 1,209 1,315 1,1500 '?'}
+{113 1,182 1,299 1,312 1,321 1,953 1,1243 1,1294 1,1500 '?'}
+{3 1,26 2,113 1,171 1,183 2,204 1,300 1,416 1,869 1,1500 '?'}
+{16 1,26 3,41 1,60 1,137 1,182 1,199 1,247 1,281 1,321 1,395 1,403 1,416 1,540 1,573 1,963 1,1136 1,1435 1,1500 '?'}
+{3 1,6 1,17 1,22 1,25 1,26 1,116 1,125 1,137 1,154 1,319 1,321 1,595 1,1500 '?'}
+{16 1,26 1,183 1,924 1,1027 1,1282 1,1432 1,1500 '?'}
+{13 1,25 1,44 1,155 2,178 1,295 1,326 1,399 1,876 1,1186 1,1286 1,1500 '?'}
+{19 1,95 1,233 1,298 1,1500 '?'}
+{0 1,98 1,241 1,303 1,321 1,1500 '?'}
+{60 1,113 1,155 1,404 1,1500 '?'}
+{324 1,1272 1,1500 '?'}
+{3 2,13 1,16 2,44 1,60 1,113 1,154 1,172 1,209 1,247 1,282 2,283 1,300 1,315 1,526 1,533 1,544 1,924 1,1294 1,1500 '?'}
+{60 1,823 1,1500 '?'}
+{3 2,13 1,26 1,183 1,199 1,209 1,403 1,509 1,521 1,973 1,1500 '?'}
+{3 2,16 3,60 1,76 1,94 1,117 1,154 1,171 1,207 2,209 1,303 1,315 1,403 1,404 1,420 1,834 1,967 1,1108 1,1278 1,1500 '?'}
+{16 1,135 1,178 1,207 1,241 1,306 1,315 1,377 1,417 1,528 1,876 1,1304 1,1403 1,1434 1,1500 '?'}
+{19 1,41 1,95 1,303 1,420 1,1500 '?'}
+{13 1,16 4,88 1,95 1,234 1,313 1,404 1,515 1,1207 1,1354 1,1500 '?'}
+{0 2,2 2,3 3,5 1,10 1,19 1,20 2,26 1,84 1,111 1,119 1,154 1,308 1,446 1,967 1,1129 1,1187 1,1350 1,1356 1,1366 1,1458 1,1484 1,1500 '?'}
+{3 1,26 1,60 1,95 1,155 1,876 1,1061 1,1115 1,1500 '?'}
+{95 1,137 1,182 1,209 1,308 1,542 1,1005 1,1500 '?'}
+{60 1,155 1,1354 1,1500 '?'}
+{13 1,16 1,182 1,283 1,1086 1,1354 1,1500 '?'}
+{45 1,182 1,876 1,1036 1,1204 1,1286 1,1437 1,1500 '?'}
+{26 1,119 1,821 1,901 1,1294 1,1500 '?'}
+{1259 1,1403 1,1500 '?'}
+{2 1,26 1,44 1,95 1,281 1,308 1,321 1,970 1,1029 1,1374 1,1483 1,1500 '?'}
+{16 2,19 1,119 1,209 1,281 1,307 1,382 1,1500 '?'}
+{3 2,14 1,137 1,153 1,403 1,420 1,1202 1,1294 1,1500 '?'}
+{3 2,15 1,16 1,172 1,298 1,302 1,309 1,382 1,391 2,396 1,970 1,1061 1,1500 '?'}
+{1 1,3 2,17 1,19 2,54 1,76 1,82 1,124 1,155 1,182 2,330 1,403 2,1145 1,1323 1,1500 '?'}
+{26 1,44 1,155 1,199 1,209 1,300 1,302 1,315 1,403 1,425 1,576 1,781 1,1280 1,1500 '?'}
+{2 1,3 1,12 1,26 1,44 1,54 1,113 1,182 1,200 1,302 1,311 1,312 1,315 1,528 1,540 1,749 1,1094 1,1263 2,1500 '?'}
+{25 1,154 1,528 1,964 1,1500 '?'}
+{101 1,147 1,359 1,1453 1,1500 '?'}
+{199 2,403 1,542 1,1500 '?'}
+{16 1,178 1,382 1,1500 '?'}
+{3 1,11 1,14 1,34 1,129 1,139 1,157 1,391 1,407 1,1195 1,1500 '?'}
+{25 1,60 1,100 1,118 1,154 3,155 1,308 1,1003 1,1306 1,1500 '?'}
+{179 1,205 1,1500 '?'}
+{2 1,25 1,48 1,166 1,246 1,1500 '?'}
+{281 1,1018 1,1500 '?'}
+{3 1,95 1,172 1,303 1,1354 1,1377 2,1500 '?'}
+{3 1,117 1,182 1,396 1,508 1,876 1,1500 '?'}
+{16 1,19 1,26 1,88 1,235 1,385 1,403 1,515 1,525 1,1500 '?'}
+{16 1,311 1,403 1,526 2,1500 '?'}
+{60 1,182 1,233 1,321 1,415 1,540 1,1096 1,1263 1,1377 1,1500 '?'}
+{3 1,26 1,200 1,312 1,525 1,1187 1,1431 1,1500 '?'}
+{155 3,407 1,412 1,509 1,527 1,1132 1,1208 1,1294 1,1500 '?'}
+{155 1,183 1,308 1,315 1,403 1,416 1,509 1,1126 1,1500 '?'}
+{207 2,1286 1,1500 '?'}
+{16 2,172 1,183 1,241 1,246 1,396 1,1298 1,1342 1,1348 1,1500 '?'}
+{0 1,4 1,7 1,13 1,20 1,23 1,26 1,29 1,36 1,41 1,55 1,59 1,65 1,77 1,154 1,160 1,202 1,282 1,1456 1,1500 '?'}
+{3 1,16 1,26 1,60 1,76 1,95 2,171 2,182 2,199 1,209 1,282 1,303 1,522 1,532 1,533 1,535 1,567 1,799 1,809 1,1081 1,1292 1,1326 1,1500 '?'}
+{3 2,16 3,60 2,154 2,209 1,281 1,312 1,317 1,374 1,406 1,587 1,876 1,934 1,953 1,1294 1,1500 '?'}
+{13 1,16 2,95 1,282 1,300 1,303 1,321 1,375 1,382 1,401 1,537 1,566 1,569 1,1273 1,1500 '?'}
+{16 1,26 1,55 1,60 1,319 1,403 1,421 1,544 1,896 1,1178 1,1187 1,1188 1,1201 1,1294 1,1436 4,1500 '?'}
+{1029 1,1049 1,1258 1,1403 1,1500 '?'}
+{207 1,310 1,1500 '?'}
+{16 1,155 1,209 1,281 1,382 1,403 1,566 1,883 1,1500 '?'}
+{3 1,19 1,26 1,41 1,84 1,154 1,172 1,308 1,311 1,399 1,420 1,513 1,532 1,627 1,925 1,1024 1,1157 1,1215 1,1251 1,1377 2,1500 '?'}
+{16 1,26 1,119 1,233 1,317 1,384 1,558 1,1500 '?'}
+{26 1,41 1,95 1,119 1,181 1,182 1,303 1,324 1,401 1,1500 '?'}
+{119 1,403 1,406 1,876 1,918 1,1500 '?'}
+{26 1,153 1,155 1,1312 1,1500 '?'}
+{3 4,14 1,16 9,60 2,88 1,154 1,209 6,247 1,281 1,282 3,299 1,313 1,315 2,317 1,321 2,376 1,384 1,385 1,391 1,403 3,425 1,507 1,528 1,530 1,552 1,567 1,574 1,738 1,1005 1,1099 1,1240 1,1294 1,1298 1,1500 '?'}
+{182 1,241 1,303 1,395 1,1500 '?'}
+{308 1,324 1,607 1,1403 1,1500 '?'}
+{3 1,14 1,100 1,172 1,577 1,1500 '?'}
+{3 2,16 1,44 1,55 1,300 1,321 1,390 1,398 1,961 1,1032 1,1155 1,1227 2,1270 1,1294 2,1403 1,1500 '?'}
+{13 1,16 1,26 1,182 1,522 1,561 1,1500 '?'}
+{33 1,526 1,549 1,1500 '?'}
+{3 1,16 2,60 2,84 1,95 2,298 2,308 1,376 1,418 1,526 1,554 2,1061 1,1106 1,1139 1,1343 1,1410 1,1432 1,1436 1,1500 '?'}
+{25 1,26 1,38 1,572 1,585 1,616 1,874 1,890 1,1500 '?'}
+{11 1,13 1,41 1,84 1,94 1,95 1,302 1,307 1,1500 '?'}
+{528 1,809 1,823 1,1031 1,1500 '?'}
+{233 1,421 1,1492 1,1500 '?'}
+{13 1,16 1,281 1,1500 '?'}
+{10 1,41 1,60 1,283 2,407 1,532 1,545 1,967 1,1124 1,1161 1,1273 1,1397 1,1500 '?'}
+{26 1,41 1,60 1,95 1,154 1,282 1,303 1,375 1,400 1,412 1,545 1,1008 1,1058 1,1209 1,1303 1,1436 1,1500 '?'}
+{3 1,13 1,16 1,119 1,154 1,155 1,160 1,241 1,303 1,309 1,312 1,547 1,803 1,809 1,1047 1,1208 1,1294 1,1500 '?'}
+{0 1,3 2,5 1,13 1,15 1,18 1,19 1,26 1,27 1,37 1,81 1,112 1,122 1,158 1,326 1,328 1,705 1,901 1,1500 '?'}
+{1421 1,1500 '?'}
+{13 1,44 1,402 1,583 1,1500 '?'}
+{0 1,135 1,200 1,1500 '?'}
+{182 1,281 1,403 1,1500 '?'}
+{3 1,13 1,308 1,400 1,572 1,767 1,1500 '?'}
+{13 2,16 2,44 1,95 2,243 1,245 1,315 1,525 1,1294 1,1500 '?'}
+{295 1,1333 1,1500 '?'}
+{3 1,119 1,154 1,321 2,377 1,403 1,417 1,1000 1,1294 1,1370 1,1500 '?'}
+{16 1,19 1,41 2,54 1,84 1,95 1,119 1,295 1,325 1,423 1,778 1,970 1,986 1,1350 1,1377 2,1470 1,1500 '?'}
+{84 1,247 1,308 2,502 1,523 1,553 1,745 1,820 1,934 1,970 1,998 1,1288 1,1500 '?'}
+{3 1,16 2,60 1,119 1,321 1,970 1,1294 1,1355 1,1403 1,1500 '?'}
+{1 1,2 1,3 1,6 1,10 2,23 1,39 1,41 1,45 1,51 1,52 1,53 1,67 1,78 1,105 1,114 1,158 1,163 1,173 1,197 1,285 1,666 1,1500 '?'}
+{3 1,16 1,154 1,403 1,416 1,1263 1,1500 '?'}
+{3 1,84 1,321 1,970 1,1500 '?'}
+{16 1,60 1,293 1,804 1,1365 1,1500 '?'}
+{396 1,555 1,588 1,1500 '?'}
+{16 1,396 2,934 1,1500 '?'}
+{19 1,152 1,281 1,303 1,1331 1,1343 1,1386 1,1500 '?'}
+{0 1,2 1,5 1,8 1,14 1,15 1,18 1,26 1,37 1,41 1,45 1,90 1,97 2,119 1,154 2,162 1,610 1,650 1,671 1,716 1,731 1,1141 1,1500 '?'}
+{45 1,155 2,171 1,183 1,199 1,209 1,281 1,337 1,1257 1,1351 1,1500 '?'}
+{13 1,926 1,1500 '?'}
+{3 2,13 1,16 1,60 1,61 1,99 3,100 2,118 2,183 1,247 1,281 1,315 1,323 1,397 1,400 1,403 4,417 1,483 1,587 1,591 1,818 1,863 2,1140 1,1250 1,1259 1,1294 2,1381 1,1382 1,1403 1,1500 '?'}
+{3 2,16 2,95 1,315 1,389 1,1294 1,1500 '?'}
+{1 1,3 2,12 1,13 1,14 2,19 1,41 1,44 1,74 1,101 1,243 1,246 1,385 1,451 1,494 1,637 1,885 1,1500 '?'}
+{16 1,182 1,570 1,986 1,1292 1,1500 '?'}
+{0 1,3 1,21 1,25 1,26 1,55 1,68 1,89 1,155 1,164 1,209 1,266 1,501 1,1214 1,1403 1,1446 1,1500 '?'}
+{0 1,3 2,8 1,15 1,27 1,87 1,103 1,202 1,217 1,339 1,403 1,500 1,625 1,659 1,692 1,1500 '?'}
+{3 1,16 1,283 1,299 1,373 1,1065 1,1500 '?'}
+{117 1,209 1,549 1,1500 '?'}
+{60 1,373 1,990 1,1500 '?'}
+{16 1,300 1,1016 1,1263 1,1500 '?'}
+{15 1,16 1,26 1,84 1,155 1,302 1,316 1,324 1,557 2,562 1,820 1,902 1,1001 1,1152 1,1387 1,1500 '?'}
+{6 1,12 1,13 1,14 1,44 1,46 1,110 1,129 1,137 1,157 1,185 1,234 1,391 1,448 1,456 1,463 1,492 1,495 1,505 1,725 1,1092 1,1500 '?'}
+{790 1,1500 '?'}
+{3 1,16 1,26 1,119 2,171 1,209 1,299 1,321 1,382 1,568 1,585 1,749 1,967 1,1263 1,1500 '?'}
+{0 1,85 1,100 1,118 1,135 1,200 1,1500 '?'}
+{16 1,25 1,60 1,76 2,155 1,281 1,282 1,308 2,321 1,375 1,403 3,467 1,563 1,565 1,568 1,1294 1,1401 1,1500 '?'}
+{1 1,3 1,15 1,30 1,41 1,44 2,45 2,50 1,84 1,123 1,154 1,169 1,182 1,265 1,353 1,602 3,620 1,630 1,631 1,737 1,739 1,1500 '?'}
+{0 1,135 1,200 1,1500 '?'}
+{100 1,118 1,154 1,1000 1,1500 '?'}
+{512 1,545 1,1294 1,1423 1,1500 '?'}
+{16 1,404 1,544 1,856 1,1049 1,1325 1,1500 '?'}
+{3 1,26 1,113 1,155 1,182 1,209 1,233 2,266 2,383 1,390 1,403 1,419 1,421 1,903 1,1079 1,1088 1,1154 2,1500 '?'}
+{16 1,26 1,60 2,119 1,137 1,151 1,182 1,209 1,403 3,508 1,528 1,898 1,993 1,1123 1,1263 1,1294 1,1408 1,1409 1,1500 '?'}
+{41 1,206 2,296 1,312 1,403 1,420 1,545 1,876 1,1273 2,1500 '?'}
+{0 2,13 1,16 1,44 1,95 1,206 1,402 1,1263 1,1500 '?'}
+{3 1,403 1,1120 1,1207 1,1403 1,1500 '?'}
+{16 1,19 1,26 1,44 1,113 1,183 1,302 1,312 1,321 1,384 1,389 1,551 1,576 1,1186 1,1294 1,1500 '?'}
+{16 1,266 1,282 1,376 2,391 2,528 2,972 2,1168 1,1178 1,1280 1,1500 '?'}
+{3 1,241 1,296 1,309 1,1208 1,1500 '?'}
+{41 1,233 1,879 1,888 1,1111 1,1472 1,1473 1,1500 '?'}
+{3 1,281 1,300 1,384 1,796 1,1500 '?'}
+{3 1,13 1,16 1,19 1,26 1,182 1,281 1,315 1,373 1,384 1,463 1,545 1,552 1,567 1,1103 1,1187 1,1287 1,1294 2,1403 1,1500 '?'}
+{1295 1,1500 '?'}
+{809 1,1500 '?'}
+{3 1,26 1,45 1,84 1,178 2,209 1,373 1,420 1,540 1,783 1,879 1,984 1,1294 1,1500 '?'}
+{16 1,26 1,119 1,137 1,154 1,1500 '?'}
+{396 1,1500 '?'}
+{15 2,16 2,60 2,137 1,238 1,308 1,550 1,807 1,986 1,1317 1,1377 1,1500 '?'}
+{154 1,171 1,209 1,577 1,1294 1,1332 1,1500 '?'}
+{0 2,2 3,15 2,24 1,59 1,137 1,154 1,170 1,444 1,459 1,690 1,1480 1,1500 '?'}
+{153 1,541 1,928 1,1032 1,1184 1,1349 1,1500 '?'}
+{15 1,875 1,1073 1,1259 1,1403 1,1500 '?'}
+{3 1,26 1,119 1,403 1,407 1,924 1,1006 1,1500 '?'}
+{95 1,292 1,302 1,403 1,509 1,1294 2,1500 '?'}
+{3 1,13 1,16 1,60 1,88 1,172 1,283 1,300 1,382 1,403 1,407 1,416 1,526 1,581 1,940 1,1286 1,1294 2,1321 1,1500 '?'}
+{3 1,88 1,135 1,155 1,178 1,209 1,396 1,1500 '?'}
+{15 2,16 3,26 1,33 1,41 1,95 1,100 2,118 2,307 2,313 1,381 2,403 3,414 1,1120 2,1294 1,1403 2,1500 '?'}
+{13 1,44 1,155 1,1500 '?'}
+{113 1,307 1,315 1,381 1,752 1,1500 '?'}
+{26 1,76 1,113 1,383 1,403 1,1260 1,1310 1,1500 '?'}
+{0 1,300 1,375 1,396 1,1500 '?'}
+{16 1,26 1,44 1,282 1,375 1,1214 1,1273 1,1294 1,1500 '?'}
+{303 1,542 1,1500 '?'}
+{3 1,13 1,60 1,88 1,300 1,312 1,314 1,541 1,571 1,944 1,1500 '?'}
+{3 1,16 1,209 1,515 1,1500 '?'}
+{44 1,302 2,1123 1,1243 1,1500 '?'}
+{13 1,545 1,1294 1,1500 '?'}
+{183 1,302 1,1500 '?'}
+{3 1,178 1,406 1,876 1,1333 1,1500 '?'}
+{3 4,16 2,95 1,236 1,300 1,302 1,315 1,390 1,400 1,515 1,527 1,533 1,1263 1,1294 1,1328 1,1403 1,1500 '?'}
+{3 1,26 1,44 1,133 2,155 2,209 1,283 1,383 1,402 1,1187 1,1214 1,1294 1,1500 '?'}
+{0 1,16 1,19 1,25 1,60 2,95 2,119 1,137 1,153 1,171 1,178 1,247 1,266 1,282 1,303 1,314 1,321 1,381 2,385 1,403 3,530 1,541 1,560 1,928 1,1221 1,1242 1,1294 3,1306 1,1500 '?'}
+{0 1,3 1,21 1,25 1,26 1,55 1,68 1,89 1,155 1,164 1,209 1,266 1,501 1,1214 1,1403 1,1451 1,1500 '?'}
+{154 1,302 1,403 1,704 1,1500 '?'}
+{26 1,44 1,155 1,580 1,1243 1,1500 '?'}
+{45 1,155 1,623 1,1500 '?'}
+{16 1,44 1,60 1,95 1,929 1,1069 1,1500 '?'}
+{13 1,16 2,25 1,26 1,60 1,119 1,283 1,300 1,403 1,407 2,532 1,584 1,1294 2,1321 1,1344 1,1354 1,1403 1,1500 '?'}
+{860 1,1500 '?'}
+{13 1,16 1,33 1,1028 1,1500 '?'}
+{3 1,16 2,60 1,199 1,281 1,309 1,419 1,539 1,568 1,809 1,1500 '?'}
+{3 1,60 1,172 1,199 1,207 1,241 1,312 1,1500 '?'}
+{16 1,45 1,172 2,296 1,312 1,525 1,1342 1,1500 '?'}
+{3 1,13 1,16 1,60 1,98 1,133 1,155 1,549 1,1500 '?'}
+{16 1,76 1,153 1,206 1,307 1,554 1,1259 1,1500 '?'}
+{3 1,26 1,95 3,266 1,283 1,377 1,382 1,407 1,876 2,1354 1,1403 5,1500 '?'}
+{0 2,3 1,13 2,25 1,26 1,173 1,384 1,617 2,1127 1,1443 1,1500 '?'}
+{3 1,13 1,1084 1,1116 1,1500 '?'}
+{155 1,315 1,854 1,1044 1,1275 2,1422 1,1494 1,1500 '?'}
+{178 1,315 1,331 1,401 1,528 1,1500 '?'}
+{183 1,199 2,209 1,403 1,772 1,1500 '?'}
+{155 1,171 1,1030 1,1089 1,1500 '?'}
+{3 1,16 2,60 2,84 1,95 2,298 2,308 1,376 1,418 1,526 1,554 2,1061 1,1106 1,1139 1,1343 1,1410 1,1432 1,1436 1,1500 '?'}
+{16 1,26 2,100 1,118 1,155 1,315 1,815 1,922 1,1032 1,1500 '?'}
+{0 1,3 1,5 1,26 2,31 1,38 1,86 1,97 1,98 1,134 1,223 1,267 1,273 1,278 1,290 1,344 1,360 1,1037 1,1403 1,1411 1,1476 1,1500 '?'}
+{19 1,1403 1,1500 '?'}
+{0 1,3 1,5 1,7 1,8 1,32 1,39 1,72 1,76 1,107 1,119 1,157 1,171 1,182 1,199 1,233 1,403 1,518 1,732 1,741 1,1352 1,1450 1,1457 1,1490 1,1500 '?'}
+{3 1,60 1,179 2,295 1,391 1,414 1,514 1,523 1,589 1,786 2,970 2,1343 1,1500 '?'}
+{3 1,16 1,26 1,88 1,303 2,384 1,945 1,1054 1,1294 2,1403 1,1489 1,1500 '?'}
+{16 1,41 2,95 1,113 2,153 2,179 1,247 1,302 2,309 1,310 1,315 1,406 1,502 2,578 1,936 1,970 1,1301 1,1342 1,1394 1,1500 '?'}
+{3 1,100 1,118 1,199 1,247 1,1500 '?'}
+{95 1,113 1,154 1,182 1,183 1,209 3,313 1,569 1,758 1,1032 1,1133 1,1294 2,1500 '?'}
+{98 1,238 1,907 1,1033 1,1500 '?'}
+{3 1,16 2,119 1,528 1,552 1,1500 '?'}
+{3 3,16 3,19 1,60 2,95 1,137 1,155 1,283 1,315 1,390 1,417 1,425 2,844 1,970 1,1207 1,1354 1,1500 '?'}
+{3 1,179 1,294 1,300 1,308 1,373 1,925 1,1500 '?'}
+{41 1,60 1,294 1,579 1,1500 '?'}
+{2 1,16 1,26 3,41 2,55 1,60 1,153 2,155 1,209 1,233 1,282 2,298 2,307 1,315 1,317 1,384 1,387 1,421 1,531 1,534 1,746 1,805 1,825 1,920 1,941 3,981 2,1005 1,1041 1,1055 1,1061 2,1109 1,1134 2,1162 1,1205 1,1336 1,1395 1,1429 1,1500 '?'}
+{19 1,44 1,100 1,154 1,209 2,303 1,1500 '?'}
+{3 1,15 1,298 2,311 1,557 1,1500 '?'}
+{13 1,183 1,301 1,321 1,559 1,1264 1,1500 '?'}
+{3 1,15 1,172 1,285 1,315 1,321 1,396 1,403 1,417 1,420 1,1054 1,1314 1,1403 1,1500 '?'}
+{16 2,247 1,396 1,876 1,1307 1,1405 1,1500 '?'}
+{3 1,16 1,45 1,172 1,241 1,299 1,396 1,570 1,986 1,1292 1,1343 1,1500 '?'}
+{16 1,178 1,182 1,308 1,309 1,311 1,579 1,1285 1,1500 '?'}
+{2 3,3 1,12 1,13 1,19 1,29 1,35 1,44 1,76 1,106 1,180 1,283 1,286 1,307 1,534 1,881 1,1214 1,1343 1,1500 '?'}
+{303 1,417 1,1500 '?'}
+{3 1,16 1,182 1,233 2,247 1,281 1,391 1,420 1,1410 1,1500 '?'}
+{3 1,16 1,154 1,182 1,403 1,416 1,577 1,1263 1,1500 '?'}
+{1 1,3 3,5 1,15 1,20 1,23 1,26 1,35 1,37 1,45 1,218 1,424 1,481 1,600 1,604 1,614 1,635 1,645 1,668 1,678 1,697 1,856 1,1500 '?'}
+{3 1,374 1,558 1,812 1,876 1,1500 '?'}
+{16 1,60 1,135 1,207 1,315 1,382 1,568 1,967 1,1299 1,1500 '?'}
+{3 1,12 1,60 1,135 1,154 1,199 1,302 1,303 2,306 1,403 2,528 1,770 1,774 1,803 1,1294 1,1377 1,1500 '?'}
+{26 1,209 1,1032 1,1280 1,1294 1,1500 '?'}
+{44 1,60 1,135 1,155 1,323 1,384 1,396 1,527 1,570 1,601 1,1001 1,1292 1,1500 '?'}
+{19 1,45 1,312 1,525 1,806 1,1209 1,1500 '?'}
+{3 1,44 1,45 1,88 1,95 2,113 1,155 1,171 1,1205 1,1243 1,1273 1,1500 '?'}
+{207 2,420 1,528 1,1403 1,1500 '?'}
+{3 1,12 1,13 1,76 1,95 2,182 2,209 1,301 1,313 1,396 1,403 1,964 1,1294 1,1436 2,1500 '?'}
+{157 1,303 1,377 1,516 2,1500 '?'}
+{16 2,76 1,302 1,307 2,400 1,1263 1,1500 '?'}
+{3 1,207 2,391 1,787 1,1138 1,1403 1,1439 1,1500 '?'}
+{295 1,303 1,1500 '?'}
+{1 1,3 2,6 1,9 1,26 1,27 1,44 1,45 1,133 1,143 1,165 1,180 1,201 1,260 1,475 1,637 1,1486 1,1500 '?'}
+{16 1,556 1,562 1,745 1,788 1,949 1,1500 '?'}
+{0 1,16 1,25 1,95 1,182 1,206 1,587 1,1263 1,1500 '?'}
+{154 1,302 1,878 1,1500 '?'}
+{3 1,16 1,26 1,76 1,565 1,573 1,1284 1,1500 '?'}
+{300 1,303 1,307 1,318 1,321 1,403 1,908 1,963 2,1022 1,1111 1,1294 1,1403 2,1500 '?'}
+{16 1,26 1,117 1,119 2,154 1,182 1,308 1,403 2,407 1,1265 1,1294 2,1500 '?'}
+{571 1,1306 1,1500 '?'}
+{3 1,19 1,172 1,207 1,1500 '?'}
+{294 1,298 1,324 1,384 1,392 2,514 1,562 1,578 1,1076 1,1500 '?'}
+{60 2,137 1,182 1,209 2,375 1,384 3,550 1,558 1,570 1,940 1,986 1,1188 1,1246 1,1292 1,1500 '?'}
+{3 1,16 2,60 1,154 2,178 1,385 1,553 1,1500 '?'}
+{119 1,302 1,308 1,315 1,1273 1,1500 '?'}
+{95 1,154 1,199 1,209 1,305 1,315 1,415 1,1061 1,1500 '?'}
+{3 2,16 2,233 1,300 1,316 1,569 2,1065 1,1343 1,1500 '?'}
+{44 1,282 1,298 1,1500 '?'}
+{3 1,13 1,16 2,60 1,88 1,137 1,171 2,209 2,283 1,297 1,306 2,876 2,972 1,1069 1,1500 '?'}
+{45 1,119 1,155 1,206 1,209 1,412 1,416 1,873 1,1253 1,1298 2,1340 1,1347 1,1500 '?'}
+{16 1,26 1,45 1,209 3,233 1,281 1,282 1,302 1,317 1,382 1,542 1,1169 1,1273 1,1377 1,1500 '?'}
+{26 1,154 1,247 1,403 1,416 1,546 1,1500 '?'}
+{16 1,95 1,809 1,1336 1,1500 '?'}
+{16 1,26 1,44 1,282 1,1009 1,1500 '?'}
+{1 1,3 2,9 1,15 1,19 1,27 1,41 1,52 1,84 1,120 1,180 1,516 1,590 1,592 1,615 1,644 1,649 1,656 1,669 1,684 1,687 1,704 1,715 1,743 1,824 1,1095 1,1233 1,1500 '?'}
+{3 1,15 1,247 1,297 1,541 1,901 1,1000 1,1122 1,1214 1,1294 1,1500 '?'}
+{16 1,88 1,503 1,1500 '?'}
+{16 2,95 1,113 1,179 2,183 1,266 1,282 1,308 1,321 1,323 1,404 1,516 1,528 1,546 1,820 1,955 1,1425 1,1500 '?'}
+{155 1,182 1,400 1,541 1,1096 1,1223 1,1271 1,1436 2,1500 '?'}
+{153 1,199 1,308 1,312 1,528 1,876 1,934 1,1256 1,1294 1,1500 '?'}
+{3 1,178 1,1294 1,1500 '?'}
+{19 1,133 1,137 1,153 1,209 1,281 1,312 1,403 1,527 1,541 1,542 1,550 1,794 1,962 1,1031 1,1077 1,1245 1,1273 1,1294 2,1383 1,1423 1,1500 '?'}
+{0 1,3 2,16 3,60 1,95 1,113 1,119 2,199 1,209 1,282 1,299 1,324 1,390 1,396 2,552 1,876 1,1220 1,1294 1,1336 1,1371 1,1500 '?'}
+{0 1,23 1,25 1,26 1,32 1,63 1,71 1,106 1,116 1,190 1,229 1,277 1,608 1,628 1,646 1,661 1,667 1,679 1,681 1,703 1,1403 1,1500 '?'}
+{3 1,12 1,13 1,16 1,33 1,60 1,76 1,88 1,171 1,199 1,247 1,314 1,526 1,527 1,876 1,1034 1,1294 1,1500 '?'}
+{282 1,295 1,300 1,315 1,1500 '?'}
+{396 1,1500 '?'}
+{16 1,135 1,281 1,315 1,321 1,382 1,558 1,1216 1,1500 '?'}
+{13 1,317 1,978 1,1500 '?'}
+{0 1,2 1,3 2,13 1,15 1,98 1,137 1,151 1,229 1,252 1,450 1,680 1,706 1,729 1,896 1,1262 1,1294 1,1500 '?'}
+{15 1,171 1,401 1,1500 '?'}
+{3 1,44 1,183 2,209 1,299 1,381 1,416 1,551 1,986 1,1500 '?'}
+{16 1,26 1,135 1,155 1,209 1,247 1,281 2,295 1,315 1,396 1,400 1,403 1,463 1,527 2,618 1,619 1,807 1,817 1,876 1,1294 1,1500 '?'}
+{26 1,95 1,119 1,155 2,182 1,199 1,245 1,300 1,302 1,321 2,403 1,417 1,509 1,529 1,699 1,749 1,1032 1,1050 1,1061 1,1102 1,1294 2,1360 1,1500 '?'}
+{13 1,95 1,172 1,182 1,823 1,1199 1,1273 1,1294 1,1500 '?'}
+{13 1,44 1,548 1,1500 '?'}
+{16 1,199 1,403 1,416 1,1294 1,1500 '?'}
+{3 1,13 1,420 1,528 1,1403 1,1500 '?'}
+{16 1,60 1,155 1,178 1,182 1,403 1,1259 1,1263 1,1273 1,1294 1,1347 1,1500 '?'}
+{19 1,60 1,303 1,748 1,1028 1,1500 '?'}
+{16 1,19 1,155 1,238 1,302 1,303 1,403 1,425 1,538 1,876 1,939 1,1038 1,1500 '?'}
+{16 2,113 1,183 1,282 1,309 1,321 1,382 1,401 1,1500 '?'}
+{2 1,3 1,15 1,25 1,26 3,33 1,84 1,94 1,178 1,391 1,403 2,686 1,957 1,989 1,1293 1,1384 1,1500 '?'}
+{3 1,155 1,171 1,302 1,324 1,390 1,512 1,876 1,1144 1,1292 1,1500 '?'}
+{26 1,33 1,44 1,182 1,199 1,300 1,377 1,403 1,532 1,898 1,1403 1,1500 '?'}
+{3 1,13 1,16 1,88 1,95 1,150 1,283 1,382 1,407 1,503 1,876 1,1294 1,1500 '?'}
+{3 1,19 1,178 1,199 1,209 1,303 1,560 1,803 1,809 1,1052 1,1150 1,1377 1,1500 '?'}
+{0 1,2 1,12 1,15 1,44 1,49 1,67 1,119 1,145 1,233 1,244 1,245 1,248 1,308 1,345 1,363 1,371 1,406 1,433 1,460 1,463 2,471 1,489 1,1286 1,1377 1,1500 '?'}
+{182 1,303 1,403 1,406 1,1500 '?'}
+{0 1,2 1,15 1,44 1,56 1,59 1,63 1,68 1,85 1,127 1,137 1,170 1,219 1,232 1,236 1,288 1,335 1,444 1,627 1,986 1,1294 1,1475 1,1500 '?'}
+{155 1,182 1,391 1,771 1,1211 1,1343 1,1500 '?'}
+{305 1,325 2,391 1,1500 '?'}
+{1500 '?'}
+{16 1,60 1,313 1,396 1,528 1,1028 1,1500 '?'}
+{84 1,247 1,281 1,540 1,1500 '?'}
+{3 2,11 1,95 1,100 1,135 1,154 1,182 1,241 1,299 1,301 1,308 1,399 1,927 1,970 1,1263 1,1291 1,1343 1,1500 '?'}
+{16 1,208 1,209 2,281 2,381 1,419 1,567 2,1500 '?'}
+{3 1,55 1,88 1,100 1,1250 1,1500 '?'}
+{3 2,60 2,281 1,382 1,528 1,534 1,538 1,802 1,1188 1,1305 2,1403 1,1500 '?'}
+{95 1,512 2,1452 1,1500 '?'}
+{2 1,3 2,10 1,26 1,33 1,44 2,45 1,55 1,152 1,178 1,199 1,403 1,595 1,598 1,723 1,1209 1,1500 '?'}
+{44 1,206 1,407 1,1500 '?'}
+{1 1,2 1,3 1,11 1,19 1,30 2,45 2,50 1,84 1,94 1,106 1,117 1,133 1,149 1,178 1,199 1,268 1,315 1,346 1,368 1,370 1,391 1,469 1,499 1,663 1,1188 1,1294 1,1500 '?'}
+{13 1,19 1,135 1,403 1,1413 1,1500 '?'}
+{98 1,183 1,1500 '?'}
+{15 1,16 1,172 1,321 1,377 1,1227 1,1294 1,1500 '?'}
+{3 1,113 1,154 1,199 1,281 2,282 1,391 2,551 1,1500 '?'}
+{526 1,1500 '?'}
+{26 1,44 1,117 1,119 1,209 1,282 1,403 1,901 1,1500 '?'}
+{135 1,308 1,324 1,786 1,970 3,1399 1,1500 '?'}
+{396 1,1500 '?'}
+{16 1,178 1,281 1,573 1,1099 1,1500 '?'}
+{3 1,16 1,19 1,26 2,33 1,119 1,155 1,182 1,209 1,308 1,321 1,407 1,542 1,551 1,867 1,966 1,1029 1,1065 1,1087 1,1500 '?'}
+{3 1,13 2,15 1,16 1,25 1,36 1,60 2,95 2,98 1,119 1,137 1,180 1,302 2,314 1,321 1,385 1,585 1,694 1,797 1,876 1,924 1,1128 1,1273 1,1286 1,1336 1,1436 2,1500 '?'}
+{199 1,241 1,964 1,1377 1,1500 '?'}
+{95 1,315 1,1500 '?'}
+{3 1,137 1,155 1,241 1,535 1,542 1,548 1,578 1,636 1,800 1,970 1,1048 1,1054 1,1131 1,1147 1,1294 1,1500 '?'}
+{3 1,5 1,15 1,26 3,27 1,37 1,38 1,41 2,86 1,109 1,112 1,119 1,122 1,132 1,139 1,245 1,262 1,264 1,446 1,735 1,1403 1,1500 '?'}
+{0 1,19 1,1500 '?'}
+{0 1,95 1,528 1,803 1,1500 '?'}
+{0 1,25 1,26 1,95 2,300 1,361 1,391 1,532 1,544 1,967 1,981 1,1029 1,1292 1,1336 1,1390 1,1500 '?'}
+{45 1,84 1,310 1,384 1,1500 '?'}
+{19 1,25 1,154 1,182 1,311 1,391 1,531 1,1494 1,1500 '?'}
+{44 1,155 1,199 1,876 1,884 1,1154 1,1500 '?'}
+{3 1,112 1,178 1,1500 '?'}
+{13 1,155 1,302 1,315 1,321 1,373 1,733 1,1385 1,1500 '?'}
+{16 1,182 1,1348 1,1500 '?'}
+{41 2,55 1,84 1,95 1,113 1,179 3,182 1,206 1,309 1,315 1,524 1,533 1,921 1,1255 1,1500 '?'}
+{3 1,95 1,967 1,1500 '?'}
+{16 1,41 1,95 1,113 1,172 1,396 1,986 1,1010 1,1292 1,1350 1,1500 '?'}
+{179 1,316 1,1500 '?'}
+{16 1,26 2,102 2,155 3,183 1,243 1,246 1,266 2,284 1,297 1,298 1,302 1,541 1,557 1,876 1,900 1,981 2,982 2,1054 3,1095 1,1120 2,1294 1,1500 '?'}
+{172 1,207 2,417 1,515 1,536 1,1294 1,1500 '?'}
+{16 1,26 1,60 1,155 1,183 1,247 1,308 1,315 1,396 1,618 1,970 1,1099 1,1280 1,1416 1,1500 '?'}
+{26 1,119 1,321 1,391 1,418 1,532 1,1189 1,1500 '?'}
+{16 2,41 1,44 1,60 1,76 1,154 1,243 1,303 1,311 2,404 1,528 1,803 1,964 1,1273 1,1294 2,1500 '?'}
+{3 2,16 1,25 1,60 1,100 1,118 1,119 1,137 1,155 1,171 2,183 1,302 2,303 1,391 1,552 1,809 1,932 1,1264 1,1294 1,1500 '?'}
+{3 2,13 1,15 1,17 1,19 1,22 1,129 1,166 1,178 1,385 1,391 1,423 1,970 1,1273 1,1369 1,1403 1,1500 '?'}
+{26 1,247 1,406 1,514 1,543 1,1500 '?'}
+{3 3,5 1,7 2,13 1,15 1,25 1,38 1,39 1,55 1,98 1,130 1,155 1,171 1,182 1,332 1,455 1,579 1,894 1,1000 1,1025 1,1239 1,1403 1,1460 1,1500 '?'}
+{95 1,246 1,528 1,1500 '?'}
+{16 2,60 1,113 1,207 1,234 1,241 1,298 1,528 1,970 1,1217 1,1243 1,1500 '?'}
+{3 1,9 2,15 1,137 2,155 3,233 2,266 1,285 1,394 1,403 1,406 1,868 1,1222 1,1225 1,1500 '?'}
+{26 1,1190 1,1286 1,1294 1,1500 '?'}
+{1 1,3 2,6 1,9 1,26 1,28 1,44 1,45 1,126 1,143 1,165 1,180 1,214 1,260 1,341 1,475 1,493 1,672 1,1500 '?'}
+{3 1,16 2,25 1,26 1,44 1,119 1,152 1,182 2,183 1,302 2,391 2,403 1,420 1,509 1,528 1,795 1,840 1,924 1,970 1,1082 1,1138 1,1263 1,1292 1,1294 1,1311 1,1500 '?'}
+{308 1,804 1,970 1,1336 1,1500 '?'}
+{11 1,26 1,50 1,84 1,110 1,151 1,240 1,302 1,311 1,395 1,403 1,463 1,727 1,1032 1,1118 1,1343 1,1500 '?'}
+{16 3,183 1,294 1,298 3,299 1,392 1,404 1,419 1,502 1,562 1,1061 1,1500 '?'}
+{172 1,241 1,299 1,395 1,823 1,1500 '?'}
+{84 1,155 1,420 1,516 1,554 1,1500 '?'}
+{16 1,60 1,154 1,403 1,530 1,1348 1,1500 '?'}
+{182 1,308 1,403 1,876 1,1370 1,1500 '?'}
+{2 1,3 1,13 1,14 1,17 1,22 1,26 1,35 1,44 1,76 1,137 2,171 1,178 1,280 1,356 2,403 1,595 1,605 1,632 1,638 1,662 1,714 1,730 1,733 1,1294 1,1500 '?'}
+{321 1,403 1,407 1,545 1,1056 1,1131 1,1137 1,1500 '?'}
+{16 1,119 1,245 1,303 1,307 1,407 1,1500 '?'}
+{3 1,13 1,25 1,178 1,530 1,563 1,877 1,1259 1,1500 '?'}
+{100 1,118 1,183 1,207 1,391 2,856 1,876 1,1500 '?'}
+{98 1,403 1,1500 '?'}
+{3 1,25 1,295 1,1127 1,1500 '?'}
+{296 1,299 1,1500 '?'}
+{0 1,1 1,2 1,10 3,15 1,24 1,62 1,85 1,144 1,151 1,154 2,170 1,173 1,174 1,233 1,292 1,354 1,634 1,641 1,701 1,1500 '?'}
+{16 1,26 1,88 1,209 1,235 1,382 1,567 1,1247 1,1500 '?'}
+{247 1,281 1,375 1,1500 '?'}
+{0 1,4 1,19 1,41 1,45 1,74 1,114 1,168 1,177 1,210 1,242 1,372 1,430 1,442 1,453 1,464 1,467 1,472 1,492 1,495 1,497 1,498 1,654 1,688 1,1500 '?'}
+{14 1,41 1,84 1,135 1,391 1,516 1,1500 '?'}
+{3 1,172 1,247 1,300 1,876 1,1500 '?'}
+{3 1,137 1,1294 1,1306 1,1500 '?'}
+{26 1,36 1,41 1,45 1,119 1,137 1,154 1,155 1,231 1,253 1,266 3,269 1,272 1,315 1,318 1,387 1,1444 1,1500 '?'}
+{16 1,44 1,54 1,200 1,397 1,415 1,1354 1,1500 '?'}
+{294 1,384 1,417 1,557 1,1500 '?'}
+{16 1,26 1,199 1,241 1,283 1,529 1,1263 1,1500 '?'}
+{19 1,295 1,299 1,310 1,377 1,588 1,1500 '?'}
+{3 1,154 1,200 1,303 1,965 1,1403 1,1500 '?'}
+{60 1,303 1,307 1,1500 '?'}
+{0 1,2 2,3 1,10 1,13 1,19 1,43 1,62 1,63 1,68 1,84 1,154 1,174 1,219 1,236 1,288 1,378 1,385 1,639 1,924 1,986 1,1500 '?'}
+{3 1,20 1,183 1,403 1,836 1,1054 1,1500 '?'}
+{247 1,528 1,1500 '?'}
+{3 1,119 1,281 1,285 1,302 1,419 1,551 1,983 1,1500 '?'}
+{0 1,2 1,15 1,24 1,84 1,85 1,144 1,154 3,170 1,174 1,232 1,288 1,292 1,320 1,354 1,599 1,1294 1,1364 1,1500 '?'}
+{26 1,44 1,137 1,233 1,281 1,373 1,403 1,511 2,801 1,872 1,970 1,1151 1,1500 '?'}
+{3 1,425 1,809 1,1500 '?'}
+{3 2,25 1,182 1,775 1,1500 '?'}
+{16 1,119 1,182 1,281 1,390 1,809 1,1500 '?'}
+{44 1,154 1,308 1,406 1,1500 '?'}
+{16 2,95 1,113 1,303 1,403 1,515 1,1294 1,1500 '?'}
+{26 1,119 1,155 2,209 1,246 2,303 1,306 1,412 1,425 1,538 1,842 1,876 1,912 1,923 1,1121 1,1148 1,1160 1,1201 1,1292 1,1357 1,1500 '?'}
+{0 2,14 1,41 1,54 1,137 1,182 1,191 1,257 1,286 1,380 1,413 1,702 1,764 1,1077 1,1273 1,1294 2,1500 '?'}
+{3 1,310 1,375 1,1237 1,1500 '?'}
+{44 1,155 1,209 1,281 1,403 1,404 1,1500 '?'}
+{60 1,155 1,182 1,391 1,1179 1,1294 1,1500 '?'}
+{3 2,15 1,26 1,298 1,391 1,824 1,1202 1,1223 1,1500 '?'}
+{4 1,60 1,98 1,178 1,182 1,301 1,312 1,528 1,1500 '?'}
+{12 1,16 1,95 1,281 1,528 1,745 1,1068 1,1431 1,1500 '?'}
+{16 1,60 1,102 1,112 1,113 1,137 1,178 1,302 1,311 1,383 1,391 1,421 1,809 1,1065 1,1117 1,1201 1,1500 '?'}
+{3 3,25 1,55 1,113 1,178 1,199 1,266 1,302 1,306 1,308 1,403 1,913 1,964 1,1071 1,1138 1,1214 1,1431 1,1500 '?'}
+{3 1,155 1,403 1,1134 1,1500 '?'}
+{155 1,206 1,296 1,299 1,315 1,528 1,555 1,1243 1,1500 '?'}
+{299 1,396 1,1500 '?'}
+{418 1,586 1,1500 '?'}
+{16 1,95 1,315 1,391 1,1500 '?'}
+{44 1,85 1,95 1,113 1,135 1,182 1,242 1,307 1,321 1,1500 '?'}
+{0 1,13 1,15 1,19 1,92 1,109 1,121 1,130 1,132 1,141 1,361 1,482 1,596 1,606 1,621 1,640 1,642 1,643 1,658 1,665 1,698 1,720 1,803 1,1500 '?'}
+{3 1,15 1,26 1,178 1,199 1,525 1,1500 '?'}
+{3 2,16 1,119 1,153 1,171 1,299 1,319 1,376 1,381 1,1195 1,1273 1,1294 1,1500 '?'}
+{44 1,155 1,156 1,182 1,1379 1,1500 '?'}
+{3 1,384 1,1500 '?'}
+{135 1,309 1,391 1,1333 1,1500 '?'}
+{15 2,33 1,76 1,98 1,100 1,118 1,153 2,155 1,182 1,209 1,236 1,309 1,374 1,403 1,414 1,541 1,824 1,1286 1,1500 '?'}
+{41 1,60 1,391 1,418 1,784 1,1500 '?'}
+{16 1,281 1,282 1,324 1,745 1,1258 1,1500 '?'}
+{3 1,16 1,88 1,178 1,209 1,1294 1,1500 '?'}
+{241 1,302 1,321 1,420 1,747 1,1500 '?'}
+{15 1,16 2,45 1,137 1,155 1,183 1,199 1,282 1,303 1,407 1,1113 1,1154 2,1298 1,1376 1,1500 '?'}
+{113 1,182 1,210 1,809 1,1500 '?'}
+{199 1,300 1,302 1,390 1,1500 '?'}
+{13 1,28 1,44 1,155 1,274 2,302 1,385 1,1500 '?'}
+{0 1,20 1,44 1,98 1,155 1,235 1,402 1,1292 1,1436 1,1500 '?'}
+{88 1,555 1,788 1,1500 '?'}
+{41 2,113 1,241 1,372 1,567 1,924 1,970 1,1029 1,1500 '?'}
+{45 1,134 1,299 1,396 3,548 1,571 1,1500 '?'}
+{178 1,382 1,417 1,1500 '?'}
+{3 2,113 1,281 1,283 3,315 1,390 2,421 1,528 1,533 2,809 2,876 1,1152 1,1346 1,1436 2,1500 '?'}
+{16 1,26 1,44 1,199 1,247 1,315 1,390 1,403 1,412 1,527 1,567 1,924 1,1000 1,1294 2,1377 1,1500 '?'}
+{3 1,207 1,299 1,399 1,1403 1,1500 '?'}
+{310 1,1215 1,1500 '?'}
+{303 1,803 1,1500 '?'}
+{2 1,16 1,94 1,171 1,303 1,312 1,525 1,528 1,1273 1,1286 1,1294 1,1343 1,1376 1,1500 '?'}
+{16 1,19 1,60 1,172 1,209 1,396 1,1178 1,1500 '?'}
+{3 1,88 1,182 1,199 1,391 1,1500 '?'}
+{3 1,16 1,44 1,172 1,536 1,1294 1,1429 1,1500 '?'}
+{396 1,1500 '?'}
+{0 1,60 1,95 1,385 1,1043 1,1500 '?'}
+{13 1,16 1,26 1,95 1,182 1,266 1,281 1,377 1,422 1,568 1,1500 '?'}
+{503 1,915 1,1403 1,1500 '?'}
+{25 1,88 1,155 1,157 2,166 1,381 1,391 1,468 1,572 1,999 1,1440 1,1496 1,1500 '?'}
+{113 1,373 1,809 1,1500 '?'}
+{98 1,245 1,391 1,1500 '?'}
+{19 1,303 1,901 1,964 1,1500 '?'}
+{3 1,16 2,25 1,44 1,95 1,171 1,174 1,182 2,245 1,247 1,312 1,315 1,343 1,403 1,567 1,819 1,1243 1,1273 1,1294 2,1348 1,1375 1,1429 1,1500 '?'}
+{2 1,3 1,16 1,44 1,113 1,117 1,153 1,182 1,209 1,374 1,375 1,384 1,403 1,579 1,928 1,953 1,1294 1,1316 1,1500 '?'}
+{3 4,16 2,95 1,154 1,155 3,182 2,183 1,281 3,297 1,299 1,302 1,303 2,377 1,403 3,420 2,511 1,528 2,535 1,539 1,542 1,564 1,809 2,876 1,970 2,1294 3,1431 2,1500 '?'}
+{3 1,16 2,25 1,26 1,84 1,154 1,178 1,199 1,233 2,247 1,308 1,315 1,321 1,323 1,331 1,377 1,403 1,452 1,508 1,551 1,552 1,1215 1,1403 1,1468 1,1500 '?'}
+{3 1,26 1,45 1,137 1,182 1,183 1,233 1,246 1,281 1,283 1,306 1,311 1,407 1,528 1,1040 1,1083 1,1166 1,1201 1,1377 1,1500 '?'}
+{3 2,16 1,44 1,95 1,119 1,281 1,970 1,1292 1,1377 2,1500 '?'}
+{1015 1,1500 '?'}
+{891 1,1266 1,1500 '?'}
+{0 1,19 1,21 1,36 1,41 1,55 1,74 1,164 1,245 1,426 1,437 1,457 1,479 1,1032 1,1273 1,1429 1,1441 1,1500 '?'}
+{0 1,4 1,13 1,19 1,41 1,114 1,168 1,177 1,210 1,242 1,372 1,430 1,453 1,464 1,467 1,472 1,497 1,498 1,654 1,688 1,1500 '?'}
+{16 1,200 1,396 1,876 1,1500 '?'}
+{2 1,3 1,12 1,26 1,29 1,30 2,33 1,76 1,117 1,133 1,178 1,199 1,265 1,299 1,648 1,1500 '?'}
+{1500 '?'}
+{16 1,60 1,100 1,118 1,209 1,312 1,586 1,1500 '?'}
+{3 1,16 1,316 1,809 1,1065 1,1500 '?'}
+{154 1,179 1,308 1,970 1,1500 '?'}
+{26 1,183 1,393 1,1500 '?'}
+{16 1,119 1,561 1,1500 '?'}
+{45 1,101 1,300 1,375 1,390 1,1039 1,1500 '?'}
+{26 2,113 1,133 2,282 2,302 1,421 1,587 2,901 1,1294 1,1370 1,1500 '?'}
+{15 1,16 1,154 1,182 1,373 1,1500 '?'}
+{16 1,396 1,970 1,1259 1,1500 '?'}
+{44 1,60 1,575 1,779 1,1051 1,1500 '?'}
+{14 1,16 1,208 1,209 2,302 1,381 1,403 1,419 1,567 2,1031 1,1294 1,1500 '?'}
+{41 1,298 1,302 1,303 1,312 1,375 1,540 1,550 1,1354 1,1419 1,1500 '?'}
+{16 1,543 1,1500 '?'}
+{1 1,3 2,5 1,13 1,14 2,22 1,41 2,64 1,151 1,165 1,166 1,171 1,203 1,221 1,286 1,321 1,462 1,518 1,689 1,814 1,970 1,1500 '?'}
+{3 1,15 1,19 1,26 1,55 1,84 1,100 1,118 1,178 1,183 1,199 1,308 1,582 1,809 1,876 1,928 1,996 1,1248 1,1273 1,1294 1,1346 1,1500 '?'}
+{16 1,182 1,206 1,296 1,300 1,375 1,406 1,810 1,1436 1,1500 '?'}
+{0 1,3 1,95 1,302 1,315 1,1429 1,1500 '?'}
+{16 1,76 1,113 1,154 1,299 1,307 1,1263 1,1500 '?'}
+{809 1,1208 1,1500 '?'}
+{27 1,119 1,153 1,824 1,1286 1,1500 '?'}
+{26 1,183 1,407 1,416 1,1214 1,1500 '?'}
+{95 1,155 1,391 1,1075 1,1315 2,1436 1,1500 '?'}
+{16 1,312 2,374 1,382 1,395 1,1029 1,1063 1,1500 '?'}
+{3 1,153 1,155 1,178 1,182 1,419 1,509 1,527 1,901 1,1343 1,1500 '?'}
+{16 1,41 1,45 1,113 1,515 1,759 1,970 1,1028 1,1046 1,1500 '?'}
+{112 1,182 1,209 1,303 1,747 1,1500 '?'}
+{16 3,296 1,299 1,392 1,502 1,572 1,925 1,970 1,1135 1,1500 '?'}
+{60 1,241 1,303 1,972 1,1264 1,1500 '?'}
+{3 1,60 1,95 1,206 1,311 1,420 1,887 1,1500 '?'}
+{0 1,4 1,13 3,30 1,34 1,35 1,44 1,48 1,84 1,98 1,129 1,196 1,208 1,302 1,314 1,340 1,1463 1,1500 '?'}
+{3 1,45 1,206 1,299 1,420 1,624 1,1500 '?'}
+{3 1,403 1,964 1,1028 1,1311 1,1500 '?'}
+{0 1,25 1,112 1,117 1,303 1,1500 '?'}
+{2 1,45 1,113 1,302 2,303 1,321 1,942 1,1174 1,1500 '?'}
+{16 1,44 1,155 1,182 1,209 1,303 1,391 1,396 1,403 1,407 1,1026 1,1292 1,1500 '?'}
+{0 1,2 1,19 1,41 1,44 1,84 1,94 1,155 1,242 1,261 1,372 1,441 1,443 1,447 1,449 1,473 1,507 1,809 1,1273 1,1500 '?'}
+{3 2,16 2,19 1,26 1,88 1,98 1,119 1,178 1,180 1,293 1,407 1,528 1,549 1,746 1,1500 '?'}
+{119 1,210 1,384 1,407 1,504 1,509 1,862 1,1141 1,1500 '?'}
+{3 2,16 2,113 1,294 1,302 1,384 1,582 1,809 1,1263 1,1500 '?'}
+{3 1,178 1,300 1,390 1,398 1,1500 '?'}
+{11 1,307 1,312 1,403 1,546 1,571 1,1029 1,1500 '?'}
+{3 1,119 1,178 1,302 2,321 1,396 1,400 2,407 1,1127 1,1436 1,1500 '?'}
+{60 1,137 1,179 1,308 1,536 1,1500 '?'}
+{3 1,15 1,16 1,137 1,155 1,315 1,316 1,377 1,403 1,560 1,1207 1,1500 '?'}
+{16 1,60 1,95 1,113 1,135 1,153 1,155 1,297 1,302 1,384 2,392 1,502 1,921 1,951 1,970 1,1031 2,1114 1,1174 1,1342 1,1398 1,1500 '?'}
+{13 1,16 4,60 2,95 1,119 1,182 3,282 1,295 1,316 1,528 1,561 1,809 1,1214 1,1228 1,1286 1,1387 1,1500 '?'}
+{3 1,11 1,15 1,16 1,60 1,246 1,247 1,282 1,294 1,539 1,582 1,1500 '?'}
+{3 1,16 1,300 1,301 1,390 1,953 1,1500 '?'}
+{0 1,4 1,13 3,30 1,34 1,35 1,44 1,48 1,98 1,129 1,154 1,196 1,208 1,302 1,314 1,340 1,352 1,369 1,1447 1,1500 '?'}
+{964 1,1286 1,1377 1,1500 '?'}
+{3 1,16 2,95 1,312 1,316 1,382 1,417 1,565 1,809 1,823 1,828 1,1294 1,1500 '?'}
+{16 1,178 1,182 1,233 1,1500 '?'}
+{1354 1,1500 '?'}
+{1 1,3 1,4 1,6 1,19 1,28 1,41 2,44 1,55 1,59 1,88 1,94 1,119 1,167 1,178 1,182 1,199 1,232 1,286 1,364 1,393 1,1012 1,1500 '?'}
+{16 1,172 1,182 1,200 1,206 1,381 1,581 1,1500 '?'}
+{3 1,13 1,16 5,178 1,209 2,281 1,282 1,283 1,315 2,324 1,407 1,515 1,1065 1,1138 1,1202 1,1207 1,1308 1,1329 1,1354 1,1497 1,1500 '?'}
+{1500 '?'}
+{3 1,16 1,137 1,155 2,171 1,303 1,315 1,546 1,1286 1,1294 1,1436 1,1500 '?'}
+{13 1,25 1,26 3,44 1,56 2,88 1,182 1,196 1,245 1,302 1,382 1,551 1,876 1,1500 '?'}
+{2 1,3 3,16 1,25 1,26 1,28 1,36 1,88 1,100 1,118 1,119 1,154 1,157 2,233 1,391 1,1302 1,1436 1,1500 '?'}
+{3 1,296 1,300 1,390 1,1500 '?'}
+{3 1,154 1,155 1,403 1,886 1,905 1,969 1,1069 1,1252 1,1500 '?'}
+{26 1,153 1,155 1,171 1,312 1,403 1,849 1,972 1,977 1,1187 1,1233 1,1294 2,1500 '?'}
+{303 2,1069 1,1203 1,1500 '?'}
+{3 1,16 1,95 2,113 1,247 1,302 1,381 1,385 1,541 1,1029 1,1031 1,1281 1,1294 1,1306 1,1500 '?'}
+{3 2,16 3,41 1,60 1,133 1,172 1,182 1,183 1,247 1,307 1,312 1,381 1,425 1,528 1,1027 1,1500 '?'}
+{375 1,403 1,836 1,1200 1,1411 1,1500 '?'}
+{16 1,45 1,60 2,155 2,182 1,543 1,856 2,1500 '?'}
+{16 1,391 2,572 1,1273 1,1313 1,1500 '?'}
+{2 1,60 1,135 1,209 1,281 1,315 1,876 2,970 1,984 1,1500 '?'}
+{16 1,206 1,247 1,403 1,1000 1,1500 '?'}
+{44 1,153 1,247 2,804 1,1294 1,1500 '?'}
+{15 1,183 1,209 1,376 1,401 1,1292 1,1318 1,1403 1,1431 1,1500 '?'}
+{100 1,118 1,247 1,308 1,818 1,1000 2,1500 '?'}
+{84 1,135 1,207 1,1500 '?'}
+{0 1,3 1,5 1,8 1,26 1,49 1,119 1,128 1,236 1,1459 1,1500 '?'}
+{3 1,26 1,113 2,209 1,407 1,421 1,809 1,1500 '?'}
+{41 1,60 1,95 1,312 1,315 1,321 1,390 1,424 1,425 1,527 1,537 1,554 1,562 1,584 1,586 1,1500 '?'}
+{3 1,13 1,16 1,112 1,373 1,1002 1,1500 '?'}
+{1 1,2 1,14 1,41 3,110 1,126 1,149 1,201 1,237 1,260 1,428 1,429 1,477 1,683 1,707 1,1210 1,1500 '?'}
+{3 2,15 1,182 1,281 1,302 1,308 1,315 1,538 1,956 1,970 1,1500 '?'}
+{1 1,2 1,26 1,41 2,45 3,155 1,516 1,542 1,636 1,660 1,844 1,1020 2,1120 1,1214 1,1238 1,1400 1,1500 '?'}
+{207 2,526 1,1330 1,1500 '?'}
+{3 2,26 2,96 1,154 2,155 3,209 3,210 1,297 1,302 2,516 1,846 1,896 1,957 1,1201 1,1294 2,1500 '?'}
+{60 1,95 1,545 1,779 1,1290 1,1500 '?'}
+{3 1,16 1,154 1,241 1,396 1,403 1,416 1,1000 2,1263 1,1500 '?'}
+{3 1,12 1,15 1,16 2,95 1,113 1,182 1,199 1,281 1,307 1,316 1,374 1,375 1,403 1,550 1,809 1,1060 1,1294 1,1500 '?'}
+{296 1,567 1,1216 1,1500 '?'}
+{84 1,95 1,154 1,206 1,823 1,1209 1,1500 '?'}
+{178 1,182 1,310 1,1500 '?'}
+{16 2,60 1,113 1,209 1,323 1,543 1,544 1,578 1,1215 1,1220 1,1500 '?'}
+{155 1,178 1,298 1,756 1,782 1,1294 1,1500 '?'}
+{3 1,5 1,7 1,8 1,15 1,26 1,27 1,32 1,41 1,49 2,94 1,119 1,167 1,594 1,612 1,674 1,744 1,1500 '?'}
+{153 1,155 2,182 1,377 1,837 1,1500 '?'}
+{233 1,302 1,373 1,1500 '?'}
+{301 1,312 1,571 1,1029 1,1273 1,1500 '?'}
+{16 2,25 2,26 1,151 1,247 1,326 1,403 1,407 1,512 1,526 1,532 1,583 1,897 1,972 1,1142 1,1267 1,1272 1,1292 1,1294 1,1403 1,1500 '?'}
+{44 1,381 1,391 1,1500 '?'}
+{2 1,3 2,47 1,48 1,51 1,117 1,149 1,150 1,435 1,593 1,613 1,693 1,696 1,740 1,742 1,1500 '?'}
+{312 1,403 1,586 1,1055 1,1500 '?'}
+{3 1,16 1,60 1,100 1,118 1,172 1,302 1,384 1,1187 1,1500 '?'}
+{3 1,26 1,45 1,88 1,95 2,131 1,183 1,246 1,299 1,403 1,511 1,527 1,856 1,957 1,1188 1,1273 1,1283 1,1500 '?'}
+{3 1,182 1,206 1,391 1,420 1,1500 '?'}
+{3 1,16 1,396 1,420 1,425 1,532 1,1061 1,1500 '?'}
+{172 1,1500 '?'}
+{26 1,36 1,41 1,45 1,119 1,137 1,154 1,155 1,231 1,253 1,266 3,269 1,272 1,315 1,318 1,387 1,1462 1,1500 '?'}
+{3 2,19 1,45 2,46 1,57 1,59 1,76 1,87 1,88 1,124 1,136 1,155 1,212 1,215 1,226 1,233 1,249 1,271 1,279 1,652 1,670 1,721 1,1500 '?'}
+{3 1,13 1,16 2,60 1,88 1,137 1,171 2,209 2,283 1,297 1,306 2,876 2,972 1,1069 1,1500 '?'}
+{13 1,16 1,154 1,303 1,527 1,984 1,1230 1,1500 '?'}
+{119 1,171 1,283 1,295 1,532 1,535 3,1080 1,1273 1,1500 '?'}
+{19 1,308 1,752 1,1146 1,1500 '?'}
+{100 1,118 1,321 1,403 1,577 1,1500 '?'}
+{0 1,13 1,16 1,31 1,42 1,44 1,66 1,69 1,73 1,75 1,91 1,99 1,108 1,111 1,115 1,1461 1,1500 '?'}
+{512 1,917 1,1061 1,1500 '?'}
+{16 1,41 1,60 2,179 1,183 1,299 1,384 1,420 1,588 1,813 1,1342 1,1500 '?'}
+{154 1,179 1,420 1,796 1,1500 '?'}
+{25 1,26 1,113 1,281 1,396 1,403 2,420 1,510 1,530 1,535 1,586 1,1294 1,1403 2,1407 1,1414 1,1415 1,1500 '?'}
+{15 1,44 1,76 1,171 1,308 1,315 1,324 1,403 2,420 1,1029 1,1403 1,1500 '?'}
+{60 1,391 1,700 1,1403 1,1500 '?'}
+{0 1,2 2,3 1,4 1,12 1,13 1,26 1,44 2,45 1,62 1,178 1,288 1,314 1,378 1,403 1,424 1,511 1,627 1,924 1,1092 1,1500 '?'}
+{26 1,60 1,113 1,137 1,183 1,385 1,396 1,585 1,1067 1,1104 1,1273 1,1500 '?'}
+{60 1,155 1,182 1,300 1,531 1,749 1,958 1,1500 '?'}
+{3 1,16 1,119 1,137 1,182 1,1153 1,1500 '?'}
+{154 1,403 2,959 1,1402 1,1403 1,1500 '?'}
+{2 1,3 1,12 1,13 1,58 1,59 1,209 1,305 1,350 1,676 1,724 1,1403 1,1500 '?'}
+{3 1,178 1,1500 '?'}
+{200 1,299 1,308 1,396 1,524 1,1500 '?'}
+{60 1,296 1,393 1,567 1,1500 '?'}

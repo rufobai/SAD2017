@@ -12,7 +12,6 @@ public class ModeloNaiveBayes {
 	 * @param el archivo .arff con el que se creara el modelo
 	 * @throws Exception
 	 */
-	// "C:\Users\Mishel\workspace\Practica4SAD\datosConvertidosAStringToWord\smsTrain_filtroStringToWord_filtroStringToWord.arff"
 	public static void main(String[] args) throws Exception {
 		// comprueba que se recibe un parametro
 		if (args.length == 1) {
