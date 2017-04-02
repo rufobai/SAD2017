@@ -18,7 +18,7 @@ public class TfIdf {
 		
 	}
 	
-	public void aplicarTfIdf(String rutaTrain, String rutaDev, String rutaTest){
+	public void aplicarTfIdf(String rutaTrain, String rutaDev, String rutaTest) throws Exception{
 		
 		if(rutaTrain.contains("train") && rutaDev.contains("dev") && rutaTest.contains("test")){
 			//java -cp weka.jar weka.filters.unsupervised.attribute.StringToWordVector -b -i SMS_SpamCollection.train.arff -o t.arff -r SMS_SpamCollection.dev.arff -s te.arff -R 2 -P "sms_"
@@ -39,7 +39,7 @@ public class TfIdf {
 			filterWordVector.setOutputWordCounts(true);
 			filterWordVector.setWordsToKeep(2000);
 			filterWordVector.setLowerCaseTokens(true);
-			filterWordVector.setStopwordsHandler(new Rainbow());
+			//filterWordVector.setStopwordsHandler(new Rainbow());
 			//Batch Filtering
 			Instances newTrain = Filter.useFilter(train, filterWordVector);
 			Instances newDev = Filter.useFilter(dev, filterWordVector);

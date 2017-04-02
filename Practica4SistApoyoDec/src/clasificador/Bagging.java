@@ -59,6 +59,10 @@ public class Bagging {
 						System.out.println(i+";"+evaluator.fMeasure(indiceClase)+";"+(double)(System.currentTimeMillis()-tI)/1000);
 						System.err.println(i);
 					}
+<<<<<<< HEAD
+=======
+					
+>>>>>>> branch 'master' of https://github.com/rufobai/SAD2017.git
 				}
 			
 		}else{
