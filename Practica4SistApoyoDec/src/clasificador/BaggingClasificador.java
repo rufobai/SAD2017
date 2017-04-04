@@ -7,13 +7,14 @@ import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.evaluation.Evaluation;
 import weka.classifiers.meta.Bagging;
+import weka.classifiers.trees.J48;
 import weka.classifiers.trees.REPTree;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
 
 public class BaggingClasificador {
 
-	public static void main(String[] args) throws Exception {
+	/*public static void main2(String[] args) throws Exception {
 		if (args.length == 2 && args[0].contains("train") && args[1].contains("dev")) {
 			Instances train = new Instances(new FileReader(args[0]));
 			train.setClassIndex(train.attribute("class").index());
@@ -21,7 +22,7 @@ public class BaggingClasificador {
 			dev.setClassIndex(dev.attribute("class").index());
 
 			int indiceClase = 1;// class {ham,spam}, interesa spam
-			Bagging bagg = new Bagging();
+			Bagging bagg;
 			Evaluation evaluator = new Evaluation(train);
 
 			long tI;
@@ -34,15 +35,19 @@ public class BaggingClasificador {
 			rForest.setNumTrees(200);
 			rForest.setNumExecutionSlots(10);
 			rForest.buildClassifier(train);
+			J48 j48 = new J48();
+			j48.buildClassifier(train);
 			listaClasificadores.add(rTree);
 			listaClasificadores.add(nBayes);
 			listaClasificadores.add(rForest);
+			listaClasificadores.add(j48);
 			
 			for (int i = 0; i < listaClasificadores.size(); i++) {
+				bagg =  new Bagging();
 				tI = System.currentTimeMillis();
 				bagg.setBagSizePercent(100);
 				bagg.setCalcOutOfBag(false);
-				bagg.setNumExecutionSlots(4);
+				bagg.setNumExecutionSlots(10);
 				bagg.setClassifier(listaClasificadores.get(i));
 				bagg.buildClassifier(train);
 				evaluator.evaluateModel(bagg, dev);
@@ -54,36 +59,75 @@ public class BaggingClasificador {
 			System.out.println("Necesarios archivos train y dev (en ese orden)");
 		}
 
-	}
+	}*/
 
-	// public static void main(String[] args) throws Exception{
-	// if(args.length==2&&args[0].contains("train")&&args[1].contains("dev")){
-	// Instances train = new Instances(new FileReader(args[0]));
-	// train.setClassIndex(train.attribute("clase").index());
-	// Instances dev = new Instances(new FileReader(args[1]));
-	// dev.setClassIndex(dev.attribute("clase").index());
-	//
-	// int indiceClase=1;//class {ham,spam}, interesa spam
-	// weka.classifiers.meta.Bagging bagg = new weka.classifiers.meta.Bagging();
-	// Evaluation evaluator = new Evaluation(train);
-	//
-	// long tI;
-	//
-	// for (int i = 1; i < 100; i = i +2) {
-	// for (int j = 1; j < 100; j = j + 6) {
-	// tI = System.currentTimeMillis();
-	// bagg.setBagSizePercent(i);
-	// bagg.setNumExecutionSlots(j);
-	// bagg.buildClassifier(train);
-	// evaluator.evaluateModel(bagg, dev);
-	// System.out.println(i+";"+evaluator.fMeasure(indiceClase)+";"+(double)(System.currentTimeMillis()-tI)/1000);
-	// System.err.println(i);
-	// }
-	// }
-	//
-	// }else{
-	// System.out.println("Necesarios archivos train y dev (en ese orden)");
-	// }
-	// }
+	public static void main(String[] args) throws Exception {
+		if (args.length == 2 && args[0].contains("train") && args[1].contains("dev")) {
+			Instances train = new Instances(new FileReader(args[0]));
+			train.setClassIndex(train.attribute("class").index());
+			Instances dev = new Instances(new FileReader(args[1]));
+			dev.setClassIndex(dev.attribute("class").index());
+
+			int indiceClase = 1;// class {ham,spam}, interesa spam
+			Bagging bagg;
+			Evaluation evaluator = new Evaluation(train);
+
+			long tI;
+			ArrayList<Classifier> listaClasificadores = new ArrayList<Classifier>();
+			REPTree rTree = new REPTree();
+			rTree.buildClassifier(train);
+			NaiveBayes nBayes = new NaiveBayes();
+			nBayes.buildClassifier(train);
+			RandomForest rForest = new RandomForest();			
+			rForest.setNumExecutionSlots(10);
+			rForest.buildClassifier(train);
+			J48 j48 = new J48();
+			j48.buildClassifier(train);
+			listaClasificadores.add(rTree);
+			listaClasificadores.add(nBayes);
+			listaClasificadores.add(rForest);
+			listaClasificadores.add(j48);
+			
+			for (int i = 0; i < listaClasificadores.size(); i++) {
+				System.out.println("Ejecucion Nº: " + i);
+				if(i == 2){
+					System.out.println("Ejecucion randomForest");
+					int[] numT = {5,50,100,175,250,325,400,500};
+					for (int j : numT) {
+						System.out.println("RandomForest con " + j + " arboles");
+						rForest.setNumTrees(j);
+						bagg =  new Bagging();
+						tI = System.currentTimeMillis();
+						bagg.setBagSizePercent(100);
+						bagg.setCalcOutOfBag(false);
+						bagg.setNumExecutionSlots(10);
+						bagg.setClassifier(listaClasificadores.get(i));
+						bagg.buildClassifier(train);
+						evaluator.evaluateModel(bagg, dev);
+						System.out.println(   evaluator.fMeasure(indiceClase) + ";"
+								+ (double) (System.currentTimeMillis() - tI) / 1000);
+						
+					}
+					
+				}else{					
+				
+				bagg =  new Bagging();
+				tI = System.currentTimeMillis();
+				bagg.setBagSizePercent(100);
+				bagg.setCalcOutOfBag(false);
+				bagg.setNumExecutionSlots(10);
+				bagg.setClassifier(listaClasificadores.get(i));
+				bagg.buildClassifier(train);
+				evaluator.evaluateModel(bagg, dev);
+				System.out.println(   evaluator.fMeasure(indiceClase) + ";"
+						+ (double) (System.currentTimeMillis() - tI) / 1000);
+				}
+			}
+
+		} else {
+			System.out.println("Necesarios archivos train y dev (en ese orden)");
+		}
+
+	}
 
 }
