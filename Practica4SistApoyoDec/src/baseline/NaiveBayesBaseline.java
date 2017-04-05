@@ -20,7 +20,9 @@ public class NaiveBayesBaseline {
 			//Se guardara en el array de opciones la ruta donde esta 
 			//las instancias de entrenamiento y las de test
 			String[] options = weka.core.Utils.splitOptions("-t "+ args[0] + " -T " + args [1]);
+			eval.evaluateModel(nb, options);
 			System.out.println(eval.evaluateModel(nb, options));
+			System.out.println(eval.fMeasure(1));
 		} else {
 			System.out.println("Necesario arff con instancias de entrenamiento y en segundo lugar las que "
 					+ "hay que testear");

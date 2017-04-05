@@ -96,13 +96,14 @@ public class BaggingClasificador {
 
 					}
 
-				} else if (i == 3) {
+				} 
+				else if (i == 3) {
 					System.out.println("J48");
 					bagg= new Bagging();
 					tI = System.currentTimeMillis();
-					j48.setConfidenceFactor(0.25f);
-					for (int j = 5; j < 100; j+=5) {
-						j48.setMinNumObj(j);
+					for (float j = 0.05f; j < 1.0f; j+=0.05f) {
+						j48.setConfidenceFactor(j);
+						j48.setMinNumObj(2);
 						j48.setNumFolds(3);
 						j48.buildClassifier(train);
 						bagg.setBagSizePercent(100);
@@ -110,10 +111,10 @@ public class BaggingClasificador {
 						bagg.setNumExecutionSlots(1);
 						bagg.setClassifier(listaClasificadores.get(i));
 						bagg.buildClassifier(train);
+						evaluator.evaluateModel(bagg, dev);
 						System.out.println("J48 con "+ j+ " " +evaluator.fMeasure(indiceClase) + ";"
 								+ (double) (System.currentTimeMillis() - tI) / 1000);
 					}
-					
 				} else {
 
 					bagg = new Bagging();
