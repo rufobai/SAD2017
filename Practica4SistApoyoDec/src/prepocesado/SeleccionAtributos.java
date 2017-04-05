@@ -49,6 +49,8 @@ public class SeleccionAtributos {
 
 		Ranker ranker = new Ranker();
 		ranker.setGenerateRanking(true);
+		//Se selecciona 0.01 para filtrar despues de comprobrar que es un 
+		//valor que elimina los atributos que no aportan informacion valiosa 
 		ranker.setThreshold(0.01);
 		attributeSelection.setSearch(ranker);
 

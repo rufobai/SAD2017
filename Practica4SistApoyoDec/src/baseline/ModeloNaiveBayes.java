@@ -14,18 +14,17 @@ public class ModeloNaiveBayes {
 	 */
 	public static void main(String[] args) throws Exception {
 		// comprueba que se recibe un parametro
-		if (args.length == 1) {
+		if (args.length == 2 && args[0].contains(".arff") && args[1].contains(".model")) {
 			// Se cargan las instancias
 			Instances trainSet = new Instances(new FileReader(args[0]));
-			trainSet.setClassIndex(trainSet.numAttributes()-1);
-			// Se crea NaiveBayes con valores por defecto Weka
+			trainSet.setClassIndex(trainSet.attribute("class").index());
 			NaiveBayes naiveBayes = new NaiveBayes();
 			naiveBayes.buildClassifier(trainSet);
-			System.out.println("NaiveBayes creado.");
-			SerializationHelper.write("miModelo.model", naiveBayes);
-			System.out.println("NaiveBayes guardado.");
+			SerializationHelper.write(args[1], naiveBayes);
+			System.out.println("Se ha creado el modelo en "+ args[1]);
 		} else {
-			System.out.println("Necesario arff con instancias de entrenamiento.");
+			System.out.println("Necesario arff con instancias de entrenamiento "
+					+ "y la ruta donde se guardará el model. Es decir, '.arff' y '.model' en ese orden.");
 		}
 	}
 }
