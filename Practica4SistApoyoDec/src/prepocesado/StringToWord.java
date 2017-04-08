@@ -55,7 +55,7 @@ public class StringToWord {
 			System.out.println("Se ha creado el archivo en " + args[1].toString());
 			
 		} else {
-			System.out.println("Has instroducido "+args.length+ " paramatros. Debes introducir dos parametros, el 1º correspondiente al archivo"+
+			System.out.println("Has introducido "+args.length+ " paramatros. Debes introducir dos parametros, el 1º correspondiente al archivo"+
 		" al que se le debe aplicar el filtro y 2º la ruta donde se debe guardar el nuevo");
 		}
 	}
