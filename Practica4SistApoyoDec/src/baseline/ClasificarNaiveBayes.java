@@ -20,7 +20,7 @@ public class ClasificarNaiveBayes {
 			System.out.println("Modelo usado "+args[1]);
 			System.out.println("Instancias SPAM:");
 			for(int i=0;i<unlabeled.numInstances();i++){
-				System.out.println(unlabeled.get(0));
+				System.out.println(i);
 				double pred = miNaiveBayes.classifyInstance(unlabeled.instance(i));
 				if(unlabeled.classAttribute().value((int)pred).compareTo("spam")==0){
 					System.out.println((i+1));

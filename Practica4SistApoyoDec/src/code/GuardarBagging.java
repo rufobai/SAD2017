@@ -36,7 +36,7 @@ public class GuardarBagging {
    		 SerializationHelper.write(args[1], bagg);
    		 System.out.println(">>Bagging guardado.");
    	 }else{
-   		 System.out.println("Necesario arff con instancias de entrenamiento.");
+   		 System.out.println("Necesario arff con instancias de entrenamiento y ruta donde se almacenara el modelo");
    	 }
     }
 }

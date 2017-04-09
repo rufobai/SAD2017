@@ -104,7 +104,7 @@ public class BaggingClasificador {
    		 }
 
    	 } else {
-   		 System.out.println("Necesarios archivos train y dev (en ese orden)");
+   		 System.out.println("Necesarios archivos train y dev (en ese orden), por ultimo el modelo");
    	 }
 
     }
