@@ -51,7 +51,9 @@ public class BaggingClasificador {
 	 */
 
 	public static void main(String[] args) throws Exception {
+		
 		if (args.length == 2 && args[0].contains("train") && args[1].contains("dev")) {
+			System.out.println("Empieza la ejecucion");
 			Instances train = new Instances(new FileReader(args[0]));
 			train.setClassIndex(train.attribute("class").index());
 			Instances dev = new Instances(new FileReader(args[1]));
@@ -74,14 +76,14 @@ public class BaggingClasificador {
 			listaClasificadores.add(nBayes);
 			listaClasificadores.add(rForest);
 			listaClasificadores.add(j48);
-
-			for (int i = 3; i < listaClasificadores.size(); i++) {
+			System.out.println("Empieza la evaluacion");
+			for (int i = 0; i < listaClasificadores.size(); i++) {
 				System.out.println("Ejecucion Nº: " + i);
 				if (i == 2) {
 					System.out.println("Ejecucion randomForest");
 					int[] numT = { 5, 50, 100, 175, 250, 325, 400, 500 };
 					for (int j : numT) {
-						System.out.println("RandomForest con " + j + " arboles");
+						System.out.println("RandomForest con: " + j + " arboles");
 						rForest.setNumTrees(j);
 						bagg = new Bagging();
 						tI = System.currentTimeMillis();
@@ -102,6 +104,7 @@ public class BaggingClasificador {
 					bagg= new Bagging();
 					tI = System.currentTimeMillis();
 					for (float j = 0.05f; j < 1.0f; j+=0.05f) {
+						System.out.println("J48 con confidence: " + j + " arboles");
 						j48.setConfidenceFactor(j);
 						j48.setMinNumObj(2);
 						j48.setNumFolds(3);

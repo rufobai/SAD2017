@@ -33,11 +33,13 @@ public class TxtToArff {
 				out.write("@attribute class {ham,spam}\n\n");
 				out.write("@data\n\n");
 				//archivo test_blind
+				System.out.println("111111" + args[0].indexOf("test_blind"));
 				if(args[0].contains("test_blind")){
 					while((line = in.readLine()) != null){
-						//formato: id,'text',?
+						System.out.println("Vuelta:" + id);
+						//formato: id,'text',?						
 						//elimina los char ' de los SMS porque en weka da problemas
-					    out.write(id+","+"'"+line.substring(4,line.length()).replace("'", "")+"',?\n");
+					    out.write(id+","+"'"+line.replace("'", "")+"',?\n");
 					    id++;
 					}
 				}
@@ -46,6 +48,7 @@ public class TxtToArff {
 					while((line = in.readLine()) != null){
 						//formato: id,'text',class
 						//elimina los char ' de los SMS porque en weka da problemas
+						
 					    out.write(id+","+"'"+line.substring(4,line.length()).replace("'", "")+"',"+line.substring(0,4)+"\n");
 					    id++;
 					}
@@ -96,9 +99,12 @@ public class TxtToArff {
 				out.write("@attribute class {ham,spam}\n\n");
 				out.write("@data\n\n");
 				//archivo test_blind
+				
 				if(rutaIn.contains("test_blind")){
+					System.out.println("Caso test");
 					while((line = in.readLine()) != null){
 						//formato: id,'text',?
+						
 						//elimina los char ' de los SMS porque en weka da problemas
 					    out.write(id+","+"'"+line.substring(4,line.length()).replace("'", "")+"',?\n");
 					    id++;
