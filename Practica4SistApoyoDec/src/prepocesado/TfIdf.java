@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-import main.main;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 import weka.filters.Filter;
@@ -19,17 +18,16 @@ public class TfIdf {
 		
 	}
 	
-	public static void main (String[] args) throws Exception{
+	public void aplicarTfIdf(String rutaTrain, String rutaDev, String rutaTest) throws Exception{
 		
-		
-		if(args[0].toString().contains("Train") && args[1].toString().contains("Dev") && args[2].toString().contains("Test")){
+		if(rutaTrain.contains("train") && rutaDev.contains("dev") && rutaTest.contains("test")){
 			//java -cp weka.jar weka.filters.unsupervised.attribute.StringToWordVector -b -i SMS_SpamCollection.train.arff -o t.arff -r SMS_SpamCollection.dev.arff -s te.arff -R 2 -P "sms_"
 			//carga instancias
-			Instances train = new Instances(new FileReader(args[0].toString()));
+			Instances train = new Instances(new FileReader(rutaTrain));
 			System.out.println(">>Datos train cargados.");
-			Instances dev = new Instances(new FileReader(args[1].toString()));
+			Instances dev = new Instances(new FileReader(rutaDev));
 			System.out.println(">>Datos dev cargados.");
-			Instances test = new Instances(new FileReader(args[2].toString()));
+			Instances test = new Instances(new FileReader(rutaTest));
 			System.out.println(">>Datos test cargados.");
 			//filtro StringToWordVector (TF-IDF, outPutWordsCounts, lowerCase, rainbow)
 			StringToWordVector filterWordVector = new StringToWordVector();
@@ -64,15 +62,15 @@ public class TfIdf {
 			//guarda los nuevos arff (en mismo path que los arff de entrada)
 			ArffSaver newArff = new ArffSaver();
 			newArff.setInstances(newTrain);
-			newArff.setFile(new File(args[0].toString().replace(".arff",nameFile)));
+			newArff.setFile(new File(rutaTrain.toString().replace(".arff",nameFile)));
 			newArff.writeBatch();
 			System.out.println(">>Datos train guardados.");
 			newArff.setInstances(newDev);
-			newArff.setFile(new File(args[1].toString().replace(".arff",nameFile)));
+			newArff.setFile(new File(rutaDev.toString().replace(".arff",nameFile)));
 			newArff.writeBatch();
 			System.out.println(">>Datos dev guardados.");
 			newArff.setInstances(newTest);
-			newArff.setFile(new File(args[2].toString().replace(".arff",nameFile)));
+			newArff.setFile(new File(rutaTest.toString().replace(".arff",nameFile)));
 			newArff.writeBatch();
 			System.out.println(">>Datos test guardados.");
 		}else{
