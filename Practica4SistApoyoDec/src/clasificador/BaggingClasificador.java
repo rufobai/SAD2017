@@ -125,8 +125,7 @@ public class BaggingClasificador {
 					bagg.setClassifier(listaClasificadores.get(i));
 					bagg.buildClassifier(train);
 					evaluator.evaluateModel(bagg, dev);
-					System.out.println(
-							evaluator.fMeasure(indiceClase) + ";" + (double) (System.currentTimeMillis() - tI) / 1000);
+					System.out.println("holdOut--> precision: "+evaluator.precision(indiceClase)+" ; recall: "+evaluator.recall(indiceClase)+"; fMeasure: "+evaluator.fMeasure(indiceClase)+";"+(double)(System.currentTimeMillis()-tI)/1000);
 				}
 			}
 

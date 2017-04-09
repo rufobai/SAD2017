@@ -12,12 +12,7 @@ import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class StringToWord {
-	/**
-	 * 
-	 * @param conjunto
-	 *            train, conjunto dev, conjunto test en ese orden
-	 * @throws Exception
-	 */
+	
 	public static void main(String[] args) throws Exception {
 		if (args.length == 2) {
 			// Se realiza la carga de instancias
