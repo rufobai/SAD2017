@@ -15,7 +15,7 @@ public class ClasificarNaiveBayes {
 			NaiveBayes miNaiveBayes = (NaiveBayes) weka.core.SerializationHelper.read(args[1]);
 			System.out.println(">>NaiveBayes cargado.\n");
 			int cont=0;
-			System.out.println("Instancias clasificadas del archivo "+args[0]);
+			System.out.println("Instancias clasificadas del archivo "+args[0].toString());
 			System.out.println("Modelo usado "+args[1]);
 			System.out.println("Instancias SPAM:");
 			for(int i=0;i<unlabeled.numInstances();i++){

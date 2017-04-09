@@ -1,9 +1,5 @@
 package main;
 
-import baseline.NaiveBayesBaseline;
-import code.Archivo;
-import code.TxtToArff;
-import weka.core.Instances;
 
 public class main {
 
