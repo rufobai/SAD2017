@@ -13,59 +13,69 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class InfoGain {
 	public static void main(String[] args) throws Exception {
-		// Se realiza la carga de instancias
-		Instances instances = new Instances(new FileReader(args[0]));
-		// Aplicamos el filtro StringToWordVector a las instancias de
-		// acuerdo a las caracteristicas mencionadas en el PDF de la practica
-		StringToWordVector filter = new StringToWordVector();
-		filter.setInputFormat(instances);
-		filter.setLowerCaseTokens(true);
-		filter.setTFTransform(false);
-		filter.setIDFTransform(false);
-		filter.setDoNotOperateOnPerClassBasis(false);
-		filter.setInvertSelection(false);
-		filter.setAttributeIndices("" + (instances.attribute("class").index()));
-		filter.setAttributeNamePrefix("infoGain_");
-		filter.setMinTermFreq(1);
-		filter.setOutputWordCounts(true);
-		filter.setPeriodicPruning(-1.0);
-		filter.setUseStoplist(false);
-		filter.setWordsToKeep(2000);
-		filter.setAttributeIndices("1");
-
-		// Creamos nuevas instancias aplicandoles el filtro
-		Instances newTrain = Filter.useFilter(instances, filter);
-
-		// Se procede al filtrado de instancias para eliminar las "redudantes"
-		AttributeSelection attributeSelection = new AttributeSelection();
-		instances.setClassIndex(instances.attribute("clase").index());
-		attributeSelection.setInputFormat(instances);
-
-		// Se usa el InfoGain como attribute evaluator
-		InfoGainAttributeEval infoGain = new InfoGainAttributeEval();
-		attributeSelection.setEvaluator(infoGain);
-
-		// Como metodo para buscar el subconjunto de atributos
-
-		Ranker ranker = new Ranker();
-		ranker.setGenerateRanking(true);
-		//Se selecciona 0.01 para filtrar despues de comprobrar que es un 
-		//valor que elimina los atributos que no aportan informacion valiosa 
-		ranker.setThreshold(0.01);
-		attributeSelection.setSearch(ranker);
-
-		// Reescribimos las instancias aplicandole el InfoGain y el Ranker
-		instances = Filter.useFilter(instances, attributeSelection);
-		System.out.println("instancias despues del filtrado"+ instances.numInstances());
-		System.out.println("Filtro InfoGain aplicado.");
-
-		// Se guardan en los mismos ficheros desde donde se hizo la llamada
-		ArffSaver saver = new ArffSaver();
-		// Para el train
-		saver.setInstances(instances);
-		saver.setFile(new File(args[1].toString()));
-		saver.writeBatch();
-		System.out.println("Se le ha aplicado al archivo .arff el infoGain");
-		
-	}
-}
+		//comprueba que se reciban 3 archivos en orden(train, dev y test) 
+				if(args[0].contains("Train")&&args[1].contains("Dev")&&args[2].contains("Test")){
+					//Carga archivos
+					Instances train = new Instances(new FileReader(args[0]));
+					System.out.println(">>Datos train cargados.");
+					Instances dev = new Instances(new FileReader(args[1]));
+					System.out.println(">>Datos dev cargados.");
+					Instances test = new Instances(new FileReader(args[2]));
+					System.out.println(">>Datos test cargados.");
+					
+					//filtro BOW (outPutWordsCounts, lowerCase, rainbow)
+					StringToWordVector filterWordVector = new StringToWordVector();
+					filterWordVector.setInputFormat(train);
+					filterWordVector.setAttributeIndices(""+(train.attribute("class").index()));
+					filterWordVector.setAttributeNamePrefix("sms_");
+					filterWordVector.setTFTransform(false);
+					filterWordVector.setIDFTransform(false);
+					filterWordVector.setOutputWordCounts(true);
+					filterWordVector.setWordsToKeep(2000);
+					filterWordVector.setLowerCaseTokens(true);
+					//Batch Filtering
+					Instances newTrain = Filter.useFilter(train, filterWordVector);
+					Instances newDev = Filter.useFilter(dev, filterWordVector);
+					Instances newTest = Filter.useFilter(test, filterWordVector);
+					System.out.println("Filtro BOW aplicado."); 
+			
+					//filtro FSS-Infogain
+					AttributeSelection atributeSelection = new AttributeSelection();
+					newTrain.setClassIndex(newTrain.attribute("class").index());
+					atributeSelection.setInputFormat(newTrain);
+					//InfoGain (valores por defecto de Weka)
+					InfoGainAttributeEval infoGain = new InfoGainAttributeEval();
+					infoGain.setBinarizeNumericAttributes(false);
+					infoGain.setMissingMerge(true);
+					atributeSelection.setEvaluator(infoGain);
+					//Ranker
+					Ranker ranker= new Ranker();
+					ranker.setGenerateRanking(true);
+					ranker.setThreshold(0.01);
+					atributeSelection.setSearch(ranker);
+					//Batch Filtering
+					newTrain = Filter.useFilter(newTrain, atributeSelection);	
+					newDev = Filter.useFilter(newDev, atributeSelection);
+					newTest = Filter.useFilter(newTest, atributeSelection);
+					System.out.println("Filtro InfoGain aplicado.");
+					
+					//guarda los nuevo arff (en mismo path que los arff de entrada)
+					ArffSaver newArff = new ArffSaver();
+					newArff.setInstances(newTrain);
+					newArff.setFile(new File(args[0].toString().replace(".arff", "_BowInfoGainBatch.arff")));
+					newArff.writeBatch();
+					System.out.println(">>Datos train guardados.");
+					newArff.setInstances(newDev);
+					newArff.setFile(new File(args[1].toString().replace(".arff", "_BowInfoGainBatch.arff")));
+					newArff.writeBatch();
+					System.out.println(">>Datos dev guardados.");
+					newArff.setInstances(newTest);
+					newArff.setFile(new File(args[2].toString().replace(".arff", "_BowInfoGainBatch.arff")));
+					newArff.writeBatch();
+					System.out.println(">>Datos test guardados.");
+				}else{
+					System.out.println("Necesarios 3 archivos ARFF: train, dev, test (en ese orden)");
+					System.out.println("Comando esperado: 'java -jar BowInfoGainBatch.jar train.arff dev.arff test.arff'");
+				}
+			}
+		}

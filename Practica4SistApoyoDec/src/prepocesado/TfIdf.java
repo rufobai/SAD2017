@@ -22,7 +22,7 @@ public class TfIdf {
 	public static void main (String[] args) throws Exception{
 		
 		
-		if(args[0].toString().contains("train") && args[1].toString().contains("dev") && args[2].toString().contains("test")){
+		if(args[0].toString().contains("Train") && args[1].toString().contains("Dev") && args[2].toString().contains("Test")){
 			//java -cp weka.jar weka.filters.unsupervised.attribute.StringToWordVector -b -i SMS_SpamCollection.train.arff -o t.arff -r SMS_SpamCollection.dev.arff -s te.arff -R 2 -P "sms_"
 			//carga instancias
 			Instances train = new Instances(new FileReader(args[0].toString()));
