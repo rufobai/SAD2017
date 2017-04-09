@@ -11,7 +11,7 @@ import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
-public class SeleccionAtributos {
+public class InfoGain {
 	public static void main(String[] args) throws Exception {
 		// Se realiza la carga de instancias
 		Instances instances = new Instances(new FileReader(args[0]));

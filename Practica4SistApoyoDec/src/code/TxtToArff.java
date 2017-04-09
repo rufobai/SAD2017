@@ -36,7 +36,6 @@ public class TxtToArff {
 				System.out.println("111111" + args[0].indexOf("test_blind"));
 				if(args[0].contains("test_blind")){
 					while((line = in.readLine()) != null){
-						System.out.println("Vuelta:" + id);
 						//formato: id,'text',?						
 						//elimina los char ' de los SMS porque en weka da problemas
 					    out.write(id+","+"'"+line.replace("'", "")+"',?\n");
