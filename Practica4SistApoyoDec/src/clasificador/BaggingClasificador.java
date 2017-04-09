@@ -14,41 +14,7 @@ import weka.core.Instances;
 
 public class BaggingClasificador {
 
-	/*
-	 * public static void main2(String[] args) throws Exception { if
-	 * (args.length == 2 && args[0].contains("train") &&
-	 * args[1].contains("dev")) { Instances train = new Instances(new
-	 * FileReader(args[0]));
-	 * train.setClassIndex(train.attribute("class").index()); Instances dev =
-	 * new Instances(new FileReader(args[1]));
-	 * dev.setClassIndex(dev.attribute("class").index());
-	 * 
-	 * int indiceClase = 1;// class {ham,spam}, interesa spam Bagging bagg;
-	 * Evaluation evaluator = new Evaluation(train);
-	 * 
-	 * long tI; ArrayList<Classifier> listaClasificadores = new
-	 * ArrayList<Classifier>(); REPTree rTree = new REPTree();
-	 * rTree.buildClassifier(train); NaiveBayes nBayes = new NaiveBayes();
-	 * nBayes.buildClassifier(train); RandomForest rForest = new RandomForest();
-	 * rForest.setNumTrees(200); rForest.setNumExecutionSlots(10);
-	 * rForest.buildClassifier(train); J48 j48 = new J48();
-	 * j48.buildClassifier(train); listaClasificadores.add(rTree);
-	 * listaClasificadores.add(nBayes); listaClasificadores.add(rForest);
-	 * listaClasificadores.add(j48);
-	 * 
-	 * for (int i = 0; i < listaClasificadores.size(); i++) { bagg = new
-	 * Bagging(); tI = System.currentTimeMillis(); bagg.setBagSizePercent(100);
-	 * bagg.setCalcOutOfBag(false); bagg.setNumExecutionSlots(10);
-	 * bagg.setClassifier(listaClasificadores.get(i));
-	 * bagg.buildClassifier(train); evaluator.evaluateModel(bagg, dev);
-	 * System.out.println( evaluator.fMeasure(indiceClase) + ";" + (double)
-	 * (System.currentTimeMillis() - tI) / 1000); }
-	 * 
-	 * } else {
-	 * System.out.println("Necesarios archivos train y dev (en ese orden)"); }
-	 * 
-	 * }
-	 */
+	
 
 	public static void main(String[] args) throws Exception {
 		
